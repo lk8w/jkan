@@ -1,6 +1,6 @@
 ---
 schema: default
-title: Sample dataset
+title: Testík s levom
 organization: Sample Department
 notes: This is an example dataset that comes with a new installation of JKAN
 resources:
