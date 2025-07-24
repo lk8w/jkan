@@ -3,6 +3,7 @@
 
 backend:
   name: github
+  base_url: https://vercel.com/lk8ws-projects/netlify-cms-oauth
 
 media_folder: "img/uploads"
 
