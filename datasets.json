@@ -7,9 +7,9 @@
     "notes": {{ dataset.notes | jsonify }}{% endif %}{% if dataset.category != "" %},
     "category": {{ dataset.category | jsonify }}{% endif %},
     {% for resource in dataset.resources %}
-    "url": "{{ resource.url  | jsonify }}"
-    "title": "{{ resource.name  | jsonify }}"
-    "format": "{{ resource.format  | jsonify }}"
+    "url": {{ resource.url  | jsonify }}
+    "title": {{ resource.name  | jsonify }}
+    "format": <{{ resource.format  | jsonify }}>
     {% endfor %}
   }{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
