@@ -34,6 +34,7 @@ collections:
 
       - label: Description
         name: notes
+        required: false
         widget: text
 
       - label: Resources
