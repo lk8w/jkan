@@ -9,7 +9,7 @@
     {% for resource in dataset.resources %}
     "url": {{ resource.url  | jsonify }}
     "title": {{ resource.name  | jsonify }}
-    "format": <{{ resource.format  | jsonify }}>
+    "format": <{{ resource.format }}>
     {% endfor %}
   }{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
