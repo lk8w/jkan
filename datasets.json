@@ -3,7 +3,7 @@
 [{% for dataset in site.datasets %}
   {
     "title": {{ dataset.title | jsonify }},
-    "publisher": {{ dataset.organization | jsonify }}{% if dataset.notes != "" %},
+    "publisher": "https://data.gov.sk/id/legal-subject/30416094",
     "description": {{ dataset.notes | jsonify }}{% endif %}{% if dataset.category != "" %},
     "theme": {{ dataset.category | jsonify }}{% endif %}, 
     "periodicity": {{ dataset.periodicity | jsonify }}, 
