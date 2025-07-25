@@ -10,6 +10,9 @@ dataset_fields:
   - field_name: notes
     label: Description
     datajson: description
+  - field_name: periodicity
+    label: Periodicita aktualizácie
+    datajson: periodicity
   - field_name: license
     label: License
     datajson: license
