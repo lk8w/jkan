@@ -37,6 +37,11 @@ collections:
         required: false
         widget: text
 
+      - label: Periodicita aktualizácie
+        name: periodicity
+        required: false
+        widget: text
+
       - label: Resources
         name: resources
         widget: list
