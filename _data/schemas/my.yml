@@ -13,6 +13,10 @@ dataset_fields:
   - field_name: periodicity
     label: Periodicita aktualizácie
     datajson: periodicity
+    values:
+    - ročne
+    - denne
+    - mesačne
   - field_name: license
     label: License
     datajson: license
