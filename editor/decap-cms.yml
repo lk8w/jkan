@@ -40,7 +40,11 @@ collections:
       - label: Periodicita aktualizácie
         name: periodicity
         required: false
-        widget: text
+        widget: select
+        options:
+          - ročne
+          - denne
+          - mesačne
 
       - label: Resources
         name: resources
