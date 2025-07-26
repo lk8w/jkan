@@ -209,7 +209,6 @@ collections:
 
       - name: licenses
         label: Licenses
-        hide: true
         description: Dataset licenses
         file: _data/licenses.yml
         fields:
