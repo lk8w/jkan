@@ -24,6 +24,9 @@ dataset_fields:
     label: Category
     display_template: display/category.html
     datajson: category
+  - field_name: keyword
+    label: Keyword
+    datajson: keyword
   - field_name: maintainer
     label: Maintainer
     datajson: contactPoint.fn
