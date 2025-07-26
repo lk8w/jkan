@@ -11,7 +11,4 @@ items:
     url: http://www.opendefinition.org/licenses/odc-odbl
   - name: Open Data Commons Public Domain Dedication and Licence (PDDL)
     url: http://www.opendefinition.org/licenses/odc-pddl
-  - name: Not Applicable
-    url: ""
-  - name: test
-    url: test
+
