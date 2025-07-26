@@ -1,5 +1,5 @@
 ---
-title: Sample Department
-description: This is ***an*** example department provided with a new installation of JKAN
+title: Mesto Ilava
+description: popis poskytovateľa
 logo: https://i.imgur.com/mrC5xVT.png
 ---
