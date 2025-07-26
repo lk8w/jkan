@@ -217,6 +217,7 @@ collections:
             name: items
             label_singular: License
             widget: list
+            min: 8
             fields:
               - label: Name
                 name: name
