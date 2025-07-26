@@ -8,7 +8,7 @@
     "theme": {{ dataset.category | jsonify }}{% endif %}, 
     "periodicity": {{ dataset.periodicity | jsonify }}, 
     "spatial"
-    "keyword"
+    "keyword": {{ dataset.keyword | jsonify }},
   {% for resource in dataset.resources %}
     "url": {{ resource.url  | jsonify }}
     "title": {{ resource.name  | jsonify }}
