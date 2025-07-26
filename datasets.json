@@ -9,6 +9,8 @@
     "periodicity": {{ dataset.periodicity | jsonify }}, 
     "spatial"
     "keyword": {{ dataset.keyword | jsonify }},
+    "contact": {{ dataset.maintainer | jsonify }},
+    "contact_email": {{ dataset.maintainer_email | jsonify }},
   {% for resource in dataset.resources %}
     "url": {{ resource.url  | jsonify }}
     "title": {{ resource.name  | jsonify }}
