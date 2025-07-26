@@ -37,6 +37,16 @@ collections:
         required: false
         widget: text
 
+      - label: Keyword
+        name: keyword
+        required: false
+        widget: relation
+        collection:keywords
+        multiple: true
+        value_field: "name"
+        search_fields:
+          - name
+
       - label: Periodicita aktualizácie
         name: periodicity
         required: false
