@@ -155,6 +155,20 @@ collections:
         widget: boolean
         required: false
 
+  - name: keywords
+    label: Keywords
+    label_singular: Keyword
+    folder: _dataset_keywords
+    description: Dataset keywords
+    create: true
+    preview_path: "keywords/{{slug}}"
+    identifier_field: name
+    fields:
+      - label: Name
+        name: name
+        widget: string
+
+
   - name: settings
     label: Settings
     delete: false
