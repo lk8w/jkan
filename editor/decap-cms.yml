@@ -182,6 +182,7 @@ collections:
 
   - name: settings
     label: Settings
+    hide: true
     delete: false
     editor:
       preview: false
