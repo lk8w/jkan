@@ -63,6 +63,7 @@ collections:
           - label: Resource Name
             name: name
             widget: string
+            required: false
           - label: URL
             name: url
             widget: string
