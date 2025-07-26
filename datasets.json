@@ -2,7 +2,7 @@
 ---
 [{% for dataset in site.datasets %}
   {
-    "title": {{ dataset.title | jsonify }}@sk,
+    "title": { "sk": {{ dataset.title | jsonify }} } ,
     "publisher": "https://data.gov.sk/id/legal-subject/30416094" {% if dataset.notes != "" %},
     "description": {{ dataset.notes | jsonify }}{% endif %}{% if dataset.category != "" %},
     "theme": {{ dataset.category | jsonify }}{% endif %}, 
