@@ -41,7 +41,7 @@ collections:
         name: keyword
         required: false
         widget: relation
-        collection:keywords
+        collection: keywords
         multiple: true
         value_field: "name"
         search_fields:
