@@ -4,7 +4,7 @@ layout: default
 {% include breadcrumbs.html parent="Categories" %}
 {% assign datasets = site.datasets | where: "category", page.name %}
 {% assign datasets_count = datasets | size 
-{% assign categories = site.dataset_categories | where:"category", page.title %}
+{% assign categories = site.dataset_categories | where:"category", page.title | first %}
 <div class="container">
   <div class="row">
     {% if page.logo and page.logo != empty %}
