@@ -4,12 +4,12 @@ layout: default
 {% include breadcrumbs.html parent="Categories" %}
 {% assign datasets = site.datasets | where: "category", page.name %}
 {% assign datasets_count = datasets | size 
-{% assign categories = site.dataset_categories | where:"category", page.name %}
+{% assign categories = site.dataset | where:"category", page.name %}
 <div class="container">
   <div class="row">
     {% if page.logo and page.logo != empty %}
     <div class="col-sm-3">
-    {% for category in site.dataset_categories %}
+    {% for category in categories %}
       <a href="{{ site.baseurl }}{{ category.logo }}1234" class="card-grid-item"><img class="img-thumbnail rounded mx-auto d-block" src="{{ site.baseurl }}{{ category.logo }}" alt="{{ page.title }} logo"></a>
     {% endfor %}
     </div>
