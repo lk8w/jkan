@@ -80,4 +80,4 @@ exclude:
 hypothesis:
   enabled: false
 description: Preskúmajte naše otvorené dáta!
-baseurl: https://lk8w.github.io/jkan/
+baseurl: https://lk8w.github.io/jkan
