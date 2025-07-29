@@ -3,7 +3,7 @@ layout: default
 ---
 {% include breadcrumbs.html parent="Categories" %}
 {% assign datasets = site.datasets | where: "category", page.name %}
-{% assign datasets_count = datasets | size 
+{% assign datasets_count = datasets | size %}
 {% assign categories = site.dataset | where:"category", page.name %}
 <div class="container">
   <div class="row">
