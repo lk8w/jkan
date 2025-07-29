@@ -10,7 +10,7 @@ layout: default
     {% if page.logo and page.logo != empty %}
     <div class="col-sm-3">
     {% for category in categories %}
-      <a href="{{ site.baseurl }}{{ category.logo }}1234" class="card-grid-item"><img class="img-thumbnail rounded mx-auto d-block" src="{{ site.baseurl }}{{ category.logo }}" alt="{{ page.title }} logo"></a>
+      <a href="{{ site.baseurl }}{{ category.logo }}" class="card-grid-item"><img class="img-thumbnail rounded mx-auto d-block" src="{{ site.baseurl }}{{ category.logo }}" alt="{{ page.title }} logo"></a>
     {% endfor %}
     </div>
     <div class="col-sm-9">
