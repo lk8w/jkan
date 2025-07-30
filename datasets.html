@@ -13,10 +13,12 @@ permalink: /datasets/
     <div class="list-group js-shown">
       {% for category in site.dataset_categories %}
       {% assign count = site.datasets | where: "category", category.name | size %}
+      {% if count > 0 %}
       <a href="{{ site.baseurl }}{{ category.url }}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
         {{ category.name }}
         <span class="badge bg-primary rounded-pill">{{ count }}</span>
       </a>
+      {% endif %}
       {% endfor %}
     </div>
     <br/>
