@@ -234,7 +234,7 @@ collections:
         file: _data/periods.yml
         fields:
           - label: Periods
-            name: items
+            name: items2
             label_singular: Period
             widget: list
             fields:
