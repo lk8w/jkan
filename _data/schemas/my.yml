@@ -33,6 +33,10 @@ dataset_fields:
   - field_name: maintainer_email
     label: Maintainer Email
     datajson: contactPoint.hasEmail
+  - field_name: period
+    label: Period
+    datajson: period
+
 
 resource_fields:
   - field_name: name
