@@ -1,0 +1,5 @@
+items:
+  - name: ročne
+    url: http://publications.europa.eu/resource/authority/frequency/ANNUAL
+  - name: denne
+    url: http://publications.europa.eu/resource/authority/frequency/DAILY
