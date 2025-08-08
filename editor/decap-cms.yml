@@ -221,8 +221,30 @@ collections:
               - label: Name
                 name: name
                 widget: string
+                
+              - label: URL
+                name: url
+                required: false
+                widget: string
+
+      - name: periods
+        label: Periodss
+        hide: true
+        description: Dataset periods
+        file: _data/periods.yml
+        fields:
+          - label: Periods
+            name: items
+            label_singular: Period
+            widget: list
+            fields:
+              - label: Name
+                name: name
+                widget: string
 
               - label: URL
                 name: url
                 required: false
                 widget: string
+
+              
