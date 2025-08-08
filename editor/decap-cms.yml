@@ -228,7 +228,7 @@ collections:
                 widget: string
 
       - name: periods
-        label: Periodss
+        label: Periods
         hide: true
         description: Dataset periods
         file: _data/periods.yml
