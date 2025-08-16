@@ -38,11 +38,11 @@ defaults:
     values:
       layout: organization
 navigation:
-  - title: Datasets
+  - title: Datasety
     url: /datasets/
-  - title: Organizations
+  - title: Organizácie
     url: /organizations/
-  - title: Categories
+  - title: Kategórie
     url: /categories/
 collections:
   datasets:
