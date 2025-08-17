@@ -3,3 +3,6 @@ items:
     url: http://publications.europa.eu/resource/authority/frequency/ANNUAL
   - name: denne
     url: http://publications.europa.eu/resource/authority/frequency/DAILY
+items2:
+  - name: Ilava
+    url: <ilava>
