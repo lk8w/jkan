@@ -57,7 +57,7 @@ collections:
           - mesačne
 
       - label: Spatial
-        name: period
+        name: periods
         required: false
         widget: relation
         collection: periods
