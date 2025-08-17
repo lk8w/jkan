@@ -4,11 +4,11 @@ layout: default
 permalink: /categories/
 ---
 {% include breadcrumbs.html %}
-{% assign count = site.datasets | where: "category", category.name | size %}
+
 <div class="card-grid">
   {% for category in site.dataset_categories %}
     {% assign dataset_count = site.datasets | where:"category", category.name | size %}
-    {% if count > 0 %}
+    {% if dataset_count > 0 %}
     {% capture logo_alt %}{{ category.name }}{% if category.logo_credit and category.logo_credit != empty %} logo by {{ category.logo_credit }}{% endif %}{% endcapture %}
     <a class="card border card-grid-item hover-overlay" href="{{ site.baseurl }}/categories/{{ category.name | slugify }}" title="{{ logo_alt }}">
       <div class="d-flex flex-row justify-content-end">
