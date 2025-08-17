@@ -63,8 +63,6 @@ collections:
         collection: settings
         file: periods
         multiple: false
-        search_fields: ["items2.*.name"]
-        display_fields: ["items2.*.name"]
 
       - label: Resources
         name: resources
