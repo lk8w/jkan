@@ -64,8 +64,8 @@ collections:
         file: periods
         multiple: false
         value_field: "items2.*.url"
-        search_fields:
-          - name
+        search_fields: ["items2.*.name"]
+        display_fields: ["items2.*.name"]
 
       - label: Resources
         name: resources
