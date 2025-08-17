@@ -60,7 +60,8 @@ collections:
         name: periods
         required: false
         widget: relation
-        collection: periods
+        collection: settings
+        file: periods
         multiple: false
         value_field: "name"
         search_fields:
