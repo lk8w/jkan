@@ -56,6 +56,16 @@ collections:
           - denne
           - mesačne
 
+      - label: Spatial
+        name: period
+        required: false
+        widget: relation
+        collection: periods
+        multiple: false
+        value_field: "name"
+        search_fields:
+          - name
+
       - label: Resources
         name: resources
         widget: list
