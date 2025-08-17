@@ -7,7 +7,7 @@
     "publisher": "https://data.gov.sk/id/legal-subject/30416094" {% if dataset.notes != "" %},
     "description": {{ dataset.notes | jsonify }}{% endif %}{% if dataset.category != "" %},
     "theme": {{ dataset.category | jsonify }}{% endif %}, 
-    "periodicity": {{ dataset.periodicity | jsonify }}, 
+    "periodicity": {{ dataset.periods | jsonify }}, 
     "license": {{ dataset.license | jsonify }},
     "spatial"
     "keyword": {{ dataset.keyword | jsonify }},
