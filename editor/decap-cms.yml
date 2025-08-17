@@ -63,7 +63,7 @@ collections:
         collection: settings
         file: periods
         multiple: false
-        value_field: "name"
+        value_field: "items2.*.url"
         search_fields:
           - name
 
