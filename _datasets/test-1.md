@@ -1,6 +1,6 @@
 ---
 title: test
-organization: Sample Department
+organization: Mesto Ilava
 notes: test
 periodicity: denne
 ---
