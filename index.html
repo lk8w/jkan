@@ -13,8 +13,8 @@ layout: default
 
 <h3>Kategórie</h3>
 <div class="card-grid">
-{% assign count = site.datasets | where: "category", category.name | size %}
 {% for category in site.dataset_categories %}
+  {% assign count = site.datasets | where: "category", category.name | size %}
   {% if category.featured == true %}
     {% if count > 0 %}
     {% capture logo_alt %}{{ category.name }}{% if category.logo_credit and category.logo_credit != empty %} logo by {{ category.logo_credit }}{% endif %}{% endcapture %}
