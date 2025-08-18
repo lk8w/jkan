@@ -269,17 +269,17 @@ collections:
                 required: false
                 widget: string
 
-        - name: categories_dcat
-          label: Category DCAT
-          hide: true
-          description: Dataset category DCAT
-          file: _data/category_dcat.yml
-          fields:
-           - label: Categories
-             name: items2
-             label_singular: Category
-             widget: list
-             fields:
+      - name: categories_dcat
+        label: Category DCAT
+        hide: true
+        description: Dataset category DCAT
+        file: _data/category_dcat.yml
+        fields:
+          - label: Categories
+            name: items2
+            label_singular: Category
+            widget: list
+            fields:
               - label: Name
                 name: name
                 widget: string
@@ -288,5 +288,3 @@ collections:
                 name: url
                 required: false
                 widget: string
-
-              
