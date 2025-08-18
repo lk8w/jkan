@@ -270,7 +270,7 @@ collections:
                 widget: string
 
       - name: categories_dcat
-        label: Category DCAT
+        label: Categories DCAT
         hide: true
         description: Dataset category DCAT
         file: _data/categories_dcat.yml
