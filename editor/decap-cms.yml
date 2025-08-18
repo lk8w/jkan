@@ -63,6 +63,16 @@ collections:
         search_fields: ["items2.*.name"]
         display_fields: ["items2.*.name"]
 
+      - label: Category
+        name: category
+        required: false
+        widget: relation
+        collection: categories
+        multiple: true
+        value_field: "name"
+        search_fields:
+          - name
+
       - label: Category DCAT
         name: category_dcat
         required: false
@@ -110,16 +120,6 @@ collections:
         value_field: "items.*.url"
         search_fields: ["items.*.name"]
         display_fields: ["items.*.name"]
-
-      - label: Category
-        name: category
-        required: false
-        widget: relation
-        collection: categories
-        multiple: true
-        value_field: "name"
-        search_fields:
-          - name
 
       - label: Maintainer
         name: maintainer
