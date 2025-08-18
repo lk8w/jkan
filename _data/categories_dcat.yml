@@ -1,3 +1,5 @@
 items2:
-  - name: test
-    url: test
+  - name: Poľnohospodárstvo, rybné hospodárstvo, lesníctvo a potravinárstvo
+    url:  http://publications.europa.eu/resource/authority/data-theme/AGRI
+  - name: Hospodárstvo a financie
+    url:  http://publications.europa.eu/resource/authority/data-theme/ECON
