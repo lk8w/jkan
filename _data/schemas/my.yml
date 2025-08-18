@@ -24,6 +24,9 @@ dataset_fields:
     label: Category
     display_template: display/category.html
     datajson: category
+  - field_name: category_dcat
+    label: Category DCAT
+    datajson: category_dcat
   - field_name: keyword
     label: Keyword
     datajson: keyword
