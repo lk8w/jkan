@@ -30,6 +30,9 @@ dataset_fields:
   - field_name: periods
     label: Periods
     datajson: periods
+  - field_name: type
+    label: Type
+    datajson: type
   - field_name: keyword
     label: Keyword
     datajson: keyword
