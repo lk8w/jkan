@@ -88,6 +88,7 @@ layout: default
               </td>
             </tr>
           {% endif %}
+          {% assign cat = site.data.categories_DCAT.items2 | where:"url",page.license | first %}
           {% for field in dataset_fields %}
             {% unless dataset_system_fields contains field.field_name %}
               {% assign value = page[field[field_name]] %}
