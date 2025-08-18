@@ -67,6 +67,17 @@ collections:
         search_fields: ["items2.*.name"]
         display_fields: ["items2.*.name"]
 
+      - label: Category DCAT
+        name: category_dcat
+        required: false
+        widget: relation
+        collection: settings
+        file: categories_dcat
+        multiple: false
+        value_field: "items2.*.url"
+        search_fields: ["items2.*.name"]
+        display_fields: ["items2.*.name"]
+
       - label: Resources
         name: resources
         widget: list
@@ -249,6 +260,26 @@ collections:
             label_singular: Period
             widget: list
             fields:
+              - label: Name
+                name: name
+                widget: string
+
+              - label: URL
+                name: url
+                required: false
+                widget: string
+
+        - name: categories_dcat
+          label: Category DCAT
+          hide: true
+          description: Dataset category DCAT
+          file: _data/category_dcat.yml
+          fields:
+           - label: Categories
+             name: items2
+             label_singular: Category
+             widget: list
+             fields:
               - label: Name
                 name: name
                 widget: string
