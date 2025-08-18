@@ -80,7 +80,7 @@ layout: default
           {% if page.license and page.license != empty %}
             {% assign license = site.data.licenses.items | where:"url",page.license | first %}
             <tr>
-              <th>License {{ page.license }}</th>
+              <th>License {{ license.name }}</th>
               <td>
                 <a property="dct:license" resource="{{ page.license }}" href="{{ page.license }}">
                   {{ license.name }}
