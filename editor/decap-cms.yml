@@ -273,7 +273,7 @@ collections:
         label: Category DCAT
         hide: true
         description: Dataset category DCAT
-        file: _data/category_dcat.yml
+        file: _data/categories_dcat.yml
         fields:
           - label: Categories
             name: items2
