@@ -46,6 +46,7 @@ collections:
 
       - label: Periodicita aktualizácie
         name: periodicity
+        required: false
         widget: select
         options:
           - ročne
