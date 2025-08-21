@@ -44,16 +44,18 @@ collections:
         search_fields:
           - name
 
-      - label: Periodicita aktualizácie
-        name: periodicity
+      - label: Type
+        name: types
         required: false
-        widget: select
-        options:
-          - ročne
-          - denne
-          - mesačne
+        widget: relation
+        collection: settings
+        file: types
+        multiple: true
+        value_field: "items.*.url"
+        search_fields: ["items.*.name"]
+        display_fields: ["items.*.name"]
 
-      - label: Spatial
+      - label: Periodicity
         name: periods
         required: false
         widget: relation
@@ -285,3 +287,24 @@ collections:
                 name: url
                 required: false
                 widget: string
+
+      - name: types
+        label: Types
+        hide: true
+        description: Type of dataset
+        file: _data/types.yml
+        fields:
+          - label: Types
+            name: items
+            label_singular: Type
+            widget: list
+            fields:
+              - label: Name
+                name: name
+                widget: string
+
+              - label: URL
+                name: url
+                required: false
+                widget: string
+
