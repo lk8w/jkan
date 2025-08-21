@@ -50,6 +50,10 @@ resource_fields:
   - field_name: format
     label: Format
     datajson: distribution.format
+  - field_name: mediatype
+    label: Media type
+    datajson: distribution.mediatype
+    
     
 organization_fields:
   - field_name: title
