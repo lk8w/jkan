@@ -34,7 +34,7 @@ dataset_fields:
     label: Type
     datajson: type
   - field_name: keyword
-    label: Keyword
+    label: Keywords
     datajson: keyword
   - field_name: maintainer
     label: Maintainer
