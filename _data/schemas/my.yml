@@ -50,17 +50,7 @@ resource_fields:
   - field_name: format
     label: Format
     datajson: distribution.format
-    values:
-      - api
-      - csv
-      - json
-      - geojson
-      - html
-      - kml
-      - kmz
-      - shp
-      - xml
-
+    
 organization_fields:
   - field_name: title
     label: Title
