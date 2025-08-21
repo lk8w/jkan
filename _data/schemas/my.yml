@@ -11,12 +11,8 @@ dataset_fields:
     label: Description
     datajson: description
   - field_name: periodicity
-    label: Periodicita aktualizácie
+    label: Periodicita
     datajson: periodicity
-    values:
-    - ročne
-    - denne
-    - mesačne
   - field_name: license
     label: License
     datajson: license
@@ -27,9 +23,6 @@ dataset_fields:
   - field_name: category_dcat
     label: Category DCAT
     datajson: category_dcat
-  - field_name: periodicity
-    label: Periodicity
-    datajson: periodicity
   - field_name: type
     label: Type
     datajson: type
