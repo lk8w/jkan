@@ -100,18 +100,14 @@ collections:
             widget: string
           - label: Format
             name: format
-            required: false
-            widget: select
-            options:
-              - api
-              - csv
-              - json
-              - geojson
-              - html
-              - kml
-              - kmz
-              - shp
-              - xml
+            required: true
+            widget: relation
+            collection: settings
+            file: formats
+            multiple: false
+            value_field: "items.*.url"
+            search_fields: ["items.*.name"]
+            display_fields: ["items.*.name"]
 
       - label: License
         name: license
@@ -293,6 +289,26 @@ collections:
         hide: true
         description: Type of dataset
         file: _data/types.yml
+        fields:
+          - label: Types
+            name: items
+            label_singular: Type
+            widget: list
+            fields:
+              - label: Name
+                name: name
+                widget: string
+
+              - label: URL
+                name: url
+                required: false
+                widget: string
+
+      - name: formats
+        label: Formats
+        hide: true
+        description: Format of distribution
+        file: _data/formats.yml
         fields:
           - label: Types
             name: items
