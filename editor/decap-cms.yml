@@ -57,6 +57,7 @@ collections:
 
       - label: Periodicity
         name: periods
+        required: true
         widget: relation
         collection: settings
         file: periods
