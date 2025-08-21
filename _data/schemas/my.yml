@@ -42,7 +42,6 @@ dataset_fields:
     label: Landing Page
     datajson: landingpage
 
-
 resource_fields:
   - field_name: name
     label: Resource Name
@@ -56,6 +55,9 @@ resource_fields:
   - field_name: mediatype
     label: Media type
     datajson: distribution.mediatype
+  - field_name: license_AWT
+    label: License Authors Work Type
+    datajson: license_AWT 
     
     
 organization_fields:
