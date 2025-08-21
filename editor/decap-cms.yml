@@ -45,7 +45,7 @@ collections:
           - name
 
       - label: Type
-        name: types
+        name: type
         required: false
         widget: relation
         collection: settings
