@@ -108,6 +108,16 @@ collections:
             value_field: "items.*.url"
             search_fields: ["items.*.name"]
             display_fields: ["items.*.name"]
+          - label: License Authors Work Type    
+            name: license_AWT
+            required: true
+            widget: relation
+            collection: settings
+            file: licenses
+            multiple: false
+            value_field: "items.*.url"
+            search_fields: ["items.*.name"]
+            display_fields: ["items.*.name"]
 
       - label: License
         name: license
