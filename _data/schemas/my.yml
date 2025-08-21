@@ -38,6 +38,9 @@ dataset_fields:
   - field_name: period
     label: Period
     datajson: period
+  - field_name: landingpage
+    label: Landing Page
+    datajson: landingpage
 
 
 resource_fields:
