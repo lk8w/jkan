@@ -56,7 +56,7 @@ collections:
         display_fields: ["items.*.name"]
 
       - label: Periodicity
-        name: periods
+        name: periodicity
         required: true
         widget: relation
         collection: settings
