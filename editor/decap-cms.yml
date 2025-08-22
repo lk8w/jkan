@@ -138,6 +138,10 @@ collections:
             value_field: "items.*.url"
             search_fields: ["items.*.name"]
             display_fields: ["items.*.name"]
+          - label: Autor diela
+            name: author
+            widget: string
+            required: false
 
       - label: License
         name: license
