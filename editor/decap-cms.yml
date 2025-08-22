@@ -118,6 +118,26 @@ collections:
             value_field: "items.*.url"
             search_fields: ["items.*.name"]
             display_fields: ["items.*.name"]
+          - label: License Original Database Type    
+            name: license_ODT
+            required: true
+            widget: relation
+            collection: settings
+            file: licenses
+            multiple: false
+            value_field: "items.*.url"
+            search_fields: ["items.*.name"]
+            display_fields: ["items.*.name"]
+          - label: License Database Protected By Special Rights Type   
+            name: license_DPBSRT
+            required: true
+            widget: relation
+            collection: settings
+            file: licenses
+            multiple: false
+            value_field: "items.*.url"
+            search_fields: ["items.*.name"]
+            display_fields: ["items.*.name"]
 
       - label: License
         name: license
