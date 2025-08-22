@@ -1,0 +1,25 @@
+---
+title: Faktúry za rok 2023
+organization: Mesto Ilava
+notes: "Faktúry za rok 2023 - popis "
+keyword:
+  - faktúry
+type:
+  - https://data.gov.sk/def/dataset-type/1
+periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
+category:
+  - Economy
+  - Elections / Politics
+category_dcat: http://publications.europa.eu/resource/authority/data-theme/ECON
+resources:
+  - url: https://ilava.sk/dataset.csv
+    format: http://publications.europa.eu/resource/authority/file-type/CSV
+    name: Distribúcia
+    license_AWT: https://creativecommons.org/licenses/by-sa/4.0/
+    license_ODT: https://creativecommons.org/licenses/by-sa/4.0/
+    license_DPBSRT: https://creativecommons.org/licenses/by-sa/4.0/
+    author: Ilava
+license: https://creativecommons.org/licenses/by-sa/4.0/
+maintainer: Jozef Mak
+maintainer_email: mak@ilava.sk
+---
