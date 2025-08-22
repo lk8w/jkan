@@ -58,6 +58,12 @@ resource_fields:
   - field_name: license_AWT
     label: License Authors Work Type
     datajson: license_AWT 
+  - field_name: license_ODT
+    label: License Original Database Type
+    datajson: license_ODT
+  - field_name: license_DPBSRT
+    label: License Database Protected By Special Rights Type
+    datajson: license_DPBSRT 
     
     
 organization_fields:
