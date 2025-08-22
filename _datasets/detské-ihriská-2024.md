@@ -3,7 +3,7 @@ title: Detské ihriská 2024
 organization: Mesto Ilava
 notes: Detské ihriská - stav k 1.1.2024
 keyword:
-  - faktúry
+  - deti
 type: []
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
