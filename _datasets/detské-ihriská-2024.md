@@ -12,7 +12,13 @@ category_dcat: http://publications.europa.eu/resource/authority/data-theme/ECON
 resources:
   - url: https://ilava.sk/dataset.csv
     format: http://publications.europa.eu/resource/authority/file-type/CSV
-    name: Distribúcia
+    name: ""
+    license_AWT: https://creativecommons.org/licenses/by-sa/4.0/
+    license_ODT: https://creativecommons.org/licenses/by-sa/4.0/
+    license_DPBSRT: https://creativecommons.org/licenses/by-sa/4.0/
+    author: Ilava
+  - url: https://ilava.sk/dataset.xlsx
+    format: http://publications.europa.eu/resource/authority/file-type/XLSX
     license_AWT: https://creativecommons.org/licenses/by-sa/4.0/
     license_ODT: https://creativecommons.org/licenses/by-sa/4.0/
     license_DPBSRT: https://creativecommons.org/licenses/by-sa/4.0/
