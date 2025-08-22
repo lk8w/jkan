@@ -64,6 +64,12 @@ resource_fields:
   - field_name: license_DPBSRT
     label: License Database Protected By Special Rights Type
     datajson: license_DPBSRT 
+  - field_name: author
+    label: Meno autora diela
+    datajson: author
+  - field_name: author_database
+    label: Meno autora originálnej databázy
+    datajson: author_database
     
     
 organization_fields:
