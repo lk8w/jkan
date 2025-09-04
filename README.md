@@ -1,4 +1,4 @@
-# JKAN 
+# JKAN LK
 A lightweight, backend-free open data portal, powered by Jekyll
 
 Open-source data portals can be really hard to install and maintain. But their
@@ -14,3 +14,5 @@ that allows a small, resource-strapped government agency to stand-up an open dat
 * [Schema customization](docs/schema-customization.md)
 * [Running locally](docs/running-locally.md)
 * [Architecture](docs/architecture.md)
+
+(c) 2025 Lukáš Jankovič
