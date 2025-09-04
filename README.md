@@ -15,4 +15,4 @@ that allows a small, resource-strapped government agency to stand-up an open dat
 * [Running locally](docs/running-locally.md)
 * [Architecture](docs/architecture.md)
 
-(c) 2025 Lukáš Jankovič
+Copyright (c) 2025 Lukáš Jankovič
