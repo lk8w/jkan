@@ -8,8 +8,7 @@ type:
   - https://data.gov.sk/def/dataset-type/1
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
-  - Economy
-  - Elections / Politics
+  - Financie
 category_dcat: http://publications.europa.eu/resource/authority/data-theme/ECON
 resources:
   - url: https://ilava.sk/dataset.csv
