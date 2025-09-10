@@ -1,7 +1,6 @@
 ---
-name: Education
-logo: "/img/categories/education.svg"
-# spell-checker: disable
+name: Školstvo
+logo: /img/categories/education.svg
 logo_credit: Sergey Patutin from the Noun Project
 featured: true
 ---
