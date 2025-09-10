@@ -6,6 +6,6 @@ keyword:
   - deti
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
-  - Economy
+  - Financie
 category_dcat: http://publications.europa.eu/resource/authority/data-theme/AGRI
 ---
