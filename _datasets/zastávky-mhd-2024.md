@@ -6,6 +6,6 @@ keyword:
   - faktúry
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
-  - Transportation
+  - Doprava
 category_dcat: http://publications.europa.eu/resource/authority/data-theme/AGRI
 ---
