@@ -1,7 +1,7 @@
 ---
 title: Faktúry za rok 2023
 organization: Mesto Ilava
-notes: "Faktúry za rok 2023 - popis "
+notes: Faktúry za rok 2023 (aktualizované mesačne)
 keyword:
   - faktúry
 type:
