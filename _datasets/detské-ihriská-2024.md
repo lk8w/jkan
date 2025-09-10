@@ -7,7 +7,7 @@ keyword:
 type: []
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
-  - Health / Human Services
+  - Rekreácia, zeleň
 category_dcat: http://publications.europa.eu/resource/authority/data-theme/ECON
 resources:
   - url: https://ilava.sk/dataset.csv
