@@ -1,5 +1,5 @@
 ---
-title: Kontaktné miest
+title: Kontaktné miesta
 organization: Mesto Ilava
 notes: >-
   3 Body Problem is an American science fiction television series created by
