@@ -22,6 +22,13 @@ resources:
     license_DPBSRT: https://creativecommons.org/publicdomain/zero/1.0/
     name: CSV
     author: Ilava
+  - name: XLSX
+    url: https://ilava.sk/jasle.xlsx
+    format: http://publications.europa.eu/resource/authority/file-type/XLSX
+    license_AWT: https://creativecommons.org/publicdomain/zero/1.0/
+    license_ODT: https://creativecommons.org/publicdomain/zero/1.0/
+    license_DPBSRT: https://creativecommons.org/publicdomain/zero/1.0/
+    author: Ilava
 maintainer: Jozef Mak
 maintainer_email: mak@ilava.sk
 ---
