@@ -21,6 +21,7 @@ resources:
     license_ODT: https://creativecommons.org/publicdomain/zero/1.0/
     license_DPBSRT: https://creativecommons.org/publicdomain/zero/1.0/
     name: CSV
+    author: Ilava
 maintainer: Jozef Mak
 maintainer_email: mak@ilava.sk
 ---
