@@ -16,4 +16,6 @@ resources:
     license_AWT: https://creativecommons.org/publicdomain/zero/1.0/
     license_ODT: https://creativecommons.org/publicdomain/zero/1.0/
     license_DPBSRT: https://creativecommons.org/publicdomain/zero/1.0/
+maintainer: Jozef Mak
+maintainer_email: mak@ilava.sk
 ---
