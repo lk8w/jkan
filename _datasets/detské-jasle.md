@@ -9,6 +9,10 @@ type:
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Health / Human Services
+  - Školstvo
+  - Rekreácia, zeleň
+  - Financie
+  - Doprava
 category_dcat: http://publications.europa.eu/resource/authority/data-theme/ECON
 resources:
   - url: https://ilava.sk/jasle.csv
