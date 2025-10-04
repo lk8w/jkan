@@ -60,6 +60,7 @@ collections:
         required: true
         widget: relation
         collection: settings
+        options_length: 50
         file: periods
         multiple: false
         value_field: "items2.*.url"
