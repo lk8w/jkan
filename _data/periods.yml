@@ -1,5 +1,79 @@
 items2:
-  - name: ročne
+  - name: každých desať minút
+    url: http://publications.europa.eu/resource/authority/frequency/10MIN
+  - name: každých dvanásť hodín
+    url: http://publications.europa.eu/resource/authority/frequency/12HRS
+  - name: každých pätnásť minút
+    url: http://publications.europa.eu/resource/authority/frequency/15MIN
+  - name: každú minútu
+    url: http://publications.europa.eu/resource/authority/frequency/1MIN
+  - name: každých tridsať minút
+    url: http://publications.europa.eu/resource/authority/frequency/30MIN
+  - name: každých päť minút
+    url: http://publications.europa.eu/resource/authority/frequency/5MIN
+  - name: každý rok
     url: http://publications.europa.eu/resource/authority/frequency/ANNUAL
-  - name: denne
+  - name: každých 6 mesiacov
+    url: http://publications.europa.eu/resource/authority/frequency/ANNUAL_2
+  - name: trikrát do roka
+    url: http://publications.europa.eu/resource/authority/frequency/ANNUAL_3
+  - name: podľa potreby
+    url: http://publications.europa.eu/resource/authority/frequency/AS_NEEDED
+  - name: každých dvadsať rokov
+    url: http://publications.europa.eu/resource/authority/frequency/BIDECENNIAL
+  - name: dvojročný
+    url: http://publications.europa.eu/resource/authority/frequency/BIENNIAL
+  - name: každé 2 hodiny
+    url: http://publications.europa.eu/resource/authority/frequency/BIHOURLY
+  - name: dvojmesačný
+    url: http://publications.europa.eu/resource/authority/frequency/BIMONTHLY
+  - name: dvojtýždenný
+    url: http://publications.europa.eu/resource/authority/frequency/BIWEEKLY
+  - name: priebežný
+    url: http://publications.europa.eu/resource/authority/frequency/CONT
+  - name: každých 24 hodín
     url: http://publications.europa.eu/resource/authority/frequency/DAILY
+  - name: dvakrát denne
+    url: http://publications.europa.eu/resource/authority/frequency/DAILY_2
+  - name: každých desať rokov
+    url: http://publications.europa.eu/resource/authority/frequency/DECENNIAL
+  - name: každú hodinu
+    url: http://publications.europa.eu/resource/authority/frequency/HOURLY
+  - name: nepravidelný
+    url: http://publications.europa.eu/resource/authority/frequency/IRREG
+  - name: mesačný
+    url: http://publications.europa.eu/resource/authority/frequency/MONTHLY
+  - name: dvakrát mesačne
+    url: http://publications.europa.eu/resource/authority/frequency/MONTHLY_2
+  - name: trikrát mesačne
+    url: http://publications.europa.eu/resource/authority/frequency/MONTHLY_3
+  - name: nikdy
+    url: http://publications.europa.eu/resource/authority/frequency/NEVER
+  - name: neplánovaný
+    url: http://publications.europa.eu/resource/authority/frequency/NOT_PLANNED
+  - name: ostatné
+    url: http://publications.europa.eu/resource/authority/frequency/OTHER
+  - name: každé štyri roky
+    url: http://publications.europa.eu/resource/authority/frequency/QUADRENNIAL
+  - name: každé 3 mesiace
+    url: http://publications.europa.eu/resource/authority/frequency/QUARTERLY
+  - name: každých päť rokov
+    url: http://publications.europa.eu/resource/authority/frequency/QUINQUENNIAL
+  - name: každých tridsať rokov
+    url: http://publications.europa.eu/resource/authority/frequency/TRIDECENNIAL
+  - name: trojročný
+    url: http://publications.europa.eu/resource/authority/frequency/TRIENNIAL
+  - name: každé 3 hodiny
+    url: http://publications.europa.eu/resource/authority/frequency/TRIHOURLY
+  - name: neznámy
+    url: http://publications.europa.eu/resource/authority/frequency/UNKNOWN
+  - name: priebežne aktualizovaný
+    url: http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT
+  - name: týždenný
+    url: http://publications.europa.eu/resource/authority/frequency/WEEKLY
+  - name: dvakrát týždenne
+    url: http://publications.europa.eu/resource/authority/frequency/WEEKLY_2
+  - name: trikrát týždenne
+    url: http://publications.europa.eu/resource/authority/frequency/WEEKLY_3
+  - name: päťkrát týždenne
+    url: http://publications.europa.eu/resource/authority/frequency/WEEKLY_5
