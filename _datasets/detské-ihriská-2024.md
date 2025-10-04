@@ -1,5 +1,5 @@
 ---
-title: Detské ihriská 2024
+title: Ihriská 2024
 organization: Mesto Ilava
 notes: Detské ihriská - stav k 1.1.2023
 keyword:
