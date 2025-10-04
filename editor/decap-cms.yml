@@ -61,7 +61,6 @@ collections:
         widget: relation
         collection: settings
         file: periods
-        pagination: 50
         multiple: false
         value_field: "items2.*.url"
         search_fields: ["items2.*.name"]
