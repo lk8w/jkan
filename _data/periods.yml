@@ -37,8 +37,6 @@ items2:
     url: http://publications.europa.eu/resource/authority/frequency/5MIN
   - name: trikrát do roka
     url: http://publications.europa.eu/resource/authority/frequency/ANNUAL_3
-  - name: podľa potreby
-    url: http://publications.europa.eu/resource/authority/frequency/AS_NEEDED
   - name: každých dvadsať rokov
     url: http://publications.europa.eu/resource/authority/frequency/BIDECENNIAL
   - name: každé 2 hodiny
@@ -59,6 +57,8 @@ items2:
     url: http://publications.europa.eu/resource/authority/frequency/NOT_PLANNED
   - name: ostatné
     url: http://publications.europa.eu/resource/authority/frequency/OTHER
+  - name: podľa potreby
+    url: http://publications.europa.eu/resource/authority/frequency/AS_NEEDED
   - name: každé štyri roky
     url: http://publications.europa.eu/resource/authority/frequency/QUADRENNIAL
   - name: každých päť rokov
