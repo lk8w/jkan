@@ -13,6 +13,7 @@ category:
   - Rekreácia, zeleň
   - Financie
   - Doprava
+  - Zdravie
 category_dcat: http://publications.europa.eu/resource/authority/data-theme/ECON
 resources:
   - url: https://ilava.sk/jasle.csv
