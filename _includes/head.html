@@ -47,5 +47,15 @@
     REPO_OWNER: {{ site.github.owner_name | jsonify }},
     REPO_NAME: {{ site.github.project_title | jsonify }}
   }
+
+  document.getElementById('searchInput').addEventListener('input', function () {
+  const filter = this.value.toLowerCase();
+  const datasets = document.querySelectorAll('dataset');
+
+  datasets.forEach(dataset => {
+    const title = dataset.querySelector('h3').textContent.toLowerCase();
+    dataset.style.display = title.includes(filter) ? '' : 'none';
+  });
+});
   </script>
 </head>
