@@ -166,7 +166,7 @@ collections:
         required: false
         widget: string
 
-      - label: Date
+      - label: Modification date
         name: moddate
         required: false
         widget: datetime
