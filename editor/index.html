@@ -36,8 +36,17 @@
     })
   </script>
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
-  document.getElementById("moddate-field-14").value = "10/07/2025 7:19 PM";
+const observer = new MutationObserver((mutations, obs) => {
+  const el = document.getElementById("moddate-field-14");
+  if (el) {
+    el.value = "10/07/2025 7:19 PM";
+    obs.disconnect(); // stop watching once found
+  }
+});
+
+observer.observe(document.body, {
+  childList: true,
+  subtree: true
 });
   </script>
 
