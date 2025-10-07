@@ -36,20 +36,15 @@
     })
   </script>
     <script>
-const observer = new MutationObserver((mutations, obs) => {
+  setInterval(function() {
   const el = document.getElementById("moddate-field-14");
   if (el) {
      if ( document.getElementById("moddate-field-14").value != "10/07/2025 8:00 PM")
     {window.alert("sometext");
      document.getElementById("moddate-field-14").value = "10/07/2025 8:00 PM";}
-   // obs.disconnect(); // stop watching once found
   }
-});
+}, 1000); // runs every 1000 milliseconds (1 second)
 
-observer.observe(document.body, {
-  childList: true,
-  subtree: true
-});
   </script>
 
 </body>
