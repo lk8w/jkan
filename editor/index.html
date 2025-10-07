@@ -37,7 +37,7 @@
   </script>
     <script>
   setInterval(function() {
-  const el = document.getElementById("moddate-field-14");
+  const el = document.querySelectorAll('[id*="moddate"]')
   if (el) {
      if ( document.getElementById("moddate-field-14").value != "10/07/2025 8:00 PM")
     {window.alert("sometext");
