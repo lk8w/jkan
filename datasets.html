@@ -34,6 +34,7 @@ permalink: /datasets/
       {% endfor %}
     </div>
   </div>
+  {% last_modified {{ page.path }} %}
   <div class="col-sm-8" data-component="datasets-list">
     <h3 class="datasets-count" data-hook="datasets-count">{{ datasets_count }}
       {% if datasets_count == 1 %}dataset{% else %}datasets{% endif %}</h3>
