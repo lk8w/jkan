@@ -11,9 +11,6 @@ layout: default
 {% assign organization = site.organizations | where:"title",page.organization | first %}
 {% capture organization_url %}{{ site.baseurl }}{{ organization.url }}{% endcapture %}
 {% assign modified = site.time %}
-<time datetime="{{ modified | date_to_xmlschema }}">
-  last updated on {{ modified | date: "%B %-d, %Y" }}
-</time>
   <div class="container">
   <div data-component="dataset-display" typeof="dcat:Dataset" resource="{{ page.url }}">
     <div class="row">
