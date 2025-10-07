@@ -99,7 +99,7 @@ collections:
           - label: URL
             name: url
             widget: string
-            hint: Ak bol súbor pridaný cez Media, pridaj na začiatok odkazu https://lk8w.github.io/jkan
+            hint: Ak bol súbor pridaný cez Media, pridaj na začiatok odkazu https://lk8w.github.io/jkan/
           - label: Format
             name: format
             required: true
