@@ -8,4 +8,5 @@ periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Školstvo
 category_dcat: http://publications.europa.eu/resource/authority/data-theme/AGRI
+moddate: 2025-10-07T17:11:12.124Z
 ---
