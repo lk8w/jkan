@@ -51,7 +51,7 @@ layout: default
           {% for resource in page.resources %}
           {% assign form = site.data.formats.items | where:"url",resource.format | first %}
           <li data-hook="resource-item" property='dcat:distribution' typeof='dcat:Distribution'>
-            <a href="{{ resource.url }}" property='dcat:accessURL'><span property="dct:title">{{ resource.name | default: "text" }}</span></a>
+            <a href="{{ resource.url }}" property='dcat:accessURL'><span property="dct:title">{{ resource.name | default: "Distribúcia" }}</span></a>
             {% if resource.format %}<span class="badge bg-secondary" property='dcat:mediaType'>{{ form.name }}</span>{% endif %}
             <a href="#" class="show-resource-details" data-hook="show-resource-details">(Detaily)</a>
             {% if resource.description %}<div class="resource-description">{{ resource.description }}</div>{% endif %}
