@@ -16,4 +16,5 @@ resources:
     license_AWT: https://creativecommons.org/publicdomain/zero/1.0/
     license_ODT: https://creativecommons.org/publicdomain/zero/1.0/
     license_DPBSRT: https://creativecommons.org/publicdomain/zero/1.0/
+moddate: 2025-10-07T15:33:25.320Z
 ---
