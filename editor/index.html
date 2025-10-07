@@ -39,8 +39,9 @@
 const observer = new MutationObserver((mutations, obs) => {
   const el = document.getElementById("moddate-field-14");
   if (el) {
-    window.alert("sometext");
-    document.getElementById("moddate-field-14").value = "10/07/2025 8:00 PM";
+     if ( document.getElementById("moddate-field-14").value <> "10/07/2025 8:00 PM")
+    {window.alert("sometext");
+     document.getElementById("moddate-field-14").value = "10/07/2025 8:00 PM";}
    // obs.disconnect(); // stop watching once found
   }
 });
