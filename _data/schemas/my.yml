@@ -41,6 +41,10 @@ dataset_fields:
   - field_name: landingpage
     label: Landing Page
     datajson: landingpage
+  - field_name: moddate
+    label: Modification date
+    datajson: moddate
+
 
 resource_fields:
   - field_name: name
