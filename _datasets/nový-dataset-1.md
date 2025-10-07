@@ -1,7 +1,7 @@
 ---
 title: Zoznam poslancov
 organization: Mesto Ilava
-notes: Zoznam poslancov MsZ
+notes: Zoznam poslancov MsZ k 1.1.
 keyword:
   - deti
 type:
