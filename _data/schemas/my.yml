@@ -27,6 +27,7 @@ dataset_fields:
     datajson: type
   - field_name: keyword
     label: Keywords
+    display_template: display/keyword.html
     datajson: keyword
   - field_name: maintainer
     label: Maintainer
