@@ -1,4 +1,4 @@
-{% assign per = site.data.periods.items2 | where:"url",page.periods | first %}
+{% assign per = site.data.periods.items2 | where:"url",include.value | first %}
 <tr>
   <th>{{ include.field.label }}</th>
   <td>
