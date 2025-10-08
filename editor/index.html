@@ -36,31 +36,7 @@
     })
   </script>
   <script>
-setInterval(function () {
-  const now = new Date();
 
-  const month = String(now.getMonth() + 1).padStart(2, '0');
-  const day = String(now.getDate()).padStart(2, '0');
-  const year = now.getFullYear();
-
-  let hours = now.getHours();
-  const minutes = String(now.getMinutes()).padStart(2, '0');
-  const ampm = hours >= 12 ? 'PM' : 'AM';
-
-  hours = hours % 12;
-  hours = hours ? hours : 12; // the hour '0' should be '12'
-
-  const dt = `${month}/${day}/${year} ${hours}:${minutes} ${ampm}`;
-  
-  const elements = document.querySelectorAll('[id*="moddate"]');
-  elements.forEach(function (el) {
-    if (el.value !== dt) {
-      //window.alert("sometext");
-      el.value = dt;
-    }
-  });
-}, 1000); // runs every 1000 milliseconds (1 second)
-  </script>
 
 </body>
 
