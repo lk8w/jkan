@@ -16,17 +16,17 @@ category_dcat: http://publications.europa.eu/resource/authority/data-theme/ECON
 resources:
   - url: https://ilava.sk/jasle.csv
     format: http://publications.europa.eu/resource/authority/file-type/CSV
-    license_AWT: https://creativecommons.org/publicdomain/zero/1.0/
-    license_ODT: https://creativecommons.org/publicdomain/zero/1.0/
-    license_DPBSRT: https://creativecommons.org/publicdomain/zero/1.0/
+    license_AWT: http://publications.europa.eu/resource/authority/licence/CC0
+    license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
+    license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC0
     name: CSV
     author: Ilava
   - name: XLSX
     url: https://ilava.sk/jasle.xlsx
     format: http://publications.europa.eu/resource/authority/file-type/XLSX
-    license_AWT: https://creativecommons.org/publicdomain/zero/1.0/
-    license_ODT: https://creativecommons.org/publicdomain/zero/1.0/
-    license_DPBSRT: https://creativecommons.org/publicdomain/zero/1.0/
+    license_AWT: http://publications.europa.eu/resource/authority/licence/CC0
+    license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
+    license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC0
     author: Ilava
 maintainer: Jozef Mak
 maintainer_email: mak@ilava.sk
