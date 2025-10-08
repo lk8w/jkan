@@ -1,7 +1,7 @@
 ---
 title: Zoznam poslancov
 organization: Mesto Ilava
-notes: Zoznam poslancov MsZ k 1.1.
+notes: Zoznam poslancov MsZ k 1.1. 2024
 keyword:
   - deti
 type:
