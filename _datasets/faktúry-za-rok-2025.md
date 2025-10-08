@@ -1,7 +1,7 @@
 ---
 title: Faktúry za rok 2025
 organization: Mesto Ilava
-notes: Faktúry za rok 2025 (aktualizované mesačne)
+notes: Faktúry za rok 2024 (aktualizované mesačne)
 keyword:
   - deti
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
