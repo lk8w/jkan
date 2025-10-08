@@ -1,0 +1,6 @@
+{% assign cat = site.data.categories_dcat.items2 | where:"url",include.value | first %}
+<tr>
+  <th>{{ include.field.label }}</th>
+  <td>
+      {{ cat.name }}
+  </td>
