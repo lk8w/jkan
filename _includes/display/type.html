@@ -1,0 +1,6 @@
+{% assign typ = site.data.types.items | where:"url",include.value | first %}
+<tr>
+  <th>{{ include.field.label }}</th>
+  <td>
+      {{ typ.name }}
+  </td>
