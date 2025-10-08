@@ -145,16 +145,10 @@ collections:
             widget: string
             required: false
 
-      - label: License
-        name: license
+      - label: Landing page
+        name: landingpage
         required: false
-        hint: Not sure what license to use? See [licenses.opendefinition.org](https://licenses.opendefinition.org/)
-        widget: relation
-        collection: settings
-        file: licenses
-        value_field: "items.*.url"
-        search_fields: ["items.*.name"]
-        display_fields: ["items.*.name"]
+        widget: string
 
       - label: Maintainer
         name: maintainer
