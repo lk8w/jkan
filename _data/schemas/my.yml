@@ -45,6 +45,7 @@ dataset_fields:
     datajson: landingpage
   - field_name: moddate
     label: Modification date
+    display_template: display/moddate.html
     datajson: moddate
 
 
