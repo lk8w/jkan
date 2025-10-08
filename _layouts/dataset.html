@@ -87,6 +87,7 @@ layout: default
               </td>
             </tr>
           {% endif %}
+          {{ page.categories_dcat }} 
           {% assign cat = site.data.categories_dcat.items2 | where:"url",page.categories_dcat | first %}
             <tr>
               <th>Category DCAT</th>
