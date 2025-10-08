@@ -19,7 +19,6 @@ resources:
     license_ODT: https://creativecommons.org/licenses/by-sa/4.0/
     license_DPBSRT: https://creativecommons.org/licenses/by-sa/4.0/
     author: Ilava
-license: https://creativecommons.org/licenses/by-sa/4.0/
 maintainer: Jozef Mak
 maintainer_email: mak@ilava.sk
 ---
