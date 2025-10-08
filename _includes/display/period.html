@@ -1,5 +1,6 @@
+{% assign per = site.data.periods.items2 | where:"url",page.periods | first %}
 <tr>
   <th>{{ include.field.label }}</th>
   <td>
-      <a href="#">{{ include.value }}</a>
+      <a href="#">{{ include.value }}{{ per.name }}</a>
   </td>
