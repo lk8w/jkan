@@ -4,7 +4,8 @@ organization: Mesto Ilava
 notes: Detské ihriská - stav k 1.1.2023
 keyword:
   - deti
-type: []
+type:
+  - https://data.gov.sk/def/dataset-type/3
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Rekreácia, zeleň
