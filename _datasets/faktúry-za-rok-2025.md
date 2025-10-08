@@ -3,7 +3,7 @@ title: Faktúry za rok 2025
 organization: Mesto Ilava
 notes: Faktúry za rok 2025 (aktualizované mesačne)
 keyword:
-  - deti
+  - faktúry
 type:
   - https://data.gov.sk/def/dataset-type/3
   - https://data.gov.sk/def/dataset-type/1
