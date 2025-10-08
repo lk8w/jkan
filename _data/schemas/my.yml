@@ -41,6 +41,7 @@ dataset_fields:
     datajson: period
   - field_name: landingpage
     label: Landing Page
+    display_template: display/landingpage.html
     datajson: landingpage
   - field_name: moddate
     label: Modification date
