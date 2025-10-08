@@ -22,9 +22,8 @@ type:
 periodicity: http://publications.europa.eu/resource/authority/frequency/MONTHLY
 category:
   - Školstvo
-  - Economy
-  - Environment
-  - Health / Human Services
+  - Ekonomika
+  - Zdravie
 category_dcat: http://publications.europa.eu/resource/authority/data-theme/AGRI
 resources: []
 ---
