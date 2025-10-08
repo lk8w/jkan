@@ -3,3 +3,26 @@ items2:
     url: http://publications.europa.eu/resource/authority/data-theme/AGRI
   - name: Hospodárstvo a financie
     url: http://publications.europa.eu/resource/authority/data-theme/ECON
+  - name: Vzdelávanie, kultúra a šport
+    url: http://publications.europa.eu/resource/authority/data-theme/EDUC
+  - name: Energetika
+    url: http://publications.europa.eu/resource/authority/data-theme/ENER 
+  - name: Životné prostredie
+    url: http://publications.europa.eu/resource/authority/data-theme/ENVI
+  - name: Vláda a verejný sektor
+    url: http://publications.europa.eu/resource/authority/data-theme/GOVE
+  - name: Zdravotníctvo
+    url: http://publications.europa.eu/resource/authority/data-theme/HEAL
+  - name: Medzinárodné otázky
+    url: http://publications.europa.eu/resource/authority/data-theme/INTR
+  - name: Spravodlivosť, právny systém a verejná bezpečnosť
+    url: http://publications.europa.eu/resource/authority/data-theme/JUST
+  - name: Regióny a mestá
+    url: http://publications.europa.eu/resource/authority/data-theme/REGI
+  - name: Obyvateľstvo a spoločnosť
+    url: http://publications.europa.eu/resource/authority/data-theme/SOCI
+  - name: Veda a technika
+    url: http://publications.europa.eu/resource/authority/data-theme/TECH
+  - name: Doprava
+    url: http://publications.europa.eu/resource/authority/data-theme/TRAN
+
