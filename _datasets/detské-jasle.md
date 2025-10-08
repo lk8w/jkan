@@ -1,7 +1,7 @@
 ---
 title: Detské jasle
 organization: Mesto Ilava
-notes: Zoznam k 1.1.2022
+notes: Zoznam k 1.1.2023
 keyword:
   - deti
 type:
