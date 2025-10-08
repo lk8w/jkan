@@ -10,7 +10,8 @@ type:
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Rekreácia, zeleň
-category_dcat: http://publications.europa.eu/resource/authority/data-theme/ECON
+  - Životné prostredie
+category_dcat: http://publications.europa.eu/resource/authority/data-theme/EDUC
 resources:
   - url: https://ilava.sk/dataset.csv
     format: http://publications.europa.eu/resource/authority/file-type/CSV
