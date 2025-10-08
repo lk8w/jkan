@@ -1,6 +1,11 @@
-{% assign ttp = site.data.types.items | where:"url",include.value | first %}
 <tr>
   <th>{{ include.field.label }}</th>
   <td>
-      {{ ttp.name }}
+    {% if include.value.size %}
+      {% for type in include.value %}
+        {{ type }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    {% else %}
+      {{ include.value }}
+    {% endif %}
   </td>
