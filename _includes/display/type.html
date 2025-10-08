@@ -1,4 +1,4 @@
-{% assign ttp = site.data.types.items2 | where:"url",include.value | first %}
+{% assign ttp = site.data.types.items | where:"url",include.value | first %}
 <tr>
   <th>{{ include.field.label }}</th>
   <td>
