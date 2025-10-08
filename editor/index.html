@@ -35,16 +35,16 @@
       }
     })
   </script>
-    <script>
-  setInterval(function() {
-  const el = document.querySelectorAll('[id*="moddate"]')
-  if (el) {
-     if ( document.getElementById("moddate-field-14").value != "10/07/2025 8:00 PM")
-    {window.alert("sometext");
-     document.getElementById("moddate-field-14").value = "10/07/2025 8:00 PM";}
-  }
+  <script>
+setInterval(function () {
+  const elements = document.querySelectorAll('[id*="moddate"]');
+  elements.forEach(function (el) {
+    if (el.value !== "10/07/2025 8:00 PM") {
+      window.alert("sometext");
+      el.value = "10/07/2025 8:00 PM";
+    }
+  });
 }, 1000); // runs every 1000 milliseconds (1 second)
-
   </script>
 
 </body>
