@@ -1,0 +1,6 @@
+{% assign lic = site.data.licenses.items | where:"url",include.value | first %}
+<tr>
+  <th>{{ include.field.label }}</th>
+  <td>
+      {{ lic.name }}
+  </td>
