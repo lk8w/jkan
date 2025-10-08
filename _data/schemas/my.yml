@@ -13,9 +13,6 @@ dataset_fields:
   - field_name: periodicity
     label: Periodicita
     datajson: periodicity
-  - field_name: license
-    label: License
-    datajson: license
   - field_name: category
     label: Category
     display_template: display/category.html
