@@ -16,15 +16,15 @@ resources:
   - url: https://ilava.sk/dataset.csv
     format: http://publications.europa.eu/resource/authority/file-type/CSV
     name: ""
-    license_AWT: https://creativecommons.org/licenses/by-sa/4.0/
-    license_ODT: https://creativecommons.org/licenses/by-sa/4.0/
-    license_DPBSRT: https://creativecommons.org/licenses/by-sa/4.0/
+    license_AWT: http://publications.europa.eu/resource/authority/licence/CC0
+    license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
+    license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC_BY_4_0
     author: Ilava
   - url: https://ilava.sk/dataset.xlsx
     format: http://publications.europa.eu/resource/authority/file-type/XLSX
-    license_AWT: https://creativecommons.org/licenses/by-sa/4.0/
-    license_ODT: https://creativecommons.org/licenses/by-sa/4.0/
-    license_DPBSRT: https://creativecommons.org/licenses/by-sa/4.0/
+    license_AWT: http://publications.europa.eu/resource/authority/licence/CC0
+    license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
+    license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC_BY_4_0
     author: Ilava
 landingpage: https://lk8w.github.io/jkan/datasets/detsk%C3%A9-ihrisk%C3%A1-2024/
 maintainer: Jozef Mak
