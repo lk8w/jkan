@@ -7,6 +7,6 @@ keyword:
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Doprava
-category_dcat: http://publications.europa.eu/resource/authority/data-theme/AGRI
+category_dcat: http://publications.europa.eu/resource/authority/data-theme/TRAN
 moddate: 2025-10-07T15:39:04.111Z
 ---
