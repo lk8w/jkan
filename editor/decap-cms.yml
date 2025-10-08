@@ -110,6 +110,10 @@ collections:
             value_field: "items.*.url"
             search_fields: ["items.*.name"]
             display_fields: ["items.*.name"]
+          - label: Typ média
+            name: mediatype
+            widget: string
+            required: false
           - label: License Authors Work Type    
             name: license_AWT
             required: true
