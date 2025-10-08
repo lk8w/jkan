@@ -8,11 +8,9 @@ type:
   - https://data.gov.sk/def/dataset-type/3
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
-  - Health / Human Services
   - Školstvo
   - Rekreácia, zeleň
   - Financie
-  - Doprava
   - Zdravie
 category_dcat: http://publications.europa.eu/resource/authority/data-theme/ECON
 resources:
