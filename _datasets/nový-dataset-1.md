@@ -13,8 +13,8 @@ category_dcat: http://publications.europa.eu/resource/authority/data-theme/AGRI
 resources:
   - url: https://lk8w.github.io/jkan/img/uploads/pocet_datasetov_samosprava.csv
     format: http://publications.europa.eu/resource/authority/file-type/CSV
-    license_AWT: https://creativecommons.org/publicdomain/zero/1.0/
-    license_ODT: https://creativecommons.org/publicdomain/zero/1.0/
-    license_DPBSRT: https://creativecommons.org/publicdomain/zero/1.0/
+    license_AWT: http://publications.europa.eu/resource/authority/licence/CC0
+    license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
+    license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC0
 moddate: 2025-10-07T15:33:25.320Z
 ---
