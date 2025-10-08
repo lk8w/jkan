@@ -144,6 +144,10 @@ collections:
             name: author
             widget: string
             required: false
+          - label: Autor databázy
+            name: author_database
+            widget: string
+            required: false
 
       - label: Landing page
         name: landingpage
