@@ -63,12 +63,15 @@ resource_fields:
     datajson: distribution.mediatype
   - field_name: license_AWT
     label: License Authors Work Type
+    display_template: display/license.html
     datajson: license_AWT 
   - field_name: license_ODT
     label: License Original Database Type
+    display_template: display/license.html
     datajson: license_ODT
   - field_name: license_DPBSRT
     label: License Database Protected By Special Rights Type
+    display_template: display/license.html
     datajson: license_DPBSRT 
   - field_name: author
     label: Meno autora diela
