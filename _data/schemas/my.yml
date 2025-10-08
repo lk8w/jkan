@@ -20,6 +20,7 @@ dataset_fields:
     datajson: category
   - field_name: category_dcat
     label: Category DCAT
+    display_template: display/category_DCAT.html
     datajson: category_dcat
   - field_name: type
     label: Type
