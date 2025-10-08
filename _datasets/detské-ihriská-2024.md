@@ -20,12 +20,14 @@ resources:
     license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
     license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC_BY_4_0
     author: Ilava
+    author_database: Ilava
   - url: https://ilava.sk/dataset.xlsx
     format: http://publications.europa.eu/resource/authority/file-type/XLSX
     license_AWT: http://publications.europa.eu/resource/authority/licence/CC0
     license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
     license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC_BY_4_0
     author: Ilava
+    author_database: Ilava
 landingpage: https://lk8w.github.io/jkan/datasets/detsk%C3%A9-ihrisk%C3%A1-2024/
 maintainer: Jozef Mak
 maintainer_email: mak@ilava.sk
