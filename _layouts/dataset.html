@@ -95,14 +95,7 @@ layout: default
                 {{ cat.name }}
               </td>
             </tr>
-          {% assign per = site.data.periods.items2 | where:"url",page.periods | first %}
-            <tr>
-              <th>Periodicity</th>
-              <td>
-                {{ per.name }}
-              </td>
-            </tr>
-          {% for field in dataset_fields %}
+           {% for field in dataset_fields %}
             {% unless dataset_system_fields contains field.field_name %}
               {% assign value = page[field[field_name]] %}
               {% if value %}
