@@ -3,9 +3,10 @@
   <td>
     {% if include.value.size %}
       {% for type in include.value %}
-        {{ type }}</a>{% unless forloop.last %}, {% endunless %}
+        {% assign t = site.data.types.items | where:"url",type | first %}
+        {{ t.name }}</a>{% unless forloop.last %}, {% endunless %}
       {% endfor %}
     {% else %}
-      {{ include.value }}
+      {{ t.name }}
     {% endif %}
   </td>
