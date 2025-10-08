@@ -4,7 +4,7 @@ layout: default
 {% include breadcrumbs.html parent="Datasets" %}
 {% assign schema = page.schema | default: site.schema %}
 {% assign dataset_fields = site.data.schemas[schema].dataset_fields %}
-{% assign dataset_system_fields = "title|organization|notes|license|category_dcat" | split: "|" %}
+{% assign dataset_system_fields = "title|organization|notes|license|category_dcat"|periodicity | split: "|" %}
 {% assign resource_fields = site.data.schemas[schema].resource_fields %}
 {% assign resource_system_fields = "name|url|format|description" | split: "|" %}
 
@@ -92,6 +92,13 @@ layout: default
               <th>Category DCAT</th>
               <td>
                 {{ cat.name }}
+              </td>
+            </tr>
+          {% assign per = site.data.periodicities.items2 | where:"url",page.periodicities | first %}
+            <tr>
+              <th>Periodicity</th>
+              <td>
+                {{ per.name }}
               </td>
             </tr>
           {% for field in dataset_fields %}
