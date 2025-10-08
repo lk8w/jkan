@@ -12,6 +12,7 @@ dataset_fields:
     datajson: description
   - field_name: periodicity
     label: Periodicita
+    display_template: display/period.html
     datajson: periodicity
   - field_name: category
     label: Category
