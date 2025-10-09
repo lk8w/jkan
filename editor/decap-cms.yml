@@ -113,7 +113,7 @@ collections:
           - label: Typ média
             name: mediatype
             widget: string
-            required: false
+            required: true
           - label: License Authors Work Type    
             name: license_AWT
             required: true
