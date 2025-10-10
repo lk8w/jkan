@@ -33,5 +33,5 @@ resources:
 landingpage: https://lk8w.github.io/jkan/datasets/detsk%C3%A9-ihrisk%C3%A1-2024/
 maintainer: Jozef Mak
 maintainer_email: mak@ilava.sk
-moddate: 2025-10-08T14:02:41.394Z
+moddate: 2025-10-08T14:02:42.394Z
 ---
