@@ -9,12 +9,13 @@ type:
 periodicity: http://publications.europa.eu/resource/authority/frequency/IRREG
 category:
   - Kultúra
-category_dcat: http://publications.europa.eu/resource/authority/data-theme/AGRI
+category_dcat: http://publications.europa.eu/resource/authority/data-theme/REGI
 resources:
   - url: https://lk8w.github.io/jkan/img/uploads/pocet_datasetov_samosprava.csv
     format: http://publications.europa.eu/resource/authority/file-type/CSV
     license_AWT: http://publications.europa.eu/resource/authority/licence/CC0
     license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
     license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC0
+    mediatype: text/csv
 moddate: 2025-10-07T15:33:25.320Z
 ---
