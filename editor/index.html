@@ -31,7 +31,7 @@
           branch: {{ site.branch | default: site.github.source.branch | jsonify }}
         },
         local_backend: {% if jekyll.environment == "production" %}false{% else %}true{% endif %},
-        site_url: {{ site_url | jsonify }}
+        site_url: {{ site.url | jsonify }}
       }
     })
   </script>
