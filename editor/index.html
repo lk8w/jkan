@@ -12,7 +12,7 @@
     li a[href="#/collections/settings/entries/config"]
     {
     display: none;
-    } {{ site.url }}
+    } 
   </style>
   
 </head>
@@ -31,7 +31,7 @@
           branch: {{ site.branch | default: site.github.source.branch | jsonify }}
         },
         local_backend: {% if jekyll.environment == "production" %}false{% else %}true{% endif %},
-        site_url: {{ "" | absolute_url | jsonify }}
+        site_url: {{ site_url | jsonify }}
       }
     })
   </script>
