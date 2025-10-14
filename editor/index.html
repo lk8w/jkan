@@ -34,7 +34,7 @@
           branch: {{ site.branch | default: site.github.source.branch | jsonify }}
         },
         local_backend: {% if jekyll.environment == "production" %}false{% else %}true{% endif %},
-        site_url: {{ https://lk8w.github.io/jkan/ | jsonify }}
+        site_url: {{ "https://lk8w.github.io/jkan/" | jsonify }}
       }
     })
   </script>
