@@ -149,7 +149,7 @@ collections:
             value_field: "items.*.url"
             search_fields: ["items.*.name"]
             display_fields: ["items.*.name"]
-            default: Creative Commons CC0 1.0 Univerzálne
+            default: "Creative"
           - label: Autor diela
             name: author
             widget: string
