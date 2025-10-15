@@ -1,0 +1,6 @@
+{% assign medtype = site.data.mediatypes.items | where:"url",include.value | first %}
+<tr>
+  <th>{{ include.field.label }}</th>
+  <td>
+      {{ medtype.name }}
+  </td>
