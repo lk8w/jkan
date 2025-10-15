@@ -112,8 +112,13 @@ collections:
             display_fields: ["items.*.name"]
           - label: Typ média
             name: mediatype
-            widget: string
-            required: true
+            widget: relation
+            collection: settings
+            file: mediatypes
+            multiple: false
+            value_field: "items.*.url"
+            search_fields: ["items.*.name"]
+            display_fields: ["items.*.name"]
           - label: License Authors Work Type    
             name: license_AWT
             required: true
@@ -353,6 +358,26 @@ collections:
         hide: true
         description: Format of distribution
         file: _data/formats.yml
+        fields:
+          - label: Types
+            name: items
+            label_singular: Type
+            widget: list
+            fields:
+              - label: Name
+                name: name
+                widget: string
+
+              - label: URL
+                name: url
+                required: false
+                widget: string
+
+      - name: mediatypes 
+        label: Media types
+        hide: true
+        description:  Media types of distribution
+        file: _data/mediatypes.yml
         fields:
           - label: Types
             name: items
