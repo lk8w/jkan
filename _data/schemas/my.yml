@@ -61,6 +61,7 @@ resource_fields:
     datajson: distribution.format
   - field_name: mediatype
     label: Media type
+    display_template: display/mediatype.html
     datajson: distribution.mediatype
   - field_name: license_AWT
     label: License Authors Work Type
