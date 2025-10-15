@@ -7,4 +7,7 @@ items:
     url:  http://publications.europa.eu/resource/authority/licence/MIT
   - name: GNU General Public License v3.0 only
     url:  http://publications.europa.eu/resource/authority/licence/GPL_3_0
+  - name: Apache License, Version 2.0
+    url:  http://publications.europa.eu/resource/authority/licence/APACHE_2_0
+    
 
