@@ -1,8 +1,8 @@
 items:
-  - name: Creative Commons CC0 1.0 Univerzálne
-    url:  http://publications.europa.eu/resource/authority/licence/CC0
   - name: Creative Commons Uvedenie Autora 4.0 Medzinárodný
     url:  http://publications.europa.eu/resource/authority/licence/CC_BY_4_0
+  - name: Creative Commons CC0 1.0 Univerzálne
+    url:  http://publications.europa.eu/resource/authority/licence/CC0
   - name: MIT licencia
     url:  http://publications.europa.eu/resource/authority/licence/MIT
   - name: GNU General Public License v3.0 only
