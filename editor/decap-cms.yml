@@ -178,8 +178,7 @@ collections:
         name: moddate
         required: false
         widget: datetime
-        default: "{{now}}"
-       
+          
   - name: organizations
     label: Organizations
     label_singular: Organization
