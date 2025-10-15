@@ -1,13 +1,13 @@
 items:
   - name: csv
     url: http://www.iana.org/assignments/media-types/text/csv
-  - name: vnd.oasis.opendocument.spreadsheet
+  - name: ods
     url: http://www.iana.org/assignments/media-types/application/vnd.oasis.opendocument.spreadsheet
-  - name: vnd.ms-excel
+  - name: ms-excel
     url: http://www.iana.org/assignments/media-types/application/vnd.ms-excel
   - name: json
     url: http://www.iana.org/assignments/media-types/application/json
   - name: xml
     url: http://www.iana.org/assignments/media-types/application/xml
-  - name: geo+json
+  - name: geojson
     url: http://www.iana.org/assignments/media-types/application/geo+json
