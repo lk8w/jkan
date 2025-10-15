@@ -19,6 +19,14 @@ resources:
     license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC0
     author: Ilava
     author_database: Ilava
+  - url: https://ilava.sk/faktury2022.json
+    format: http://publications.europa.eu/resource/authority/file-type/JSON
+    mediatype: http://www.iana.org/assignments/media-types/application/json
+    license_AWT: http://publications.europa.eu/resource/authority/licence/CC0
+    license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
+    license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC0
+    author: Ilava
+    author_database: Ilava
 maintainer: Jozef Mak
 maintainer_email: mak@ilava.sk
 moddate: 2025-10-15T13:07:17.821Z
