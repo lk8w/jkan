@@ -83,7 +83,7 @@ collections:
         widget: relation
         collection: settings
         file: categories_dcat
-        multiple: false
+        multiple: true
         value_field: "items2.*.url"
         search_fields: ["items2.*.name"]
         display_fields: ["items2.*.name"]
