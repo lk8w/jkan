@@ -105,6 +105,7 @@ collections:
             required: true
             widget: relation
             collection: settings
+            options_length: 250
             file: formats
             multiple: false
             value_field: "items.*.url"
