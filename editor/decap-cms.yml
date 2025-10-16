@@ -99,7 +99,7 @@ collections:
           - label: URL
             name: url
             widget: string
-            hint: Ak bol súbor pridaný cez Media, pridaj na začiatok odkazu https://lk8w.github.io/jkan/
+            hint: Ak bol súbor pridaný cez Médiá, pridaj na začiatok odkazu https://lk8w.github.io/jkan/
           - label: Format
             name: format
             required: true
@@ -124,6 +124,7 @@ collections:
             name: license_AWT
             required: true
             widget: relation
+            hint: Odporúčaná licencia je Creative Commons Uvedenie Autora 4.0 Medzinárodný
             collection: settings
             file: licenses
             multiple: false
@@ -134,6 +135,7 @@ collections:
             name: license_ODT
             required: true
             widget: relation
+            hint: Odporúčaná licencia je Creative Commons Uvedenie Autora 4.0 Medzinárodný
             collection: settings
             file: licenses
             multiple: false
@@ -144,6 +146,7 @@ collections:
             name: license_DPBSRT
             required: true
             widget: relation
+            hint: Odporúčaná licencia je Creative Commons Uvedenie Autora 4.0 Medzinárodný
             collection: settings
             file: licenses
             multiple: false
