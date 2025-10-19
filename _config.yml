@@ -57,9 +57,9 @@ collections:
 kramdown:
   input: GFM
 hero_image: /img/homepage-hero.jpg
-title: Otvorené dáta Ilava :)
+title: "Otvorené dáta Ilava "
 jkan_theme: Default
-greeting: Vitajte!
+greeting: Vitajte
 exclude:
   - CONTRIBUTING.md
   - Dockerfile
@@ -80,4 +80,4 @@ exclude:
 hypothesis:
   enabled: false
 description: Preskúmajte naše otvorené dáta!
-baseurl: https://lk8w.github.io/jkan
+baseurl: https://katalog.reframe.sk
