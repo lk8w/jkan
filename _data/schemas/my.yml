@@ -15,15 +15,15 @@ dataset_fields:
     display_template: display/period.html
     datajson: periodicity
   - field_name: category
-    label: Category
+    label: Kategória
     display_template: display/category.html
     datajson: category
   - field_name: category_dcat
-    label: Category DCAT
+    label: Kategória DCAT
     display_template: display/category_DCAT.html
     datajson: category_dcat
   - field_name: type
-    label: Type
+    label: Typ
     display_template: display/type.html
     datajson: type
   - field_name: keyword
@@ -31,10 +31,10 @@ dataset_fields:
     display_template: display/keyword.html
     datajson: keyword
   - field_name: maintainer
-    label: Maintainer
+    label: Kontaktný bod - meno
     datajson: contactPoint.fn
   - field_name: maintainer_email
-    label: Maintainer Email
+    label: Kontaktný bod - e-mail
     datajson: contactPoint.hasEmail
   - field_name: period
     label: Period
