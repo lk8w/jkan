@@ -11,7 +11,7 @@ dataset_fields:
     label: Description
     datajson: description
   - field_name: periodicity
-    label: Periodicita
+    label: Periodicita aktualizácie
     display_template: display/period.html
     datajson: periodicity
   - field_name: category
@@ -27,7 +27,7 @@ dataset_fields:
     display_template: display/type.html
     datajson: type
   - field_name: keyword
-    label: Keywords
+    label: Kľúčové slová
     display_template: display/keyword.html
     datajson: keyword
   - field_name: maintainer
@@ -40,11 +40,11 @@ dataset_fields:
     label: Period
     datajson: period
   - field_name: landingpage
-    label: Landing Page
+    label: Domovská stránka
     display_template: display/landingpage.html
     datajson: landingpage
   - field_name: moddate
-    label: Modification date
+    label: Dátum modifikácie
     display_template: display/moddate.html
     datajson: moddate
 
