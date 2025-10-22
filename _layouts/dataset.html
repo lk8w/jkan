@@ -44,7 +44,7 @@ layout: default
         </h1>
         <p property="dct:description" style="text-align: justify; overflow-wrap: break-word;">{{ page.notes | markdownify }}</p>
 
-        <h2>Resources</h2>
+        <h2>Distribúcie</h2>
         <ul>
           {% for resource in page.resources %}
           {% assign form = site.data.formats.items | where:"url",resource.format | first %}
@@ -74,7 +74,7 @@ layout: default
           {% endfor %}
         </ul>
 
-        <h2>Additional Info</h2>
+        <h2>Ďalšie metadáta</h2>
         <table class="table table-striped dataset-details">
           {% if page.license and page.license != empty %}
             {% assign license = site.data.licenses.items | where:"url",page.license | first %}
