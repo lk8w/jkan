@@ -3,10 +3,10 @@
 [{% for dataset in site.datasets %}
   {
     "counter": {{ forloop.index }},
-    "title": { "sk": {{ dataset.title | jsonify }} },
-    "publisher": "https://data.gov.sk/id/legal-subject/30416094" {% if dataset.notes != "" %},
-    "description": {{ dataset.notes | jsonify }}{% endif %}{% if dataset.category != "" %},
-    "theme": {{ dataset.category | jsonify }}{% endif %}, 
+    "názov": { "sk": {{ dataset.title | jsonify }} },
+    "poskytovateľ": "https://data.gov.sk/id/legal-subject/30416094" {% if dataset.notes != "" %},
+    "popis": { "sk": {{ dataset.notes | jsonify }}{% endif %}{% if dataset.category != "" %}},
+    "téma": {{ dataset.category | jsonify }}{% endif %}, 
     "periodicity": {{ dataset.periods | jsonify }}, 
     "license": {{ dataset.license | jsonify }},
     "spatial"
