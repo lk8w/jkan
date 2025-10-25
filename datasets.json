@@ -8,7 +8,7 @@
     "popis": { "sk": {{ dataset.notes | jsonify }}{% endif %}{% if dataset.category != "" %} },
     "téma": {{ dataset.category_dcat | jsonify }}{% endif %}, 
     "periodicita_aktualizácie": {{ dataset.periodicity | jsonify }}, 
-    "spatial"
+    "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
     "keyword": {{ dataset.keyword | jsonify }},
     "contact": {{ dataset.maintainer | jsonify }},
     "contact_email": {{ dataset.maintainer_email | jsonify }},
