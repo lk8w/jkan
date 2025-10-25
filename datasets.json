@@ -9,7 +9,8 @@
     "téma": {{ dataset.category_dcat | jsonify }}{% endif %}, 
     "periodicita_aktualizácie": {{ dataset.periodicity | jsonify }}, 
     "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
-    "keyword": {{ dataset.keyword | jsonify }},
+    "kľúčové_slovo": {
+    "sk": {{ dataset.keyword | jsonify }}}, 
     "contact": {{ dataset.maintainer | jsonify }},
     "contact_email": {{ dataset.maintainer_email | jsonify }},
   {% for resource in dataset.resources %}
