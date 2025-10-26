@@ -14,12 +14,15 @@
     }, 
     "contact": {{ dataset.maintainer | jsonify }},
     "contact_email": {{ dataset.maintainer_email | jsonify }},
+    "distribúcia": {
+    [
   {% for resource in dataset.resources %}
     "url": {{ resource.url  | jsonify }}
     "title": {{ resource.name  | jsonify }}
     "format": <{{ resource.format }}>
     "mediaType"
     "termsOfUse"
+    ],
     {% endfor %}
   }{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
