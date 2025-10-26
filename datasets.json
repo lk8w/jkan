@@ -22,7 +22,6 @@
     "mediaType"
     "termsOfUse"
     ]{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-    }
-  }{% unless forloop.last %},{% endunless %}{% endfor %}
+    {% endfor %}}
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
