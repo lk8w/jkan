@@ -15,8 +15,7 @@
     "contact": {{ dataset.maintainer | jsonify }},
     "contact_email": {{ dataset.maintainer_email | jsonify }},
     "distribúcia": {
-    [
-  {% for resource in dataset.resources %}
+    {% for resource in dataset.resources %}[
     "url": {{ resource.url  | jsonify }}
     "title": {{ resource.name  | jsonify }}
     "format": <{{ resource.format }}>
