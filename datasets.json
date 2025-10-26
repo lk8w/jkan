@@ -21,7 +21,7 @@
     "format": <{{ resource.format }}>
     "mediaType"
     "termsOfUse"
-    ],
+    ]{% unless forloop.last %},{% endunless %}
     {% endfor %}
   }{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
