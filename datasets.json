@@ -16,10 +16,11 @@
     "contact_email": {{ dataset.maintainer_email | jsonify }},
     "distribúcia": {
     {% for resource in dataset.resources %}[
-    "url": {{ resource.url  | jsonify }}
-    "title": {{ resource.name  | jsonify }}
-    "format": <{{ resource.format }}>
-    "mediaType"
+    "typ": "Distribúcia",
+    "súbor_na_stiahnutie": {{ resource.url  | jsonify }},
+    "názov": {{ resource.name  | jsonify }},
+    "formát": "{{ resource.format }}",
+    "typ_média": 
     "termsOfUse"
     ]{% unless forloop.last %},{% endunless %}
     {% endfor %}}
