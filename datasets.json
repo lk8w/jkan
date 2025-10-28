@@ -20,7 +20,7 @@
     "súbor_na_stiahnutie": {{ resource.url  | jsonify }},
     "názov": {{ resource.name  | jsonify }},
     "formát": "{{ resource.format }}",
-    "typ_média": 
+    "typ_média": "{{ resource.mediatype }}",
     "termsOfUse"
     ]{% unless forloop.last %},{% endunless %}
     {% endfor %}}
