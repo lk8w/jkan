@@ -19,12 +19,12 @@
     "typ": "Distribúcia",
     "súbor_na_stiahnutie": {{ resource.url | jsonify }},
     "názov": { "sk": {{ resource.name | jsonify }} },
-    "formát": "{{ resource.format }}",
-    "typ_média": "{{ resource.mediatype }}",
+    "formát": {{ resource.format | jsonify }},
+    "typ_média": {{ resource.mediatype | jsonify }},
     "podmienky_použitia" {
       "typ": "Špecifikácia podmienok použitia",
       "autorské_dielo": {{ resource.license_AWT | jsonify }},
-      "databáza_chránená_zvláštnymi_právami": {{ resource.license_DPBSRT | jsonify }}
+      "databáza_chránená_zvláštnymi_právami": {{ resource.license_DPBSRT | jsonify }},
       "databáza_ako_autorské_dielo": {{ resource.license_ODT | jsonify }},
       "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
       }
