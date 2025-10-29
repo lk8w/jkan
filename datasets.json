@@ -2,7 +2,7 @@
 ---
 {% for dataset in site.datasets %}
   {
-    "iri": "https://katalog.reframe.sk/set{{ forloop.index }}",
+    "iri": "https://katalog.reframe.sk/set{{ dataset.url }}",
     "názov": { "sk": {{ dataset.title | jsonify }} },
     "poskytovateľ": "https://data.gov.sk/id/legal-subject/30416094"{% if dataset.notes != "" %},
     "popis": { "sk": {{ dataset.notes | jsonify }}{% endif %}{% if dataset.category != "" %} },
