@@ -23,8 +23,10 @@
     "typ_média": "{{ resource.mediatype }}",
     "podmienky_použitia" {
       "typ": "Špecifikácia podmienok použitia",
-      "autorské_dielo":
-
+      "autorské_dielo": {{ resource.license_AWT }},
+      "databáza_chránená_zvláštnymi_právami": {{ resource.license_DPBSRT }}
+      "databáza_ako_autorské_dielo": {{ resource.license_ODT }},
+      "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
       }
     ]{% unless forloop.last %},{% endunless %}
     {% endfor %}}
