@@ -21,7 +21,11 @@
     "názov": { "sk": {{ resource.name  | jsonify }} },
     "formát": "{{ resource.format }}",
     "typ_média": "{{ resource.mediatype }}",
-    "termsOfUse"
+    "podmienky_použitia" {
+      "typ": "Špecifikácia podmienok použitia",
+      "autorské_dielo":
+
+      }
     ]{% unless forloop.last %},{% endunless %}
     {% endfor %}}
   }{% unless forloop.last %},{% endunless %}{% endfor %}
