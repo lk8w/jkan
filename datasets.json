@@ -1,6 +1,6 @@
 ---
 ---
-[{% for dataset in site.datasets %}
+{% for dataset in site.datasets %}
   {
     "iri": "https://katalog.reframe.sk/set{{ forloop.index }}",
     "názov": { "sk": {{ dataset.title | jsonify }} },
@@ -31,4 +31,3 @@
     ]{% unless forloop.last %},{% endunless %}
     {% endfor %}}
   }{% unless forloop.last %},{% endunless %}{% endfor %}
-]
