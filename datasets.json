@@ -17,15 +17,15 @@
     "distribúcia": {
     {% for resource in dataset.resources %}[
     "typ": "Distribúcia",
-    "súbor_na_stiahnutie": {{ resource.url  | jsonify }},
-    "názov": { "sk": {{ resource.name  | jsonify }} },
+    "súbor_na_stiahnutie": {{ resource.url | jsonify }},
+    "názov": { "sk": {{ resource.name | jsonify }} },
     "formát": "{{ resource.format }}",
     "typ_média": "{{ resource.mediatype }}",
     "podmienky_použitia" {
       "typ": "Špecifikácia podmienok použitia",
-      "autorské_dielo": {{ resource.license_AWT }},
-      "databáza_chránená_zvláštnymi_právami": {{ resource.license_DPBSRT }}
-      "databáza_ako_autorské_dielo": {{ resource.license_ODT }},
+      "autorské_dielo": {{ resource.license_AWT | jsonify }},
+      "databáza_chránená_zvláštnymi_právami": {{ resource.license_DPBSRT | jsonify }}
+      "databáza_ako_autorské_dielo": {{ resource.license_ODT | jsonify }},
       "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
       }
     ]{% unless forloop.last %},{% endunless %}
