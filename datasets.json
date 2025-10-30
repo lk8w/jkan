@@ -12,8 +12,12 @@
     "kľúčové_slovo": {
     "sk": {{ dataset.keyword | jsonify }}
     }, 
-    "contact": {{ dataset.maintainer | jsonify }},
-    "contact_email": {{ dataset.maintainer_email | jsonify }},
+    "kontaktný_bod": {
+    "typ": "Organizácia",
+    "meno": { 
+      "sk": {{ dataset.maintainer | jsonify }} }
+    "e-mail": "mailto:{{ dataset.maintainer_email }}"
+    },
     "distribúcia": {
     {% for resource in dataset.resources %}[
     "iri": "https://katalog.reframe.sk/{{ dataset.url }}set/{{ forloop.index }}",
