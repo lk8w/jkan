@@ -1,7 +1,8 @@
 ---
 ---
 {% for dataset in site.datasets %}
-  {
+  {  
+    "@context": "https://data.slovensko.sk/dcat3.jsonld",
     "iri": "https://katalog.reframe.sk/{{ dataset.url }}set",
     "názov": { "sk": {{ dataset.title | jsonify }} },
     "poskytovateľ": "https://data.gov.sk/id/legal-subject/30416094"{% if dataset.notes != "" %},
