@@ -15,7 +15,7 @@
     "kontaktný_bod": {
     "typ": "Organizácia",
     "meno": { 
-      "sk": {{ dataset.maintainer | jsonify }} }
+      "sk": {{ dataset.maintainer | jsonify }} },
     "e-mail": "mailto:{{ dataset.maintainer_email }}"
     },
     "distribúcia": {
