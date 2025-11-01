@@ -13,7 +13,7 @@
     "kľúčové_slovo": {
     "sk": {{ dataset.keyword | jsonify }}
     }, 
-    {% if dataset.maintainer is not none and dataset.maintainer != "" %}
+    {% if dataset.maintainer != null and dataset.maintainer != "" %}
     "kontaktný_bod": {
     "typ": "Organizácia",
     "meno": { 
