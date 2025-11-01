@@ -15,10 +15,12 @@ resources:
   - url: https://ilava.sk/dataset.csv
     format: http://publications.europa.eu/resource/authority/file-type/CSV
     name: Distribúcia
-    license_AWT: https://creativecommons.org/licenses/by-sa/4.0/
-    license_ODT: https://creativecommons.org/licenses/by-sa/4.0/
-    license_DPBSRT: https://creativecommons.org/licenses/by-sa/4.0/
+    license_AWT: http://publications.europa.eu/resource/authority/licence/CC_BY_4_0
+    license_ODT: http://publications.europa.eu/resource/authority/licence/CC_BY_4_0
+    license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC_BY_4_0
     author: Ilava
+    mediatype: http://www.iana.org/assignments/media-types/text/csv
 maintainer: Jozef Mak
 maintainer_email: mak@ilava.sk
+moddate: 2025-11-01T12:13:50.511Z
 ---
