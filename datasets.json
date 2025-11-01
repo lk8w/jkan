@@ -3,8 +3,7 @@
 {% for dataset in site.datasets %}
   {  
     "@context": "https://data.slovensko.sk/dcat3.jsonld",
-    {% assign trimmed_length = dataset.url | size | minus: 11 %}
-    "iri": "https://katalog.reframe.sk/{{ dataset.url | slice: 10, trimmed_length }}",
+    {% assign trimmed_length = dataset.url | size | minus: 11 %} "iri": "https://katalog.reframe.sk/{{ dataset.url | slice: 10, trimmed_length }}",
     "názov": { "sk": {{ dataset.title | jsonify }} },
     "poskytovateľ": "https://data.gov.sk/id/legal-subject/30416094"{% if dataset.notes != "" %},
     "popis": { "sk": {{ dataset.notes | jsonify }}{% endif %}{% if dataset.category != "" %} },
