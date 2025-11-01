@@ -21,6 +21,7 @@ resources:
     license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC0
     name: CSV
     author: Ilava
+    mediatype: http://www.iana.org/assignments/media-types/text/csv
   - name: XLSX
     url: https://ilava.sk/jasle.xlsx
     format: http://publications.europa.eu/resource/authority/file-type/XLSX
@@ -28,6 +29,8 @@ resources:
     license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
     license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC0
     author: Ilava
+    mediatype: http://www.iana.org/assignments/media-types/text/csv
 maintainer: Jozef Mak
 maintainer_email: mak@ilava.sk
+moddate: 2025-11-01T12:12:44.749Z
 ---
