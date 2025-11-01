@@ -26,7 +26,9 @@
     "iri": "https://katalog.reframe.sk/{{ dataset.url }}set/{{ forloop.index }}",
     "typ": "Distribúcia",
     "súbor_na_stiahnutie": {{ resource.url | jsonify }},
+    {% if resource.name != null and resource.name != "" %}
     "názov": { "sk": {{ resource.name | jsonify }} },
+    {% endif %}
     "formát": {{ resource.format | jsonify }},
     "typ_média": {{ resource.mediatype | jsonify }},
     "podmienky_použitia": {
