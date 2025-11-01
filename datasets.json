@@ -34,6 +34,6 @@
       "databáza_ako_autorské_dielo": {{ resource.license_ODT | jsonify }},
       "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
       }
-    ]{% unless forloop.last %},{% endunless %}
-    {% endfor %}}
+    }{% unless forloop.last %},{% endunless %} 
+    {% endfor %}]
   }{% unless forloop.last %},{% endunless %}{% endfor %}
