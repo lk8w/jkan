@@ -12,7 +12,7 @@
     "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
     "kľúčové_slovo": {
     "sk": {{ dataset.keyword | jsonify }}
-    }, 
+      }, 
     {% if dataset.maintainer != null and dataset.maintainer != "" %}"kontaktný_bod": {
     "typ": "Organizácia",
     "meno": { 
