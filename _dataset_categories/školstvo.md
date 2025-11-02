@@ -1,6 +1,6 @@
 ---
 name: Školstvo
-logo: /img/categories/education.svg
-logo_credit: Sergey Patutin from the Noun Project
+logo: /img/categories/backpack.png
+logo_credit: ""
 featured: true
 ---
