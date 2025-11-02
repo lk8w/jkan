@@ -1,5 +1,5 @@
 ---
 name: Životné prostredie
-logo: /img/categories/environment.svg
+logo: /img/categories/mountain.png
 featured: true
 ---
