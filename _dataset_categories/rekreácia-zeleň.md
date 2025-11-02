@@ -1,6 +1,6 @@
 ---
 name: Rekreácia, zeleň
-logo: /img/categories/parks-recreation.svg
-logo_credit: Pipe Rosas Licht from the Noun Project
+logo: /img/categories/football-field.png
+logo_credit: ""
 featured: true
 ---
