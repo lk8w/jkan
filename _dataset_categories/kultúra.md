@@ -1,5 +1,5 @@
 ---
 name: Kultúra
-logo: /img/categories/arts-culture-history.svg
+logo: /img/categories/theater.png
 featured: true
 ---
