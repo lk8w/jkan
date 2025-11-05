@@ -36,4 +36,5 @@
       }
     }{% unless forloop.last %},{% endunless %} 
     {% endfor %}]
-  }{% unless forloop.last %},{% endunless %}{% endfor %}
+  }
+  {% unless forloop.last %}|{% endunless %}{% endfor %}
