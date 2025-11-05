@@ -1,0 +1,23 @@
+name: LKOD
+
+on:
+  workflow_dispatch:
+
+jobs:
+  split:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Split file by pipe character
+        run: |
+          mkdir -p output
+          python3 split_by_pipe.py
+
+      - name: Upload split files
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipe-split-files
+          path: lkod/
