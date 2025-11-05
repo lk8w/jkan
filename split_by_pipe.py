@@ -12,7 +12,7 @@ content = response.text
 parts = content.split("|")
 
 # Create output directory
-os.makedirs("output", exist_ok=True)
+os.makedirs("lkod", exist_ok=True)
 
 # Process each part
 for i, part in enumerate(parts):
@@ -25,8 +25,9 @@ for i, part in enumerate(parts):
         filename = f"part_{i+1}"
 
     # Save the part to a file
-    with open(f"output/{filename}", "w", encoding="utf-8") as out:
+    with open(f"lkod/{filename}", "w", encoding="utf-8") as out:
 
         out.write(part.strip())
+
 
 
