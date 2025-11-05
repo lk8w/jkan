@@ -1,5 +1,5 @@
 ---
-name: Mestská hromadná doprava
+name: Mestská hromadná doprava I
 logo: /img/categories/transportation.svg
 featured: true
 ---
