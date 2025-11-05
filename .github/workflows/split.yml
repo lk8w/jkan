@@ -15,11 +15,14 @@ jobs:
         run: |
           set -e  # stop on error
           python3 split_by_pipe.py
+      
+      - name: List contents of lkod
+        run: ls -l lkod || echo "lkod folder not found"
 
       - name: Upload split files
         uses: actions/upload-artifact@v4
         with:
           name: pipe-split-files
-
           path: lkod/
+
 
