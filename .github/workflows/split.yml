@@ -22,11 +22,17 @@ jobs:
       - name: List contents of lkod
         run: ls -l lkod || echo "lkod folder not found"
 
-      - name: Upload split files
-        uses: actions/upload-artifact@v4
-        with:
-          name: pipe-split-files
-          path: lkod/
+      - name: Configure Git
+        run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+
+      - name: Commit split files
+        run: |
+        git add lkod/
+        git commit -m "Add split files"
+        git push
+
 
 
 
