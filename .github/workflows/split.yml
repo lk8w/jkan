@@ -13,11 +13,11 @@ jobs:
 
       - name: Split file by pipe character
         run: |
-          mkdir -p output
           python3 split_by_pipe.py
 
       - name: Upload split files
         uses: actions/upload-artifact@v4
         with:
           name: pipe-split-files
+
           path: lkod/
