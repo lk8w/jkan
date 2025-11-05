@@ -3,7 +3,7 @@ import re
 import requests
 
 # Read the input file
-url = "https://www.katalog.reframe.sk/datasets.json"
+url = "https://katalog.reframe.sk/datasets.json"
 response = requests.get(url)
 response.raise_for_status()
 content = response.text
@@ -28,4 +28,5 @@ for i, part in enumerate(parts):
     with open(f"output/{filename}", "w", encoding="utf-8") as out:
 
         out.write(part.strip())
+
 
