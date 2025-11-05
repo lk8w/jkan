@@ -1,5 +1,6 @@
 import os
 import re
+import requests
 
 # Read the input file
 url = "https://www.katalog.reframe.sk/datasets.json"
@@ -27,3 +28,4 @@ for i, part in enumerate(parts):
     with open(f"output/{filename}", "w", encoding="utf-8") as out:
 
         out.write(part.strip())
+
