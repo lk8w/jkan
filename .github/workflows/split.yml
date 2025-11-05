@@ -13,6 +13,7 @@ jobs:
 
       - name: Split file by pipe character
         run: |
+          set -e  # stop on error
           python3 split_by_pipe.py
 
       - name: Upload split files
@@ -21,3 +22,4 @@ jobs:
           name: pipe-split-files
 
           path: lkod/
+
