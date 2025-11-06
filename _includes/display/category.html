@@ -3,7 +3,7 @@
   <td>
     {% if include.value.size %}
       {% for category in include.value %}
-        <a href="{{ site.baseurl }}/categories/{{ category | slugify }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+        <a href="{{ site.baseurl }}/categories/{{ category.slug | slugify }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
       {% endfor %}
     {% else %}
       <a href="{{ site.baseurl }}/categories/{{ include.value | slugify }}">{{ include.value }}</a>
