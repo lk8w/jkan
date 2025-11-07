@@ -1,0 +1,34 @@
+{
+"@context": "https://data.slovensko.sk/dcat3.jsonld",
+"iri": "https://katalog.reframe.sk/lkod/lkod",
+"typ": "Katalóg",
+"názov": {
+"sk": "Katalóg otvorených dát mesta Ilava"
+},
+"popis": {
+"sk": "Katalóg otvorených dát mesta Ilava"
+},
+"kontaktný_bod": {
+"typ": "Organizácia",
+"meno": {
+"sk": "Mesto Ilava"
+},
+"e-mail": "mailto:opendata@ilava.sk"
+},
+"domovská_stránka": "https://www.opendata.ilava.sk",
+"poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
+"dataset": [
+"https://katalog.reframe.sk/lkod/detsk%C3%A9-ihrisk%C3%A1-2024",
+"https://katalog.reframe.sk/lkod/detsk%C3%A9-jasle",
+"https://katalog.reframe.sk/lkod/fakt%C3%BAry-za-rok-2022",
+"https://katalog.reframe.sk/lkod/fakt%C3%BAry-za-rok-2023",
+"https://katalog.reframe.sk/lkod/fakt%C3%BAry-za-rok-2025",
+"https://katalog.reframe.sk/lkod/ihrisk%C3%A1-2021",
+"https://katalog.reframe.sk/lkod/ihrisk%C3%A1-2025",
+"https://katalog.reframe.sk/lkod/kiko123-1",
+"https://katalog.reframe.sk/lkod/kult%C3%BArne-zariadenia-mesta",
+"https://katalog.reframe.sk/lkod/nov%C3%BD-dataset-1",
+"https://katalog.reframe.sk/lkod/test",
+"https://katalog.reframe.sk/lkod/zast%C3%A1vky-mhd-2024",
+"https://katalog.reframe.sk/lkod/zoznam-%C5%A1k%C3%B4l-a-%C5%A1kolsk%C3%BDch-zariaden%C3%AD"]
+}
