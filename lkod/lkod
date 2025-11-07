@@ -18,17 +18,17 @@
 "domovská_stránka": "https://www.opendata.ilava.sk",
 "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
 "dataset": [
-"https://katalog.reframe.sk/lkod/detsk%25C3%25A9-ihrisk%25C3%25A1-2024",
-"https://katalog.reframe.sk/lkod/detsk%25C3%25A9-jasle",
-"https://katalog.reframe.sk/lkod/fakt%25C3%25BAry-za-rok-2022",
-"https://katalog.reframe.sk/lkod/fakt%25C3%25BAry-za-rok-2023",
-"https://katalog.reframe.sk/lkod/fakt%25C3%25BAry-za-rok-2025",
-"https://katalog.reframe.sk/lkod/ihrisk%25C3%25A1-2021",
-"https://katalog.reframe.sk/lkod/ihrisk%25C3%25A1-2025",
+"https://katalog.reframe.sk/lkod/detsk_C3_A9-ihrisk_C3_A1-2024",
+"https://katalog.reframe.sk/lkod/detsk_C3_A9-jasle",
+"https://katalog.reframe.sk/lkod/fakt_C3_BAry-za-rok-2022",
+"https://katalog.reframe.sk/lkod/fakt_C3_BAry-za-rok-2023",
+"https://katalog.reframe.sk/lkod/fakt_C3_BAry-za-rok-2025",
+"https://katalog.reframe.sk/lkod/ihrisk_C3_A1-2021",
+"https://katalog.reframe.sk/lkod/ihrisk_C3_A1-2025",
 "https://katalog.reframe.sk/lkod/kiko123-1",
-"https://katalog.reframe.sk/lkod/kult%25C3%25BArne-zariadenia-mesta",
-"https://katalog.reframe.sk/lkod/nov%25C3%25BD-dataset-1",
+"https://katalog.reframe.sk/lkod/kult_C3_BArne-zariadenia-mesta",
+"https://katalog.reframe.sk/lkod/nov_C3_BD-dataset-1",
 "https://katalog.reframe.sk/lkod/test",
-"https://katalog.reframe.sk/lkod/zast%25C3%25A1vky-mhd-2024",
-"https://katalog.reframe.sk/lkod/zoznam-%25C5%25A1k%25C3%25B4l-a-%25C5%25A1kolsk%25C3%25BDch-zariaden%25C3%25AD"]
+"https://katalog.reframe.sk/lkod/zast_C3_A1vky-mhd-2024",
+"https://katalog.reframe.sk/lkod/zoznam-_C5_A1k_C3_B4l-a-_C5_A1kolsk_C3_BDch-zariaden_C3_AD"]
 }

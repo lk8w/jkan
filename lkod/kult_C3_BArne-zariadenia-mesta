@@ -1,0 +1,16 @@
+{  
+    "@context": "https://data.slovensko.sk/dcat3.jsonld",
+    "iri": "https://katalog.reframe.sk/lkod/kult_C3_BArne-zariadenia-mesta",
+    "názov": { "sk": "Kultúrne zariadenia mesta" },
+    "poskytovateľ": "https://data.gov.sk/id/legal-subject/30416094",
+    "popis": { "sk": "Kultúrne zariadenia mesta - stav k 1.1.2024" },
+    "téma": "http://publications.europa.eu/resource/authority/data-theme/AGRI", 
+    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL", 
+    "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
+    "kľúčové_slovo": {
+    "sk": ["faktúry"]
+      }, 
+    
+    "distribúcia": [
+    ]
+  }
