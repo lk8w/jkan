@@ -21,8 +21,10 @@ for i, part in enumerate(parts):
     # Try to find the "iri" value
     match = re.search(r'"iri"\s*:\s*"([^"]+)"', part)
     if match:
-        iri_url = match.group(1).replace('%', '%25')
-        filename = iri_url.rstrip("/").split("/")[-1]
+        iri_url = match.group(1)
+        iri_url_encoded = iri_url.replace('%', '%25')
+        part = part.replace(iri_url, iri_url_encoded)
+        filename = iri_url_encoded.rstrip("/").split("/")[-1]
         d = d + '\"https://katalog.reframe.sk/lkod/' +filename + '\",\n' 
     else:
         filename = f"part_{i+1}"
@@ -52,7 +54,3 @@ lkod1 = lkod1 + ']\n}'
 
 with open(f"lkod/lkod", "w", encoding="utf-8") as out1:
 	out1.write(lkod1)
-
-
-
-
