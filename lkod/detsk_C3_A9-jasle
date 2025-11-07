@@ -1,6 +1,7 @@
 {  
     "@context": "https://data.slovensko.sk/dcat3.jsonld",
     "iri": "https://katalog.reframe.sk/lkod/detsk_C3_A9-jasle",
+    "typ": "Dataset",
     "názov": { "sk": "Detské jasle" },
     "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
     "popis": { "sk": "Zoznam k 1.1.2024" },
