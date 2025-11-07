@@ -21,7 +21,7 @@
       },{% endif %}
     "distribúcia": [
     {% for resource in dataset.resources %}{
-    "iri": "https://katalog.reframe.sk/{{ dataset.url }}set/{{ forloop.index }}",
+    "iri": "https://katalog.reframe.sk/{{ dataset.url | slice: 10, trimmed_length }}/{{ forloop.index }}",
     "typ": "Distribúcia",
     "súbor_na_stiahnutie": {{ resource.url | jsonify }},
     {% if resource.name != null and resource.name != "" %}"názov": { "sk": {{ resource.name | jsonify }} }, {% endif %}    
