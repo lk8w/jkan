@@ -50,9 +50,8 @@ lkod1 = lkod1 + '\"dataset\": [\n'
 lkod1 = lkod1 + d
 lkod1 = lkod1 + ']\n}'
 
-lkod1 = lkod1.replace("%", "%25")
-
 with open(f"lkod/lkod", "w", encoding="utf-8") as out1:
 	out1.write(lkod1)
+
 
 
