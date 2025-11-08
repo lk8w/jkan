@@ -6,6 +6,7 @@ keyword:
   - deti
   - infraštruktúra
 type:
+  - https://data.gov.sk/def/dataset-type/1
   - https://data.gov.sk/def/dataset-type/3
 periodicity: http://publications.europa.eu/resource/authority/frequency/QUARTERLY
 category:
