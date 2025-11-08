@@ -5,7 +5,6 @@ notes: Faktúry za rok 2025 (aktualizované mesačne)
 keyword:
   - faktúry
 type:
-  - https://data.gov.sk/def/dataset-type/3
   - https://data.gov.sk/def/dataset-type/1
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
