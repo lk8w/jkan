@@ -10,6 +10,7 @@
     "popis": { "sk": {{ dataset.notes | jsonify }}{% endif %}{% if dataset.category != "" %} },
     "téma": {{ dataset.category_dcat | jsonify }}{% endif %}, 
     "periodicita_aktualizácie": {{ dataset.periodicity | jsonify }}, 
+     {% if dataset.type != null and dataset.maintainer != "" %}"typ_datasetu": {{ dataset.type | jsonify }}, {% endif %}
     "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
     "kľúčové_slovo": {
     "sk": {{ dataset.keyword | jsonify }}
