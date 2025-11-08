@@ -35,9 +35,9 @@
       "autorské_dielo": {{ resource.license_AWT | jsonify }},
       "databáza_chránená_zvláštnými_právami": {{ resource.license_DPBSRT | jsonify }},
       "databáza_ako_autorské_dielo": {{ resource.license_ODT | jsonify }},
-      "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
       {% if resource.author != null and resource.author != "" %}"autor": { "sk": {{ resource.author | jsonify }} }, {% endif %}
       {% if resource.author_database != null and resource.author_database != "" %}"autor_databázy": { "sk": {{ resource.author_database | jsonify }} }, {% endif %}
+      "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
       }
     }{% unless forloop.last %},{% endunless %} 
     {% endfor %}]
