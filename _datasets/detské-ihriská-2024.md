@@ -11,7 +11,6 @@ periodicity: http://publications.europa.eu/resource/authority/frequency/QUARTERL
 category:
   - Rekreácia, zeleň
   - Životné prostredie
-category_dcat: http://publications.europa.eu/resource/authority/data-theme/EDUC
 resources:
   - license_AWT: http://publications.europa.eu/resource/authority/licence/CC0
     license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
