@@ -11,6 +11,7 @@ category:
   - Bezpečnosť
 category_dcat:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
+  - http://publications.europa.eu/resource/authority/data-theme/ENER
 resources: []
 moddate: 2025-11-09T10:03:04.865Z
 ---
