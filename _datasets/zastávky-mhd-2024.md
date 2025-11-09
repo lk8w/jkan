@@ -10,5 +10,6 @@ category:
   - Mestská hromadná doprava
 category_dcat:
   - http://publications.europa.eu/resource/authority/data-theme/TRAN
+  - http://publications.europa.eu/resource/authority/data-theme/ENER
 moddate: 2025-10-07T15:39:04.111Z
 ---
