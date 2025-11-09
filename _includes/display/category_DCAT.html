@@ -2,11 +2,5 @@
 <tr>
   <th>{{ include.field.label }}</th>
   <td>
-    {% if include.value.size %}
-      {% for category_DCAT in include.value %}
-        {{ cat.name }}{% unless forloop.last %}, {% endunless %}
-      {% endfor %}
-    {% else %}
-      {{ cat.name }}
-    {% endif %}
+    {{ include.value }}
   </td>
