@@ -24,6 +24,8 @@ category:
   - Školstvo
   - Ekonomika
   - Zdravie
-category_dcat: http://publications.europa.eu/resource/authority/data-theme/AGRI
+category_dcat:
+  - http://publications.europa.eu/resource/authority/data-theme/AGRI
 resources: []
+moddate: 2025-11-09T09:49:20.812Z
 ---
