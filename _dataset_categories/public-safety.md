@@ -1,6 +1,6 @@
 ---
 name: Bezpečnosť
-logo: /img/categories/public-safety.svg
-logo_credit: Rohith M S from the Noun Project
+logo: /img/categories/padlock.png
+logo_credit: ""
 featured: true
 ---
