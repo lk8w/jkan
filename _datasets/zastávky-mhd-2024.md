@@ -8,6 +8,7 @@ periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Doprava
   - Mestská hromadná doprava
-category_dcat: http://publications.europa.eu/resource/authority/data-theme/TRAN
+category_dcat:
+  - http://publications.europa.eu/resource/authority/data-theme/TRAN
 moddate: 2025-10-07T15:39:04.111Z
 ---
