@@ -9,7 +9,8 @@ type:
 periodicity: http://publications.europa.eu/resource/authority/frequency/IRREG
 category:
   - Kultúra
-category_dcat: http://publications.europa.eu/resource/authority/data-theme/REGI
+category_dcat:
+  - http://publications.europa.eu/resource/authority/data-theme/SOCI
 resources:
   - url: https://lk8w.github.io/jkan/img/uploads/pocet_datasetov_samosprava.csv
     format: http://publications.europa.eu/resource/authority/file-type/CSV
