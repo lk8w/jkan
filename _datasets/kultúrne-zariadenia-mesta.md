@@ -7,5 +7,6 @@ keyword:
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Kultúra
-category_dcat: http://publications.europa.eu/resource/authority/data-theme/AGRI
+category_dcat:
+  - http://publications.europa.eu/resource/authority/data-theme/SOCI
 ---
