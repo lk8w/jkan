@@ -11,7 +11,8 @@ periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Rekreácia, zeleň
   - Životné prostredie
-category_dcat: http://publications.europa.eu/resource/authority/data-theme/EDUC
+category_dcat:
+  - http://publications.europa.eu/resource/authority/data-theme/SOCI
 resources:
   - license_AWT: http://publications.europa.eu/resource/authority/licence/CC0
     license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
