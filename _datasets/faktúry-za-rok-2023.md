@@ -10,7 +10,8 @@ periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Financie
   - Mestská hromadná doprava I
-category_dcat: http://publications.europa.eu/resource/authority/data-theme/ECON
+category_dcat:
+  - http://publications.europa.eu/resource/authority/data-theme/SOCI
 resources:
   - url: https://ilava.sk/dataset.csv
     format: http://publications.europa.eu/resource/authority/file-type/CSV
