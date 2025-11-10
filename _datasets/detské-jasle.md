@@ -12,6 +12,8 @@ category:
   - Rekreácia, zeleň
   - Financie
   - Zdravie
+category_dcat:
+  - http://publications.europa.eu/resource/authority/data-theme/SOCI
 resources:
   - url: https://ilava.sk/jasle.csv
     format: http://publications.europa.eu/resource/authority/file-type/CSV
