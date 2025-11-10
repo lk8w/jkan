@@ -9,7 +9,8 @@ type:
 periodicity: http://publications.europa.eu/resource/authority/frequency/MONTHLY
 category:
   - Ekonomika
-category_dcat: http://publications.europa.eu/resource/authority/data-theme/ECON
+category_dcat:
+  - http://publications.europa.eu/resource/authority/data-theme/SOCI
 resources:
   - url: www.ilava.sk/faktury2022.csv
     format: http://publications.europa.eu/resource/authority/file-type/CSV
