@@ -9,6 +9,7 @@ type:
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Financie
-category_dcat: http://publications.europa.eu/resource/authority/data-theme/ECON
+category_dcat:
+  - http://publications.europa.eu/resource/authority/data-theme/SOCI
 moddate: 2025-10-08T07:18:18.470Z
 ---
