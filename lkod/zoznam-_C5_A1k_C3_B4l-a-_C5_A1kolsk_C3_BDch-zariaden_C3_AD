@@ -1,0 +1,19 @@
+{  
+    "@context": "https://data.slovensko.sk/dcat3.jsonld",
+    "iri": "https://katalog.reframe.sk/lkod/zoznam-_C5_A1k_C3_B4l-a-_C5_A1kolsk_C3_BDch-zariaden_C3_AD",
+    "typ": "Dataset",
+    "názov": { "sk": "Zoznam škôl a školských zariadení" },
+    "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
+    "popis": { "sk": "Zoznam škôl a školských zariadení - stav k 1.1.2024" },
+    "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI"], 
+    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL", 
+    
+    
+    "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
+    "kľúčové_slovo": {
+    "sk": ["faktúry"]
+      }, 
+    
+    "distribúcia": [
+    ]
+  }
