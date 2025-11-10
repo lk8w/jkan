@@ -7,6 +7,7 @@ keyword:
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Školstvo
-category_dcat: http://publications.europa.eu/resource/authority/data-theme/EDUC
+category_dcat:
+  - http://publications.europa.eu/resource/authority/data-theme/SOCI
 moddate: 2025-10-08T07:40:02.523Z
 ---
