@@ -1,6 +1,6 @@
 ---
 name: Voľby
-logo: /img/categories/elections-politics.svg
-logo_credit: Jean Soo from the Noun Project
+logo: /img/categories/letter.png
+logo_credit: ""
 featured: true
 ---
