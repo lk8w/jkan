@@ -1,6 +1,6 @@
 ---
 title: Zoznam škôl a školských zariadení
-organization: Mesto Ilava
+organization: Mesto Dátovo
 notes: Zoznam škôl a školských zariadení - stav k 1.1.2024
 keyword:
   - faktúry
