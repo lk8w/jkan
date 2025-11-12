@@ -1,0 +1,58 @@
+{  
+    "@context": "https://data.slovensko.sk/dcat3.jsonld",
+    "iri": "https://katalog.reframe.sk/lkod/2025-11-12_detsk_C3_A9-ihrisk_C3_A1-2024",
+    "typ": "Dataset",
+    "názov": { "sk": "Ihriská 2024" },
+    "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
+    "popis": { "sk": "Detské ihriská - stav k 1.1.2024" },
+    "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI"], 
+    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/QUARTERLY", 
+    "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 
+    "webová_stránka_datasetu": "https://katalog.reframe.sk/datasets/detsk%C3%A9-ihrisk%C3%A1-2024/", 
+    "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
+    "kľúčové_slovo": {
+    "sk": ["deti","infraštruktúra"]
+      }, 
+    "kontaktný_bod": {
+    "typ": "Organizácia",
+    "meno": { 
+      "sk": "Jozef Mak" },
+    "e-mail": "mailto:mak@ilava.sk"
+      },
+    "distribúcia": [
+    {
+    "iri": "https://katalog.reframe.sk/lkod/2025-11-12_detsk_C3_A9-ihrisk_C3_A1-2024/1",
+    "typ": "Distribúcia",
+    "súbor_na_stiahnutie": "https://datovo.sk/dataset.csv",
+        
+    "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+    "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+    "podmienky_použitia": {
+      "typ": "Špecifikácia podmienok použitia",
+      "autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
+      "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
+      "databáza_ako_autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
+      "autor": { "sk": "Ilava" }, 
+      "autor_databázy": { "sk": "Ilava" }, 
+      "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
+      }
+    }, 
+    {
+    "iri": "https://katalog.reframe.sk/lkod/2025-11-12_detsk_C3_A9-ihrisk_C3_A1-2024/2",
+    "typ": "Distribúcia",
+    "súbor_na_stiahnutie": "https://datovo.sk/dataset.xlsx",
+        
+    "formát": "http://publications.europa.eu/resource/authority/file-type/XLSX",
+    "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+    "podmienky_použitia": {
+      "typ": "Špecifikácia podmienok použitia",
+      "autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
+      "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
+      "databáza_ako_autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
+      "autor": { "sk": "Ilava" }, 
+      "autor_databázy": { "sk": "Ilava" }, 
+      "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
+      }
+    } 
+    ]
+  }
