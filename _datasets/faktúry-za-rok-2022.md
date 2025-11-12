@@ -1,6 +1,6 @@
 ---
 title: Faktúry za rok 2022
-organization: Mesto Ilava
+organization: Mesto Dátovo
 notes: Faktúry za rok 2022 (aktualizované mesačne)
 keyword:
   - faktúry
@@ -29,6 +29,6 @@ resources:
     author: Ilava
     author_database: Ilava
 maintainer: Jozef Mak
-maintainer_email: mak@ilava.sk
+maintainer_email: mak@datovo.sk
 moddate: 2025-10-15T13:07:17.821Z
 ---
