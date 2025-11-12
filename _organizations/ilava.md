@@ -1,5 +1,5 @@
 ---
 title: Mesto Dátovo
 description: popis poskytovateľa
-logo: https://i.imgur.com/mrC5xVT.png
+logo: /img/organizations/reframe-083.png
 ---
