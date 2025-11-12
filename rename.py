@@ -2,7 +2,7 @@ import os
 import subprocess
 from datetime import datetime
 
-FOLDER = "xxx"
+FOLDER = "_organizations"
 
 def get_last_commit_date():
     # Get last commit date in YYYY-MM-DD format
@@ -28,4 +28,5 @@ def rename_files(folder):
             print(f"Renamed: {filename} -> {new_filename}")
 
 if __name__ == "__main__":
+
     rename_files(FOLDER)
