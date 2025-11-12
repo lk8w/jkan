@@ -1,6 +1,6 @@
 ---
 title: Faktúry za rok 2025
-organization: Mesto Ilava
+organization: Mesto Dátovo
 notes: Faktúry za rok 2025 (aktualizované mesačne)
 keyword:
   - faktúry
