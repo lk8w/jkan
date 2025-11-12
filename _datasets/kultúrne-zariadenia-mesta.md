@@ -1,6 +1,6 @@
 ---
 title: Kultúrne zariadenia mesta
-organization: Mesto Ilava
+organization: Mesto Dátovo
 notes: Kultúrne zariadenia mesta - stav k 1.1.2024
 keyword:
   - faktúry
