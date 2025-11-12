@@ -1,6 +1,6 @@
 ---
 title: Ihriská 2025
-organization: Mesto Ilava
+organization: Mesto Dátovo
 notes: Detské ihriská - stav k 1.1.2025
 keyword:
   - faktúry
