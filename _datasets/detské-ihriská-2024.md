@@ -1,6 +1,6 @@
 ---
 title: Ihriská 2024
-organization: Mesto Ilava
+organization: Mesto Dátovo
 notes: Detské ihriská - stav k 1.1.2024
 keyword:
   - deti
