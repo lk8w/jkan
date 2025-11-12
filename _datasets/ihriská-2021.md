@@ -1,6 +1,6 @@
 ---
 title: Ihriská 2021
-organization: Mesto Ilava
+organization: Mesto Dátovo
 notes: Detské ihriská - stav k 1.1.2021
 keyword:
   - deti
@@ -33,6 +33,6 @@ resources:
     mediatype: vnd.ms-excel
 landingpage: https://lk8w.github.io/jkan/datasets/detsk%C3%A9-ihrisk%C3%A1-2024/
 maintainer: Jozef Mak
-maintainer_email: mak@ilava.sk
+maintainer_email: mak@datovo.sk
 moddate: 2025-10-17T13:36:28.959Z
 ---
