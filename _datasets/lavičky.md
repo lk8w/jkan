@@ -9,7 +9,6 @@ type:
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Bezpečnosť
-  - Fifi
 category_dcat:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
   - http://publications.europa.eu/resource/authority/data-theme/ENER
