@@ -18,12 +18,12 @@ resources:
     license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
     author: Ilava
     name: ""
-    url: https://ilava.sk/dataset.csv
+    url: https://datovo.sk/dataset.csv
     author_database: Ilava
     format: http://publications.europa.eu/resource/authority/file-type/CSV
     license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC_BY_4_0
     mediatype: http://www.iana.org/assignments/media-types/text/csv
-  - url: https://ilava.sk/dataset.xlsx
+  - url: https://datovo.sk/dataset.xlsx
     format: http://publications.europa.eu/resource/authority/file-type/XLSX
     license_AWT: http://publications.europa.eu/resource/authority/licence/CC0
     license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
@@ -31,7 +31,7 @@ resources:
     author: Ilava
     author_database: Ilava
     mediatype: http://www.iana.org/assignments/media-types/text/csv
-landingpage: https://lk8w.github.io/jkan/datasets/detsk%C3%A9-ihrisk%C3%A1-2024/
+landingpage: https://katalog.reframe.sk/datasets/detsk%C3%A9-ihrisk%C3%A1-2024/
 maintainer: Jozef Mak
 maintainer_email: mak@ilava.sk
 moddate: 2025-10-08T14:02:42.394Z
