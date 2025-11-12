@@ -14,10 +14,10 @@ jobs:
       - name: Rename files with commit date
         run: |
           COMMIT_DATE=$(git log -1 --format=%cd --date=short)
-          for f in _organizations/*; do
+          for f in _datesets/*; do
             base=$(basename "$f")
             if [[ "$base" != ${COMMIT_DATE}_* ]]; then
-              git mv "$f" "_organizations/${COMMIT_DATE}_${base}"
+              git mv "$f" "_datasets/${COMMIT_DATE}_${base}"
             fi
           done
 
