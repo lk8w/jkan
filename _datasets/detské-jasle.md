@@ -1,6 +1,6 @@
 ---
 title: Detské jasle
-organization: Mesto Ilava
+organization: Mesto Dátovo
 notes: Zoznam k 1.1.2024
 keyword:
   - deti
@@ -32,6 +32,6 @@ resources:
     author: Ilava
     mediatype: http://www.iana.org/assignments/media-types/text/csv
 maintainer: Jozef Mak
-maintainer_email: mak@ilava.sk
+maintainer_email: mak@datovo.sk
 moddate: 2025-11-01T12:12:44.749Z
 ---
