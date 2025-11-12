@@ -1,6 +1,6 @@
 ---
 title: Lavičky
-organization: Mesto Ilava
+organization: Mesto Dátovo
 notes: Stav k 1.1.2024
 keyword:
   - infraštruktúra
