@@ -12,7 +12,7 @@ category:
 category_dcat:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
 resources:
-  - url: https://lk8w.github.io/jkan/img/uploads/pocet_datasetov_samosprava.csv
+  - url: https://katalog.reframe.sk/img/uploads/pocet_datasetov_samosprava.csv
     format: http://publications.europa.eu/resource/authority/file-type/CSV
     license_AWT: http://publications.europa.eu/resource/authority/licence/CC0
     license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
