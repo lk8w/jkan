@@ -1,6 +1,6 @@
 ---
 title: Kontaktné miesta 2024
-organization: Mesto Ilava
+organization: Mesto Dátovo
 notes: >-
   3 Body Problem is an American science fiction television series created by
   David Benioff, D. B. Weiss, and Alexander Woo. The third streaming adaptation
