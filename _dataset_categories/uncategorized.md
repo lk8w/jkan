@@ -1,7 +1,6 @@
 ---
-name: Uncategorized
-logo: "/img/categories/uncategorized.svg"
-# spell-checker: disable
+name: Ostatné
+logo: /img/categories/folder.png
 logo_credit: Edward Boatman from the Noun Project
 featured: true
 ---
