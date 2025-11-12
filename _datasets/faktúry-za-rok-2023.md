@@ -1,6 +1,6 @@
 ---
 title: Faktúry za rok 2023
-organization: Mesto Ilava
+organization: Mesto Dátovo
 notes: Faktúry za rok 2023 (aktualizované mesačne)
 keyword:
   - faktúry
@@ -9,7 +9,7 @@ type:
 periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Financie
-  - Mestská hromadná doprava I
+  - Mestská hromadná doprava
 category_dcat:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
 resources:
