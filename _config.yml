@@ -57,7 +57,7 @@ collections:
 kramdown:
   input: GFM
 hero_image: /img/homepage-hero.jpg
-title: "Otvorené dáta Ilava "
+title: Otvorené dáta Dátovo
 jkan_theme: Default
 greeting: Vitajte
 exclude:
