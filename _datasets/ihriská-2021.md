@@ -31,7 +31,7 @@ resources:
     author: Ilava
     author_database: Ilava
     mediatype: vnd.ms-excel
-landingpage: https://lk8w.github.io/jkan/datasets/detsk%C3%A9-ihrisk%C3%A1-2024/
+landingpage: https://katalog.reframe.sk/datasets/detsk%C3%A9-ihrisk%C3%A1-2024/
 maintainer: Jozef Mak
 maintainer_email: mak@datovo.sk
 moddate: 2025-10-17T13:36:28.959Z
