@@ -1,6 +1,6 @@
 ---
 title: Zoznam poslancov
-organization: Mesto Ilava
+organization: Mesto Dátovo
 notes: Zoznam poslancov MsZ k 1.1. 2024
 keyword:
   - deti
