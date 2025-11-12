@@ -1,6 +1,6 @@
 ---
 title: Zastávky MHD 2024
-organization: Mesto Ilava
+organization: Mesto Dátovo
 notes: Stav k 1.1.2024
 keyword:
   - faktúry
