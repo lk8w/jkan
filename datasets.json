@@ -4,7 +4,6 @@
   {  
     "@context": "https://data.slovensko.sk/dcat3.jsonld",
     {% assign trimmed_length = dataset.url | size | minus: 22 %}"iri": "https://katalog.reframe.sk/lkod/{{ dataset.url | slice: 21, trimmed_length }}",
-    {{ dataset.url }}
     "typ": "Dataset",
     "názov": { "sk": {{ dataset.title | jsonify }} },
     "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331"{% if dataset.notes != "" %},
@@ -25,7 +24,7 @@
       },{% endif %}
     "distribúcia": [
     {% for resource in dataset.resources %}{
-    "iri": "https://katalog.reframe.sk/lkod/{{ dataset.url | slice: 10, trimmed_length }}/{{ forloop.index }}",
+    "iri": "https://katalog.reframe.sk/lkod/{{ dataset.url | slice: 21, trimmed_length }}/{{ forloop.index }}",
     "typ": "Distribúcia",
     "súbor_na_stiahnutie": {{ resource.url | jsonify }},
     {% if resource.name != null and resource.name != "" %}"názov": { "sk": {{ resource.name | jsonify }} }, {% endif %}    
