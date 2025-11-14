@@ -33,12 +33,6 @@ items:
     url: http://publications.europa.eu/resource/authority/file-type/RDF_XML
   - name: SCHEMA_XML
     url: http://publications.europa.eu/resource/authority/file-type/SCHEMA_XML
-  - name: SDMX
-    url: http://publications.europa.eu/resource/authority/file-type/SDMX
-  - name: SGML
-    url: http://publications.europa.eu/resource/authority/file-type/SGML
-  - name: SHP
-    url: http://publications.europa.eu/resource/authority/file-type/SHP
   - name: SKOS_XML
     url: http://publications.europa.eu/resource/authority/file-type/SKOS_XML
   - name: SPARQLQ
@@ -51,20 +45,13 @@ items:
     url: http://publications.europa.eu/resource/authority/file-type/SQL
   - name: STATA_DTA
     url: http://publications.europa.eu/resource/authority/file-type/STATA_DTA
-  - name: STL
-    url: http://publications.europa.eu/resource/authority/file-type/STL
   - name: TSV
     url: http://publications.europa.eu/resource/authority/file-type/TSV
   - name: WCS_SRVC
     url: http://publications.europa.eu/resource/authority/file-type/WCS_SRVC
-  - name: WEBP
-    url: http://publications.europa.eu/resource/authority/file-type/WEBP
   - name: WFS_SRVC
     url: http://publications.europa.eu/resource/authority/file-type/WFS_SRVC
-  - name: WIM
-    url: http://publications.europa.eu/resource/authority/file-type/WIM
   - name: WMS_SRVC
     url: http://publications.europa.eu/resource/authority/file-type/WMS_SRVC
   - name: WMTS_SRVC
     url: http://publications.europa.eu/resource/authority/file-type/WMTS_SRVC
-
