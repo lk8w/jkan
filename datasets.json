@@ -3,7 +3,7 @@
 {% for dataset in site.datasets %}
   {  
     "@context": "https://data.slovensko.sk/dcat3.jsonld",
-    {% assign trimmed_length = dataset.url | size | minus: 22 %}"iri": "https://katalog.reframe.sk/lkod/{{ dataset.url | slice: 20, trimmed_length }}",
+    {% assign trimmed_length = dataset.url | size | minus: 23 %}"iri": "https://katalog.reframe.sk/lkod/{{ dataset.url | slice: 21, trimmed_length }}",
     {{ dataset.url }}
     "typ": "Dataset",
     "názov": { "sk": {{ dataset.title | jsonify }} },
