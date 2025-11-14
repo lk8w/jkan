@@ -102,9 +102,7 @@ layout: default
               {% endif %}
             {% endunless %}
           {% endfor %}
-                  {% assign rl = page.url %}
-                  {{ rl | slice: 2, 10 }}
-                  <tr><th>mod</th><td> {{ page.url }}"</td></tr>
+                  <tr><th>mod</th><td> {{ page.url }}</td></tr>
         </table>
       </div>
     </div>
