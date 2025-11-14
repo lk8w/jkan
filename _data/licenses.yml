@@ -9,5 +9,15 @@ items:
     url:  http://publications.europa.eu/resource/authority/licence/GPL_3_0
   - name: Apache licencia, Verzia 2.0
     url:  http://publications.europa.eu/resource/authority/licence/APACHE_2_0
+  - name: Creative Commons Uvedenie Autora-Rovnaké Šírenie 4.0 Medzinárodný
+    url:  http://publications.europa.eu/resource/authority/licence/CC_BYSA_4_0
+  - name: Creative Commons Uvedenie Autora-Bez Odvodeného Obsahu 4.0 Medzinárodný
+    url:  http://publications.europa.eu/resource/authority/licence/CC_BYND_4_0
+  - name: Creative Commons Uvedenie Autora-Nekomerčné Použitie 4.0 Medzinárodný
+    url:  http://publications.europa.eu/resource/authority/licence/CC_BYNC_4_0
+  - name: Creative Commons Uvedenie Autora-Nekomerčné Použitie-Rovnaké Šírenie 4.0 Medzinárodný
+    url:  http://publications.europa.eu/resource/authority/licence/CC_BYNCSA_4_0
+  - name: Uvedenie Autora-Nekomerčné Použitie-Bez Odvodeného Obsahu 4.0 Medzinárodný
+    url:  http://publications.europa.eu/resource/authority/licence/CC_BYNCND_4_0
     
 
