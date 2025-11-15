@@ -43,11 +43,6 @@ dataset_fields:
     label: Domovská stránka
     display_template: display/landingpage.html
     datajson: landingpage
-  - field_name: moddate
-    label: Dátum modifikácie
-    display_template: display/moddate.html
-    datajson: moddate
-
 
 resource_fields:
   - field_name: name
