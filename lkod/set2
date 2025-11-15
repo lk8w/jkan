@@ -24,6 +24,7 @@
     "iri": "https://katalog.reframe.sk/lkod/detsk_C3_A9-jasle/1",
     "typ": "Distribúcia",
     "súbor_na_stiahnutie": "https://ilava.sk/jasle.csv",
+    "prístupové_url": "https://ilava.sk/jasle.csv",
     "názov": { "sk": "CSV" },     
     "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
     "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
