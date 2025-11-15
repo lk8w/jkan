@@ -22,7 +22,6 @@
     "iri": "https://katalog.reframe.sk/lkod/detsk_C3_A9-ihrisk_C3_A1-2024/1",
     "typ": "Distribúcia",
     "súbor_na_stiahnutie": "https://datovo.sk/dataset.csv",
-        
     "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
     "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
     "podmienky_použitia": {
@@ -34,23 +33,6 @@
       "autor_databázy": { "sk": "Ilava" }, 
       "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
       }
-    }, 
-    {
-    "iri": "https://katalog.reframe.sk/lkod/detsk_C3_A9-ihrisk_C3_A1-2024/2",
-    "typ": "Distribúcia",
-    "súbor_na_stiahnutie": "https://datovo.sk/dataset.xlsx",
-        
-    "formát": "http://publications.europa.eu/resource/authority/file-type/XLSX",
-    "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
-    "podmienky_použitia": {
-      "typ": "Špecifikácia podmienok použitia",
-      "autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
-      "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
-      "databáza_ako_autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
-      "autor": { "sk": "Ilava" }, 
-      "autor_databázy": { "sk": "Ilava" }, 
-      "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
-      }
-    } 
+    }
     ]
   }
