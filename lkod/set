@@ -1,42 +1,24 @@
-{
-  "@context": "https://datova-kancelaria.github.io/dcat-ap-sk-2.0/kontexty/rozhranie-katalógu-otvorených-dát.jsonld",
-  "iri": "https://katalog.reframe.sk/lkod/set",
-  "typ": "Dataset",
-  "názov": {
-    "sk": "Vpuste"
-  },
-  "popis": {
-    "sk": "Vpuste v Novom Meste nad Váhom"
-  },
-  "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
-  "téma": [
-    [
-      "http://publications.europa.eu/resource/authority/data-theme/GOVE"
-    ]
-  ],
-  "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/MONTHLY",
-  "kľúčové_slovo": {
-    "sk": [
-      "vpuste"
-    ],
-    "en": []
-  },
-  "geografické_územie": [
-    "http://publications.europa.eu/resource/authority/continent/EUROPE"
-  ],
-  "časové_pokrytie": {
-
-  },
-  "kontaktný_bod": {
+{  
+    "@context": "https://data.slovensko.sk/dcat3.jsonld",
+    "iri": "https://katalog.reframe.sk/lkod/detsk_C3_A9-jasle",
+    "typ": "Dataset",
+    "názov": { "sk": "Detské jasle" },
+    "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
+    "popis": { "sk": "Zoznam k 1.1.2024" },
+    "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI"], 
+    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL", 
+    "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 
+    
+    "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
+    "kľúčové_slovo": {
+    "sk": ["deti"]
+      }, 
+    "kontaktný_bod": {
     "typ": "Organizácia",
-    "meno": {
-      "sk": "Nové Mesto nad Váhom"
-    },
-    "e-mail": "msu@nove-mesto.sk"
-  },
-  "špecifikácia": [
-    [null]
-  ],
+    "meno": { 
+      "sk": "Jozef Mak" },
+    "e-mail": "mailto:mak@datovo.sk"
+      },
   "distribúcia": [
     {
       "iri": "https://katalog.reframe.sk/lkod/set/csv",
