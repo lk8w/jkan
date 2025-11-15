@@ -13,16 +13,12 @@
   "kľúčové_slovo": {
   "sk": ["deti"]
     }, 
-  "časové_pokrytie": {
-
-  },
   "kontaktný_bod": {
-    "typ": "Organizácia",
-    "meno": {
-      "sk": "Nové Mesto nad Váhom"
+  "typ": "Organizácia",
+  "meno": { 
+    "sk": "Jozef Mak" },
+  "e-mail": "mailto:mak@datovo.sk"
     },
-    "e-mail": "msu@nove-mesto.sk"
-  },
   "špecifikácia": [
     [null]
   ],
