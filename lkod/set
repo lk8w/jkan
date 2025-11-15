@@ -2,13 +2,9 @@
   "@context": "https://data.slovensko.sk/dcat3.jsonld",
   "iri": "https://katalog.reframe.sk/lkod/set",
   "typ": "Dataset",
-  "názov": {
-    "sk": "Vpuste"
-  },
-  "popis": {
-    "sk": "Vpuste v Novom Meste nad Váhom"
-  },
+  "názov": { "sk": "Detské jasle" },
   "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
+  "popis": { "sk": "Zoznam k 1.1.2024" },
   "téma": [
     [
       "http://publications.europa.eu/resource/authority/data-theme/GOVE"
