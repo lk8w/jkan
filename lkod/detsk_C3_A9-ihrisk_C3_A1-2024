@@ -7,8 +7,6 @@
     "popis": { "sk": "Detské ihriská - stav k 1.1.2024" },
     "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI"], 
     "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/QUARTERLY", 
-    "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 
-    "webová_stránka_datasetu": "https://katalog.reframe.sk/datasets/detsk%C3%A9-ihrisk%C3%A1-2024/", 
     "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
     "kľúčové_slovo": {
     "sk": ["deti","infraštruktúra"]
