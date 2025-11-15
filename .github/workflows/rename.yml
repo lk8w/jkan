@@ -17,6 +17,8 @@ jobs:
             COMMIT_DATE=$(git log -1 --format=%cd --date=short -- "$f")
             base=$(basename "$f")
             base1="${base:11}"
+            echo "File: $base"
+            echo "Commit date: $COMMIT_DATE"
             if [[ "$base" != ${COMMIT_DATE}_* ]]; then
               git mv "$f" "_datasets/${COMMIT_DATE}_${base1}"
             fi
