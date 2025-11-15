@@ -18,5 +18,4 @@ resources:
     license_ODT: http://publications.europa.eu/resource/authority/licence/CC0
     license_DPBSRT: http://publications.europa.eu/resource/authority/licence/CC0
     mediatype: text/csv
-moddate: 2025-10-07T15:33:25.320Z
 ---
