@@ -40,8 +40,8 @@
           "sk": "Nové Mesto nad Váhom"
         },
         "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
-      },
-      "prístupové_url": "https://nove-mesto.twinmap.ai/api/open-api/data/manhole"
+      }
+      
 
     }
   ]
