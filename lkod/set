@@ -29,8 +29,6 @@
       "autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
       "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
       "databáza_ako_autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
-      "autor": { "sk": "Ilava" }, 
-      "autor_databázy": { "sk": "Ilava" }, 
       "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
       }
     }
