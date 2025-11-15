@@ -19,13 +19,15 @@
     "sk": "Jozef Mak" },
   "e-mail": "mailto:mak@datovo.sk"
     },
-  "špecifikácia": [
-    [null]
-  ],
   "distribúcia": [
     {
-      "iri": "https://katalog.reframe.sk/lkod/set/csv",
-      "typ": "Distribúcia",
+    "iri": "https://katalog.reframe.sk/lkod/detsk_C3_A9-jasle/1",
+    "typ": "Distribúcia",
+    "súbor_na_stiahnutie": "https://ilava.sk/jasle.csv",
+    "názov": { "sk": "CSV" },     
+    "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+    "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+
       "podmienky_použitia": {
         "typ": "Špecifikácia podmienok použitia",
         "autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
@@ -39,14 +41,8 @@
         },
         "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
       },
-      "prístupové_url": "https://nove-mesto.twinmap.ai/api/open-api/data/manhole",
-      "súbor_na_stiahnutie": "https://nove-mesto.twinmap.ai/api/open-api/data/manhole",
-      "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
-      "názov": {
-        "en": "CSV file with WKT geometry",
-        "sk": "CSV súbor s WKT geometriou"
-      },
-      "typ_média": "http://www.iana.org/assignments/media-types/text/csv"
+      "prístupové_url": "https://nove-mesto.twinmap.ai/api/open-api/data/manhole"
+
     }
   ]
 }
