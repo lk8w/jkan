@@ -5,12 +5,9 @@
   "názov": { "sk": "Detské jasle" },
   "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
   "popis": { "sk": "Zoznam k 1.1.2024" },
-  "téma": [
-    [
-      "http://publications.europa.eu/resource/authority/data-theme/GOVE"
-    ]
-  ],
-  "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/MONTHLY",
+  "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI"], 
+  "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL", 
+  "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 
   "kľúčové_slovo": {
     "sk": [
       "vpuste"
