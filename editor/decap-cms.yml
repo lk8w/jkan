@@ -177,12 +177,7 @@ collections:
         name: maintainer_email
         required: false
         widget: string
-
-      - label: Creation date
-        name: moddate
-        required: false
-        widget: datetime
-          
+         
   - name: organizations
     label: Organizations
     label_singular: Organization
