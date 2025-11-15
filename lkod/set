@@ -1,6 +1,6 @@
 {
   "@context": "https://datova-kancelaria.github.io/dcat-ap-sk-2.0/kontexty/rozhranie-katalógu-otvorených-dát.jsonld",
-  "iri": "https://katalog.reframe.sk/set",
+  "iri": "https://katalog.reframe.sk/lkod/set",
   "typ": "Dataset",
   "názov": {
     "sk": "Vpuste"
@@ -39,7 +39,7 @@
   ],
   "distribúcia": [
     {
-      "iri": "https://katalog.reframe.sk/set/csv",
+      "iri": "https://katalog.reframe.sk/lkod/set/csv",
       "typ": "Distribúcia",
       "podmienky_použitia": {
         "typ": "Špecifikácia podmienok použitia",
