@@ -8,15 +8,11 @@
   "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI"], 
   "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL", 
   "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 
+    
+  "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
   "kľúčové_slovo": {
-    "sk": [
-      "vpuste"
-    ],
-    "en": []
-  },
-  "geografické_územie": [
-    "http://publications.europa.eu/resource/authority/continent/EUROPE"
-  ],
+  "sk": ["deti"]
+    }, 
   "časové_pokrytie": {
 
   },
