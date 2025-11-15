@@ -9,5 +9,4 @@ category:
   - Školstvo
 category_dcat:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
-moddate: 2025-10-08T07:40:02.523Z
 ---
