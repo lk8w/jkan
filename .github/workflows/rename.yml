@@ -14,7 +14,7 @@ jobs:
       - name: Rename files with commit date
         run: |
           for f in docs/*; do
-            COMMIT_DATE=$(git show <commit> -- docs/architecture.md)
+            COMMIT_DATE=$(git show HEAD -- docs/architecture.md)
             base=$(basename "$f")
             base1="${base:11}"
             echo "File: $f"
