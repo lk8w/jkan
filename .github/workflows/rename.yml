@@ -13,7 +13,7 @@ jobs:
 
       - name: Rename files with commit date
         run: |
-          for f in _docs/*; do
+          for f in docs/*; do
             COMMIT_DATE=$(git log -1 --format=%cd --date=short "$f")
             base=$(basename "$f")
             base1="${base:11}"
