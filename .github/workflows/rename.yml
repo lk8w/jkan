@@ -16,7 +16,7 @@ jobs:
       - name: Rename files with commit date
         run: |
           for f in docs/*; do
-            COMMIT_DATE=$(git log -1 --follow --diff-filter=AMCR --no-merges --format="%h %ci %s" -- docs/architecture.md)
+            COMMIT_DATE=$(git log -1 --follow --diff-filter=AMCR --no-merges --date=short --format="%cd" -- docs/architecture.md)
             base=$(basename "$f")
             base1="${base:11}"
             echo "File: $f"
