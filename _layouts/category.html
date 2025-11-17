@@ -27,7 +27,7 @@ layout: default
         <input type="text" id="searchInput" data-hook="search-query" placeholder="Hľadať..." class="form-control mb-3">
         {% assign sorted_datasets = site.datasets | sort: "url" | reverse %}
         <div data-hook="datasets-items">
-          {% for dataset in sorted_datasets %}
+          {% for dataset in datasets %}
            <dataset>
              <h3><a href="{{ site.baseurl }}{{ dataset.url }}">{{ dataset.title }}</a></h3>
              {{ dataset.notes | markdownify }}
