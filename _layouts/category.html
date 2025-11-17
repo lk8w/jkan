@@ -25,8 +25,9 @@ layout: default
         <h3 class="datasets-count" data-hook="datasets-count">{{ datasets_count }}
           {% if datasets_count == 1 %}dataset{% else %}datasety{% endif %}</h3>
         <input type="text" id="searchInput" data-hook="search-query" placeholder="Hľadať..." class="form-control mb-3">
+        {% assign sorted_datasets = site.datasets | sort: "url" | reverse %}
         <div data-hook="datasets-items">
-          {% for dataset in datasets %}
+          {% for dataset in sorted_datasets %}
            <dataset>
              <h3><a href="{{ site.baseurl }}{{ dataset.url }}">{{ dataset.title }}</a></h3>
              {{ dataset.notes | markdownify }}
