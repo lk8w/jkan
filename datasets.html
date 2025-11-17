@@ -42,7 +42,7 @@ permalink: /datasets/
     <div data-hook="datasets-items">
       {% for dataset in sorted_datasets %}
       <dataset>
-        <h3><a href="{{ site.baseurl }}{{ dataset.url }}">{{ dataset.title }}</a></h3>
+        <h3><a href="{{ site.baseurl }}{{ dataset.url }}">{{ dataset.title }}{{ dataset.category }}</a></h3>
         {{ dataset.notes | markdownify }}
       </dataset>
       {% endfor %}
