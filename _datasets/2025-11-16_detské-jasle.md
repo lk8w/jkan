@@ -1,7 +1,7 @@
 ---
 title: Detské jasle
 organization: Mesto Dátovo
-notes: Zoznam k 1.1.2024
+notes: Zoznam k 1.1.2025
 keyword:
   - deti
 type:
