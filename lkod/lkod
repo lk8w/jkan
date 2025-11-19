@@ -18,9 +18,7 @@
 "domovská_stránka": "https://www.opendata.ilava.sk",
 "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
 "dataset": [
-"https://katalog.reframe.sk/lkod/detsk_C3_A9-jasle",
 "https://katalog.reframe.sk/lkod/fakt_C3_BAry-za-rok-2022",
-"https://katalog.reframe.sk/lkod/fakt_C3_BAry-za-rok-2023",
 "https://katalog.reframe.sk/lkod/fakt_C3_BAry-za-rok-2025",
 "https://katalog.reframe.sk/lkod/ihrisk_C3_A1-2021",
 "https://katalog.reframe.sk/lkod/ihrisk_C3_A1-2025",
@@ -32,5 +30,15 @@
 "https://katalog.reframe.sk/lkod/zast_C3_A1vky-mhd-2024",
 "https://katalog.reframe.sk/lkod/zoznam-_C5_A1k_C3_B4l-a-_C5_A1kolsk_C3_BDch-zariaden_C3_AD",
 "https://katalog.reframe.sk/lkod/detsk_C3_A9-ihrisk_C3_A1-2024",
-"https://katalog.reframe.sk/lkod/lavi_C4_8Dky"]
+"https://katalog.reframe.sk/lkod/lavi_C4_8Dky",
+"https://katalog.reframe.sk/lkod/detsk_C3_A9-jasle",
+"https://katalog.reframe.sk/lkod/fakt_C3_BAry-za-rok-2023",
+"https://katalog.reframe.sk/lkod/ts1",
+"https://katalog.reframe.sk/lkod/ts2",
+"https://katalog.reframe.sk/lkod/ts4",
+"https://katalog.reframe.sk/lkod/ts5",
+"https://katalog.reframe.sk/lkod/ts6",
+"https://katalog.reframe.sk/lkod/ts7",
+"https://katalog.reframe.sk/lkod/ts8",
+"https://katalog.reframe.sk/lkod/ts3"]
 }

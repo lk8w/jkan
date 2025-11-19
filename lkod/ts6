@@ -1,17 +1,17 @@
 {  
     "@context": "https://data.slovensko.sk/dcat3.jsonld",
-    "iri": "https://katalog.reframe.sk/lkod/detsk_C3_A9-jasle",
+    "iri": "https://katalog.reframe.sk/lkod/ts6",
     "typ": "Dataset",
-    "názov": { "sk": "Detské jasle" },
+    "názov": { "sk": "Ihriská 2024" },
     "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
-    "popis": { "sk": "Zoznam k 1.1.2025" },
+    "popis": { "sk": "Detské ihriská - stav k 1.1.2024" },
     "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI"], 
-    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL", 
+    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/QUARTERLY", 
     "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 
-    
+    "webová_stránka_datasetu": "https://katalog.reframe.sk/datasets/detsk%C3%A9-ihrisk%C3%A1-2024/", 
     "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
     "kľúčové_slovo": {
-    "sk": ["deti"]
+    "sk": ["deti","infraštruktúra"]
       }, 
     "kontaktný_bod": {
     "typ": "Organizácia",
@@ -21,38 +21,38 @@
       },
     "distribúcia": [
     {
-    "iri": "https://katalog.reframe.sk/lkod/detsk_C3_A9-jasle/1",
+    "iri": "https://katalog.reframe.sk/lkod/ts6/1",
     "typ": "Distribúcia",
-    "súbor_na_stiahnutie": "https://ilava.sk/jasle.csv",
-    "prístupové_url": "https://ilava.sk/jasle.csv",
-    "názov": { "sk": "CSV" },     
+    "súbor_na_stiahnutie": "https://datovo.sk/dataset.csv",
+    "prístupové_url": "https://datovo.sk/dataset.csv",
+        
     "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
     "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
     "podmienky_použitia": {
       "typ": "Špecifikácia podmienok použitia",
       "autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
-      "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC0",
+      "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
       "databáza_ako_autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
       "autor": { "sk": "Ilava" }, 
-      
+      "autor_databázy": { "sk": "Ilava" }, 
       "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
       }
     }, 
     {
-    "iri": "https://katalog.reframe.sk/lkod/detsk_C3_A9-jasle/2",
+    "iri": "https://katalog.reframe.sk/lkod/ts6/2",
     "typ": "Distribúcia",
-    "súbor_na_stiahnutie": "https://ilava.sk/jasle.xlsx",
-    "prístupové_url": "https://ilava.sk/jasle.xlsx",
-    "názov": { "sk": "XLSX" },     
+    "súbor_na_stiahnutie": "https://datovo.sk/dataset.xlsx",
+    "prístupové_url": "https://datovo.sk/dataset.xlsx",
+        
     "formát": "http://publications.europa.eu/resource/authority/file-type/XLSX",
     "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
     "podmienky_použitia": {
       "typ": "Špecifikácia podmienok použitia",
       "autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
-      "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC0",
+      "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
       "databáza_ako_autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
       "autor": { "sk": "Ilava" }, 
-      
+      "autor_databázy": { "sk": "Ilava" }, 
       "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
       }
     } 
