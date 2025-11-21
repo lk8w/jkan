@@ -4,7 +4,7 @@
     "typ": "Dataset",
     "názov": { "sk": "Faktúry za rok 2023" },
     "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
-    "popis": { "sk": "Faktúry za rok 2023 - aktualizované mesačne" },
+    "popis": { "sk": "Faktúry za rok 2023 (aktualizované mesačne)" },
     "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI"], 
     "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL", 
     "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 

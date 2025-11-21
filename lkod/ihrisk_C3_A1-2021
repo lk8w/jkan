@@ -4,7 +4,7 @@
     "typ": "Dataset",
     "názov": { "sk": "Ihriská 2021" },
     "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
-    "popis": { "sk": "Detské ihriská - stav k 1.1.2021" },
+    "popis": { "sk": "Detské ihriská k 1.1.2021" },
     "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI"], 
     "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL", 
     "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 
