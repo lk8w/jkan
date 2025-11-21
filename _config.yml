@@ -44,8 +44,6 @@ navigation:
     url: /organizations/
   - title: Kategórie
     url: /categories/
-  - title: Sample page
-    url: /sample-page/
     
 collections:
   datasets:
