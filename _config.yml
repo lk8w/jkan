@@ -44,10 +44,8 @@ navigation:
     url: /organizations/
   - title: Kategórie
     url: /categories/
-  - title: MyURL
-    url: "https://reframe.sk/"
-    external: true
-    target: "_blank"
+  - title: Sample page
+    url: /sample-page/
     
 collections:
   datasets:
