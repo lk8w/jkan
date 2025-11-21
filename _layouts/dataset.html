@@ -39,7 +39,7 @@ layout: default
       <div class="col">
       {% endif %}
         <h1>
-          <span property="dct:title">{{ page.title }}</span><span><a href="{{ site.url }}/datasety/{{ page.slug | slice: 11, 999 }}.md.html"><img src="{{ site.url }}/img/attachment.png"/></a></span>
+          <span property="dct:title">{{ page.title }}</span><span><a href="https://katalog.reframe.sk/datasety/{{ page.slug | slice: 11, 999 }}.md.html"><img src="https://katalog.reframe.sk/img/attachment.png"/></a></span>
           <a href="{{ "/editor" | relative_url | remove_first: '/' }}/#/collections/datasets/entries/{{ page.slug }}" class="pull-right btn btn-outline-secondary" data-hook="edit-dataset-btn">Edit</a>
         </h1>
         <p property="dct:description" style="text-align: justify; overflow-wrap: break-word;">{{ page.notes | markdownify }}</p>
