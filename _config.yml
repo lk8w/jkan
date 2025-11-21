@@ -45,7 +45,7 @@ navigation:
   - title: Kategórie
     url: /categories/
   - title: MyURL
-    url: "https://reframe.sk"
+    url: "https://reframe.sk/"
     
 collections:
   datasets:
