@@ -39,7 +39,7 @@ layout: default
       <div class="col">
       {% endif %}
         <h1>
-          {% assign new_url = page.url | regex_replace: '[0-9]{4}-[0-9]{2}-[0-9]{2}', 'y' %}
+          {% assign new_url = page.url | slice 0,20 %}
           <span property="dct:title">{{ page.title }}</span><span><a href="{{ new_url }}.html"><img src="link.png"/></a></span>
           <a href="{{ "/editor" | relative_url | remove_first: '/' }}/#/collections/datasets/entries/{{ page.slug }}" class="pull-right btn btn-outline-secondary" data-hook="edit-dataset-btn">Edit</a>
         </h1>
