@@ -46,6 +46,8 @@ navigation:
     url: /categories/
   - title: MyURL
     url: "https://reframe.sk/"
+    external: true
+    target: "_blank"
     
 collections:
   datasets:
