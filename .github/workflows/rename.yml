@@ -29,8 +29,8 @@ jobs:
             if [[ "$base" != ${COMMIT_DATE}_* ]]; then
               git mv "$f" "_datasets/${COMMIT_DATE}_${base1}"
               # also create redirect
-              echo '<html><meta http-equiv="refresh" content="0; url=/datasets/${base//%/_}.html" /></head><body></body></html>' > "datasety/${base//%/_}.html"
-              git add "datasety/${base//%/_}.html"
+              echo '<html><meta http-equiv="refresh" content="0; url=/datasets/${base//%/_}.html" /></head><body></body></html>' > "datasety/${base1//%/_}.html"
+              git add "datasety/${base1//%/_}.html"
             fi
           done
 
