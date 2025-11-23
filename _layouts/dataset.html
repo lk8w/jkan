@@ -106,7 +106,7 @@ layout: default
              {% if ps contains "20" %}
              <tr><th>Dátum modifikácie</th><td>{{ page.url | slice: 18, 2 }}.{{ page.url | slice: 15, 2 }}.{{ page.url | slice: 10, 4 }}</td></tr>
              {% else %}
-             <tr><th>Dátum modifikácie</th><td>dnes</td></tr>
+             <tr><th>Dátum modifikácie</th><td>{{ "now" | date: "%d.%m.%Y" }}</td></tr>
              {% endif %}
         </table>
       </div>
