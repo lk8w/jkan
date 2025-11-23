@@ -102,8 +102,8 @@ layout: default
               {% endif %}
             {% endunless %}
           {% endfor %}
-             {% assign ps = page.url | slice: 10, 2 %}
-             {% if ps contains "20" %}
+             {% assign ps = page.url | slice: 10, 2 %} {% assign pss = page.url | slice: 20, 1 %}
+             {% if ps == "20" and pss =="_" %}
              <tr><th>Dátum modifikácie</th><td>{{ page.url | slice: 18, 2 }}.{{ page.url | slice: 15, 2 }}.{{ page.url | slice: 10, 4 }}</td></tr>
              {% else %}
              <tr><th>Dátum modifikácie</th><td>{{ "now" | date: "%d.%m.%Y" }}</td></tr>
