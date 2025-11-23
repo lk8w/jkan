@@ -102,7 +102,11 @@ layout: default
               {% endif %}
             {% endunless %}
           {% endfor %}
-                  <tr><th>Dátum modifikácie</th><td>{{ page.url | slice: 18, 2 }}.{{ page.url | slice: 15, 2 }}.{{ page.url | slice: 10, 4 }}</td></tr>
+             {% if page.url | slice: 0, 2 == "20" %}
+             <tr><th>Dátum modifikácie</th><td>{{ page.url | slice: 18, 2 }}.{{ page.url | slice: 15, 2 }}.{{ page.url | slice: 10, 4 }}</td></tr>
+             {% else %}
+             <tr><th>Dátum modifikácie</th><td>dnes</td></tr>
+             {% endif %}
         </table>
       </div>
     </div>
