@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include breadcrumbs.html parent="Categories" %}
+{% include breadcrumbs.html parent="Kategórie" %}
 {% assign datasets = site.datasets | where: "category", page.name | sort: "url" | reverse %}
 {% assign datasets_count = datasets | size %}
 {% assign categories = site.dataset_categories | where: "name", page.name %}
