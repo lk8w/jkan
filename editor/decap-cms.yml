@@ -242,6 +242,26 @@ collections:
         name: name
         widget: string
 
+  - name: Automatizácia
+    label: Automatizácie
+    label_singular: Automatizácia
+    folder: _auto
+    create: true
+    preview_path: "auto/{{slug}}"
+    identifier_field: auto
+    fields:
+      - label: Name
+        name: name
+        widget: string
+      - label: Format
+        name: format
+        required: true
+        widget: relation
+        collection: datasets
+        multiple: false
+        search_fields: ["title"]       
+        value_field: "slug"
+        display_fields: ["title"]
 
   - name: settings
     label: Settings
