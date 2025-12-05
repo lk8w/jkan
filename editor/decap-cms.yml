@@ -261,7 +261,7 @@ collections:
         options_length: 999
         multiple: false
         search_fields: [title]       
-        value_field: "title"
+        value_field: "slug"
         display_fields: [title]
 
   - name: settings
