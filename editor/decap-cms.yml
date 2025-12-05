@@ -258,6 +258,7 @@ collections:
         required: true
         widget: relation
         collection: datasets
+        options_length: 999
         multiple: false
         search_fields: [title]       
         value_field: "title"
