@@ -248,7 +248,7 @@ collections:
     folder: _auto
     create: true
     preview_path: "auto/{{slug}}"
-    identifier_field: auto
+    identifier_field: name
     fields:
       - label: Name
         name: name
