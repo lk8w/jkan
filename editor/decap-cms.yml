@@ -259,9 +259,9 @@ collections:
         widget: relation
         collection: datasets
         multiple: false
-        search_fields: ["title"]       
+        search_fields: [title]       
         value_field: "slug"
-        display_fields: ["title"]
+        display_fields: [title]
 
   - name: settings
     label: Settings
