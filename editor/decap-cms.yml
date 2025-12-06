@@ -253,8 +253,8 @@ collections:
       - label: Name
         name: name
         widget: string
-      - label: Format
-        name: format
+      - label: Dataset
+        name: dataset
         required: true
         widget: relation
         collection: datasets
