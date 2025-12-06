@@ -31,8 +31,13 @@ jobs:
       - name: Commit split files
         run: |
           git add lkod/ || true
-          git commit -m "Add split files"
-          git push || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Add split files"
+            git push
+          else
+            echo "No changes to commit"
+          fi  
+
 
 
 
