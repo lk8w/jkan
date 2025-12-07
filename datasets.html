@@ -43,8 +43,8 @@ permalink: /datasets/
       {% for dataset in sorted_datasets %}
       <dataset>
         <h3><a href="{{ site.baseurl }}{{ dataset.url }}">{{ dataset.title }}</a></h3>
-        {{ dataset.notes | markdownify }}
-        <p style="margin-bottom: 4px">{{ dataset.slug | slice: 0, 10 }}</p>
+        <p style="margin-bottom: 4px">{{ dataset.notes }}</p>
+        <p>{{ dataset.slug | slice: 0, 10 }}</p>
       </dataset>
       {% endfor %}
     </div>
