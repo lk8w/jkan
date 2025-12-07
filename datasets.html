@@ -44,7 +44,7 @@ permalink: /datasets/
       <dataset>
         <h3><a href="{{ site.baseurl }}{{ dataset.url }}">{{ dataset.title }}</a></h3>
         {{ dataset.notes | markdownify }}
-        {{ dataset.slug | markdownify }}
+        {{ dataset.slug | markdownify | slice: 0, 10 }}
       </dataset>
       {% endfor %}
     </div>
