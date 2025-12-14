@@ -4,16 +4,28 @@
   <meta charset="UTF-8">
   <title>Redirector</title>
   <script>
-    window.onload = function() {
+    window.onload = async function() {
       // Get query string (everything after ?)
       const param = window.location.search.substring(1);
 
-      if (param) {
-        // Redirect to /parameter
-        window.location.href = "/datasets/" + param;
-      } else {
-        // Default redirect if no parameter
+      if (!param) {
         window.location.href = "/default";
+        return;
+      }
+
+      // Try to fetch the file with the given parameter
+      try {
+        const response = await fetch(param);
+        if (response.ok) {
+          // File exists → redirect directly to it
+          window.location.href = param;
+        } else {
+          // File does not exist → redirect to /param
+          window.location.href = "/datasets/" + param;
+        }
+      } catch (e) {
+        // Error fetching → fallback redirect
+        window.location.href = "/datasets/" + param;
       }
     };
   </script>
