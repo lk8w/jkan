@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirector</title>
+  <script>
+    window.onload = function() {
+      // Get query string (everything after ?)
+      const param = window.location.search.substring(1);
+
+      if (param) {
+        // Redirect to /parameter
+        window.location.href = "/" + param;
+      } else {
+        // Default redirect if no parameter
+        window.location.href = "/default";
+      }
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
