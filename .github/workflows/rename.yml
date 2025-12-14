@@ -34,7 +34,7 @@ jobs:
               # also create redirect
               t=$(grep '^title:' "$f" | cut -d':' -f2- | xargs)
               base1="${base1::-3}"
-              echo "<html><head><meta http-equiv=\"refresh\" content=\"0; url=/datasets/${COMMIT_DATE}_${base1//%/_}/\" />$t</head><body></body></html>" \ > "datasety/${base1//%/_}.html"
+              echo "<html><head><meta http-equiv=\"refresh\" content=\"0; url=/datasets/${COMMIT_DATE}_${base1//%/_}/\" />$t</head><body></body></html>" > "datasety/${base1//%/_}.html"
               git add "datasety/${base1//%/_}.html"
             fi
           done
