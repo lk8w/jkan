@@ -69,7 +69,7 @@ collections:
 
       - label: Category
         name: category
-        required: false
+        required: true
         widget: relation
         collection: categories
         multiple: true
