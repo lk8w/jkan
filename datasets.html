@@ -46,6 +46,7 @@ permalink: /datasets/
         {{ dataset.notes | markdownify }}
         {% assign ps = dataset.url | slice: 0, 2 %} {% assign pss = dataset.url | slice: 10, 1 %}
         {% if ps == "20" and pss =="_" %}
+        {{ ps }} {{ pss }}
         <p><img style="margin:5px" src="{{ site.baseurl }}/img/time.png" alt="Dátum modifikácie" title="Dátum modifikácie"/>{{ dataset.slug | slice: 8, 2 }}.{{ dataset.slug | slice: 5, 2 }}.{{ dataset.slug | slice: 0, 4 }}</p>
         {% else %}
          <p><img style="margin:5px" src="{{ site.baseurl }}/img/time.png" alt="Dátum modifikácie" title="Dátum modifikácie"/>{{ "now" | date: "%d.%m.%Y" }}</p>
