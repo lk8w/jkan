@@ -26,14 +26,14 @@ jobs:
             fi
             echo "File: $base"
             echo "Commit date: $COMMIT_DATE"
+            t=$(grep '^title:' "$f" | cut -d':' -f2- | xargs)
+            echo $t
             if [[ "$base" != ${COMMIT_DATE}_* ]]; then
               if ls _datasets/????-??-??_$base1 1>/dev/null 2>&1; then
                 base1="${base1::-3}$(date '+%m%d%H%M%S').md"
               fi
               git mv "$f" "_datasets/${COMMIT_DATE}_${base1}"
               # also create redirect
-              t=$(grep '^title:' "$f" | cut -d':' -f2- | xargs)
-              echo $t
               base1="${base1::-3}"
               echo "<html><head><meta http-equiv=\"refresh\" content=\"0; url=/datasets/${COMMIT_DATE}_${base1//%/_}/\" />$t</head><body></body></html>" > "datasety/${base1//%/_}.html"
               git add "datasety/${base1//%/_}.html"
