@@ -48,7 +48,8 @@ navigation:
 collections:
   datasets:
     output: true
-    permalink: /datasets/:path/
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    permalink: "/datasets/{{slug}}/"
   organizations:
     output: true
     permalink: /organizations/:path/
