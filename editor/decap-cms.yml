@@ -14,7 +14,7 @@ collections:
     folder: _datasets
     create: true
     summary: "{{title}} ({{organization}})"
-    preview_path: "datasets/{{slug}}"
+    preview_path: "datasets/{{year}}-{{slug}}"
     view_groups:
       - label: Organization
         field: organization
