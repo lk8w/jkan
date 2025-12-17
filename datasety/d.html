@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta property="og:title" content="Cesty" />
+  <meta property="og:title" content="Dataset" />
   <script>
     window.onload = async function() {
       // Get query string (everything after ?)
@@ -11,6 +11,10 @@
       if (!param) {
         window.location.href = "/default";
         return;
+      }
+      const ogTitleMeta = document.querySelector('meta[property="og:title"]');
+      if (ogTitleMeta) {
+        ogTitleMeta.setAttribute("content", param);
       }
 
       // Try to fetch the file with the given parameter
