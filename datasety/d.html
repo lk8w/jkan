@@ -6,7 +6,7 @@
   <script>
     window.onload = async function() {
       // Get query string (everything after ?)
-      const param = window.location.search.substring(1);
+      const param = window.location.search.substring(1).split("&")[0];
 
       if (!param) {
         window.location.href = "/default";
