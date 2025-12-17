@@ -25,7 +25,7 @@
           window.location.href = param;
         } else {
           // File does not exist → redirect to /param
-          window.location.href = "/datasets/" + param;
+          window.location.href = "/datasets/" + param + "/";
         }
       } catch (e) {
         // Error fetching → fallback redirect
