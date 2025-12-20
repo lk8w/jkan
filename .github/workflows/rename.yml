@@ -22,7 +22,7 @@ jobs:
             if [[ "$base" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}_.* ]]; then
               base1="${base:11}"
             else
-              if ls _datasets/????-??-??_$base1 1>/dev/null 2>&1; then
+              if ls _datasets/????-??-??_$base 1>/dev/null 2>&1; then
               base1="${base1::-3}$(date '+%m%d%H%M%S').md"
               else
               base1="${base:1}"
