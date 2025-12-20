@@ -2,7 +2,7 @@ name: Dataset order sync
 
 on:
   schedule:
-    - cron: "45 22 * * *"
+    - cron: "45 11,14,22 * * *"
   
 jobs:
   rename-files:
