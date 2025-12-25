@@ -2,7 +2,7 @@
 layout: default
 ---
 {% include breadcrumbs.html parent="Organizácie" %}
-{% assign datasets = site.datasets | where:"organization", page.title | where_exp: "item", "item.category != 'Uncategorized'" | sort: "url"  | reverse %}
+{% assign datasets = site.datasets | where:"organization", page.title | where_exp: "item", "item.category != 'Uncategorized'" | sort: "url" | reverse %}
 {% assign datasets_count = datasets | size %}
 
 <div class="container">
