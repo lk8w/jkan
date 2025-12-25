@@ -266,7 +266,7 @@ collections:
         display_fields: [title]
       - label: Frekvencia
         name: frekvencia
-        widget: list
+        widget: select
         options: ["denne", "týždenne", "mesačne", "ročne"]
 
   - name: settings
