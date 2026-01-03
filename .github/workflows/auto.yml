@@ -1,0 +1,35 @@
+name: Auto Generate Datasets
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run generator script
+        run: |
+          set -e  # stop on error
+          python auto.py
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+      - name: Commit datasets
+        run: |
+          git add . || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Add datasets"
+            git push
+          else
+            echo "No changes to commit"
+          fi  
