@@ -41,7 +41,7 @@ def process(file_d, datasetn, datasetp, dataseto):
                      f.write(line)
 
 
-folder = "auto"
+folder = "_auto"
 
 for filename in os.listdir(folder):
     path = os.path.join(folder, filename)
@@ -64,7 +64,7 @@ for filename in os.listdir(folder):
             elif line.startswith("den:"):
                 den = line.split(":", 1)[1].strip()
             elif line.startswith("dataset:"):
-                file_d = line.split(":", 1)[1].strip()
+                file_d = "_datasets/" + line.split(":", 1)[1].strip()
             elif line.startswith("datasetn:"):
                 datasetn = line.split(":", 1)[1].strip()
             elif line.startswith("datasetp:"):
@@ -108,4 +108,5 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
