@@ -251,6 +251,10 @@ collections:
     preview_path: "auto/{{slug}}"
     identifier_field: name
     fields:
+      - labe: Enabled
+        name: enabled
+        widget: boolean
+        default: true
       - label: Name
         name: name
         widget: string
