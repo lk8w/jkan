@@ -1,4 +1,4 @@
-name: Auto Generate Datasets
+name: Auto generate datasets
 
 on:
   workflow_dispatch:
