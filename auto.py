@@ -2,8 +2,8 @@ from datetime import datetime
 import os
 
 def process(file_d, datasetn, datasetp, dataseto):
-
-    with open(file_d + ".md", "r", encoding="utf-8") as f:
+    file_p = os.path.join("_datasets", file_d + ".md")
+    with open(file_p, "r", encoding="utf-8") as f:
          lines = f.readlines()
          today = datetime.today() 
          daymonthyear = today.strftime("%d%m%Y") 
@@ -64,7 +64,7 @@ for filename in os.listdir(folder):
             elif line.startswith("den:"):
                 den = line.split(":", 1)[1].strip()
             elif line.startswith("dataset:"):
-                file_d = "_datasets/" + line.split(":", 1)[1].strip()
+                file_d = "line.split(":", 1)[1].strip()
             elif line.startswith("datasetn:"):
                 datasetn = line.split(":", 1)[1].strip()
             elif line.startswith("datasetp:"):
@@ -108,5 +108,6 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
 
