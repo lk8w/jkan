@@ -1,0 +1,37 @@
+{  
+    "@context": "https://data.slovensko.sk/dcat3.jsonld",
+    "iri": "https://katalog.reframe.sk/lkod/ihrisk_C3_A1-202504012026",
+    "typ": "Dataset",
+    "názov": { "sk": "Test auto dataset (04.01. 2026)" },
+    "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
+    "popis": { "sk": "test" },
+    "téma": ["http://publications.europa.eu/resource/authority/data-theme/EDUC"], 
+    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL_2", 
+    "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 
+    
+    "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
+    "kľúčové_slovo": {
+    "sk": ["faktúry"]
+      }, 
+    
+    "distribúcia": [
+    {
+    "iri": "https://katalog.reframe.sk/lkod/ihrisk_C3_A1-202504012026/1",
+    "typ": "Distribúcia",
+    "súbor_na_stiahnutie": "https://ilava.sk/ihriska2025.csv",
+    "prístupové_url": "https://ilava.sk/ihriska2025.csv",
+        
+    "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+    "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+    "podmienky_použitia": {
+      "typ": "Špecifikácia podmienok použitia",
+      "autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
+      "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
+      "databáza_ako_autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
+      
+      
+      "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
+      }
+    } 
+    ]
+  }
