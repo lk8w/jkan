@@ -9,7 +9,7 @@ def process(file_d, datasetn, datasetp, dataseto):
          daymonthyear = today.strftime("%d%m%Y") 
          pattern = r"^\d{4}-\d{2}-\d{2}_"
          if re.match(pattern, file_d):
-             new_filename = os.path.join("_datasets", "d" + file_d + daymonthyear + ".md")
+             new_filename = os.path.join("_datasets", "d" + file_d[11:] + daymonthyear + ".md")
          else:
              new_filename = os.path.join("_datasets", file_d + daymonthyear + ".md")
             
@@ -112,6 +112,7 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
 
 
