@@ -1,5 +1,5 @@
 from datetime import datetime
-import os
+import os, re
 
 def process(file_d, datasetn, datasetp, dataseto):
     file_p = os.path.join("_datasets", file_d + ".md")
@@ -112,6 +112,7 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
 
 
