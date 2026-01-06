@@ -88,7 +88,7 @@ for filename in os.listdir(folder):
     print(f"  enabled = {enabled}")
 
     # Logic based on frekvencia
-    if frekvencia == "denne":
+    if frekvencia == "denne" and enabled == "true":
         print("- Run job")
         process(file_d, datasetn, datasetp, dataseto)
 
@@ -112,6 +112,7 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
 
 
