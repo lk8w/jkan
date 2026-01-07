@@ -283,15 +283,15 @@ collections:
       - label: Dataset - názov
         name: datasetn
         widget: string
-        hint: Premenné: %d - aktuálny deň, %m - aktuálny mesiac, %r - aktuálny rok
+        hint: Premenné
       - label: Dataset - popis
         name: datasetp
         widget: string
-        hint: Premenné: %d - aktuálny deň, %m - aktuálny mesiac, %r - aktuálny rok
+        hint: Premenné
       - label: Dataset - odkaz na stiahnutie
         name: dataseto
         widget: string
-        hint: Premenné: %d - aktuálny deň, %m - aktuálny mesiac, %r - aktuálny rok
+        hint: "Premenné: %d - aktuálny deň, %m - aktuálny mesiac, %r - aktuálny rok"
 
   - name: settings
     label: Settings
