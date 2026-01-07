@@ -262,6 +262,7 @@ collections:
         name: dataset
         required: true
         widget: relation
+        hint: Existujúci dataset, ktorého metadáta okrem názvu, popisu a odkazu na stiahnutie budú skopírované.
         collection: datasets
         options_length: 999
         multiple: false
@@ -275,7 +276,7 @@ collections:
       - label: Deň
         name: den
         widget: "number"
-        hint: Poradové číslo dňa kedy sa spustí automatizácia. Napr. týždenne 2 - utorok; mesačne 4 - 4. deň v mesiaci; ročne 33 - 33. deň v roku
+        hint: Poradové číslo dňa, kedy sa spustí automatizácia. Napr. týždenne 2 - utorok; mesačne 4 - 4. deň v mesiaci; ročne 33 - 33. deň v roku
         default: 1
         min: 1
         max: 365
