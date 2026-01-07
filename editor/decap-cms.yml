@@ -283,16 +283,14 @@ collections:
       - label: Dataset - názov
         name: datasetn
         widget: string
-        hint: Premenné
+        hint: "Premenné pre názov, popis a odkaz datasetu: %d - aktuálny deň, %m - aktuálny mesiac, %r - aktuálny rok"
       - label: Dataset - popis
         name: datasetp
         widget: string
-        hint: Premenné
       - label: Dataset - odkaz na stiahnutie
         name: dataseto
         widget: string
-        hint: "Premenné: %d - aktuálny deň, %m - aktuálny mesiac, %r - aktuálny rok"
-
+        
   - name: settings
     label: Settings
     delete: false
