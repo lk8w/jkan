@@ -1,7 +1,8 @@
 name: Auto generate datasets
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: "45 21 * * *"
 
 jobs:
   run-script:
