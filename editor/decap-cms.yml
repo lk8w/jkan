@@ -280,15 +280,18 @@ collections:
         min: 1
         max: 365
         step: 1
-      - label: Dataset názov
+      - label: Dataset - názov
         name: datasetn
         widget: string
-      - label: Dataset popis
+        hint: Premenné: %d - aktuálny deň, %m - aktuálny mesiac, %r - aktuálny rok
+      - label: Dataset - popis
         name: datasetp
         widget: string
-      - label: Dataset odkaz na stiahnutie
+        hint: Premenné: %d - aktuálny deň, %m - aktuálny mesiac, %r - aktuálny rok
+      - label: Dataset - odkaz na stiahnutie
         name: dataseto
         widget: string
+        hint: Premenné: %d - aktuálny deň, %m - aktuálny mesiac, %r - aktuálny rok
 
   - name: settings
     label: Settings
