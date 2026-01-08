@@ -5,7 +5,7 @@ def process(file_d, datasetn, datasetp, dataseto):
     if not os.path.isfile(file_d): 
          s1 = f"{file_d[11:]}.md"
          s = re.compile(rf"^\d{{4}}-\d{{2}}-\d{{2}}_{re.escape(s1)}$")
-         for filename in os.listdir("."):
+         for filename in os.listdir("_datasets"):
              if s.match(filename): 
                  v = filename[:-3]
     file_d = v
@@ -14,16 +14,12 @@ def process(file_d, datasetn, datasetp, dataseto):
          lines = f.readlines()
          today = datetime.today() 
          daymonthyear = today.strftime("%d%m%Y") 
-         pattern = r"^\d{4}-\d{2}-\d{2}_"
-         if re.match(pattern, file_d):
-             new_filename = os.path.join("_datasets", "d" + file_d[11:] + daymonthyear + ".md")
-         else:
-             new_filename = os.path.join("_datasets", file_d + daymonthyear + ".md")
-            
+
          now = datetime.now() 
          month = now.strftime("%m") 
          day = now.strftime("%d") 
          year = now.strftime("%Y")
+         new_filename = os.path.join("_datasets", year + "-" + month + "-" + day + "_" + file_d[11:] + daymonthyear + ".md")
          datasetn_f = (
              datasetn.replace("%m", month) 
                  .replace("%d", day) 
@@ -119,6 +115,7 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
 
 
