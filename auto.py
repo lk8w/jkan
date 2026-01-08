@@ -2,6 +2,13 @@ from datetime import datetime
 import os, re
 
 def process(file_d, datasetn, datasetp, dataseto):
+    if not os.path.isfile(file_d): 
+         s1 = f"{file_d[11:]}.md"
+         s = re.compile(rf"^\d{{4}}-\d{{2}}-\d{{2}}_{re.escape(s1)}$")
+         for filename in os.listdir("."):
+             if s.match(filename): 
+                 v = filename[:-3]
+    file_d = v
     file_p = os.path.join("_datasets", file_d + ".md")
     with open(file_p, "r", encoding="utf-8") as f:
          lines = f.readlines()
@@ -112,6 +119,7 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
 
 
