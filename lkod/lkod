@@ -20,7 +20,6 @@
 "dataset": [
 "https://katalog.reframe.sk/lkod/fakt_C3_BAry-za-rok-2022",
 "https://katalog.reframe.sk/lkod/fakt_C3_BAry-za-rok-2025",
-"https://katalog.reframe.sk/lkod/ihrisk_C3_A1-2025",
 "https://katalog.reframe.sk/lkod/kiko123-1",
 "https://katalog.reframe.sk/lkod/kult_C3_BArne-zariadenia-mesta",
 "https://katalog.reframe.sk/lkod/nov_C3_BD-dataset-1",
@@ -33,5 +32,8 @@
 "https://katalog.reframe.sk/lkod/ihrisk_C3_A1-2021",
 "https://katalog.reframe.sk/lkod/ihrisk_C3_A1-202504012026",
 "https://katalog.reframe.sk/lkod/ihrisk_C3_A1-202505012026",
-"https://katalog.reframe.sk/lkod/ihrisk_C3_A1-202506012026"]
+"https://katalog.reframe.sk/lkod/ihrisk_C3_A1-202506012026",
+"https://katalog.reframe.sk/lkod/ihrisk_C3_A1-202508012026",
+"https://katalog.reframe.sk/lkod/ihrisk_C3_A1-2025",
+"https://katalog.reframe.sk/lkod/ihrisk_C3_A1-2025a09012026"]
 }

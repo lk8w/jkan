@@ -1,10 +1,10 @@
 {  
     "@context": "https://data.slovensko.sk/dcat3.jsonld",
-    "iri": "https://katalog.reframe.sk/lkod/ihrisk_C3_A1-2025",
+    "iri": "https://katalog.reframe.sk/lkod/ihrisk_C3_A1-2025a09012026",
     "typ": "Dataset",
-    "názov": { "sk": "Ihriská 2025" },
+    "názov": { "sk": "Test auto dataset (09.01. 2026)" },
     "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
-    "popis": { "sk": "Detské ihriská - stav k 1.3.2025" },
+    "popis": { "sk": "test" },
     "téma": ["http://publications.europa.eu/resource/authority/data-theme/EDUC"], 
     "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL_2", 
     "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 
@@ -16,7 +16,7 @@
     
     "distribúcia": [
     {
-    "iri": "https://katalog.reframe.sk/lkod/ihrisk_C3_A1-2025/1",
+    "iri": "https://katalog.reframe.sk/lkod/ihrisk_C3_A1-2025a09012026/1",
     "typ": "Distribúcia",
     "súbor_na_stiahnutie": "https://ilava.sk/ihriska2025.csv",
     "prístupové_url": "https://ilava.sk/ihriska2025.csv",
