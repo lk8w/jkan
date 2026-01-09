@@ -19,7 +19,7 @@ def process(file_d, datasetn, datasetp, dataseto):
          month = now.strftime("%m") 
          day = now.strftime("%d") 
          year = now.strftime("%Y")
-         new_filename = os.path.join("_datasets", year + "-" + month + "-" + day + "_" + file_d[11:] + daymonthyear + ".md")
+         new_filename = os.path.join("_datasets", year + "-" + month + "-" + day + "_" + file_d[11:] + "a" + daymonthyear + ".md")
          datasetn_f = (
              datasetn.replace("%m", month) 
                  .replace("%d", day) 
@@ -115,6 +115,7 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
 
 
