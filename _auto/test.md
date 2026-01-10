@@ -6,5 +6,5 @@ frekvencia: denne
 den: 1
 datasetn: Test auto dataset (%d.%m. %y)
 datasetp: test
-dataseto: test
+dataseto: url1;url2
 ---
