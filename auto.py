@@ -35,6 +35,10 @@ def process(file_d, datasetn, datasetp, dataseto):
                  .replace("%d", day) 
                  .replace("%y", year) 
          )
+         c = False
+         if ";" in dataseto_f:
+             l = dataseto_f.split(";") 
+             c = True
             
          with open(new_filename, "w", encoding="utf-8") as f:
              for line in lines: 
@@ -43,6 +47,8 @@ def process(file_d, datasetn, datasetp, dataseto):
                  elif line.startswith("notes:"):
                      f.write(f"notes: {datasetp_f}\n")  
                  elif line.startswith("  - url:"):
+                     if c is True:
+                         dataseto_f = l.pop(0)
                      f.write(f"  - url: {dataseto_f}\n")  
                  else:
                      f.write(line)
@@ -115,6 +121,7 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
 
 
