@@ -39,6 +39,9 @@ layout: default
       <div class="col">
       {% endif %}
         <h1>
+          {% for collection in site.collections %}
+          {{ collection.label }}
+          {% endfor %}
           {% assign ps = page.url | slice: 10, 11 %}
           {% assign d = "now" | date: "%Y-%m-%d_" %}
           {% if ps == d %}
