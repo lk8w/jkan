@@ -40,8 +40,7 @@ layout: default
       {% endif %}
         <h1>
           {% assign ps = page.url | slice: 10, 11 %}
-          {{ ps }} {{ "now" | date: "%Y-%m-%d_" }}
-          {% if ps == "now"|date("Y-m-d_") %}
+          {% if ps == "now" | date: "%Y-%m-%d_" %}
           <span property="dct:title">{{ page.title }}</span><span><a href="https://katalog.reframe.sk/datasety/d.html?{{ page.slug }}" title="Odkaz pre zdieľanie"><img src="https://katalog.reframe.sk/img/attachment.png" alt="Odkaz pre zdieľanie"/></a></span>
           {% else %}
           <span property="dct:title">{{ page.title }}</span><span><a href="javascript:navigator.clipboard.writeText('https://katalog.reframe.sk/datasety/{{ page.slug | slice: 11, 999 }}.html').then(() => alert('Odkaz bol skopírovaný do schránky.'));" title="Odkaz pre zdieľanie"><img src="https://katalog.reframe.sk/img/attachment.png" alt="Odkaz pre zdieľanie"/></a></span>
