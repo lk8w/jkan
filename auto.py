@@ -45,11 +45,15 @@ def process(file_d, datasetn, datasetp, dataseto):
                  if line.startswith("title:"):
                      f.write(f"title: {datasetn_f}\n")  
                  elif line.startswith("notes:"):
-                     f.write(f"notes: {datasetp_f}\n")  
-                 elif line.startswith("  - url:"):
+                     f.write(f"notes: {datasetp_f}\n") 
+                 elif line.startswith("- url:"):
                      if c is True:
                          dataseto_f = l.pop(0)
-                     f.write(f"  - url: {dataseto_f}\n")  
+                     f.write(f"- url: {dataseto_f}\n")  
+                 elif line.startswith("  url:"):
+                     if c is True:
+                         dataseto_f = l.pop(0)
+                     f.write(f"  url: {dataseto_f}\n")  
                  else:
                      f.write(line)
 
@@ -121,6 +125,7 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
 
 
