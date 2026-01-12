@@ -53,7 +53,7 @@ def process(file_d, datasetn, datasetp, dataseto):
                  elif line.startswith("    url:"):
                      if c is True:
                          dataseto_f = l.pop(0)
-                     f.write(f"   url: {dataseto_f}\n")  
+                     f.write(f"    url: {dataseto_f}\n")  
                  else:
                      f.write(line)
 
@@ -125,6 +125,7 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
 
 
