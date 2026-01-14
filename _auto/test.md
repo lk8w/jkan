@@ -1,5 +1,5 @@
 ---
-enabled: true
+enabled: false
 name: Test
 dataset: 2025-12-25_ihriská-2021
 frekvencia: denne
