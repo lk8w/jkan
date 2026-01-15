@@ -29,7 +29,7 @@ jobs:
             echo "Commit date: $COMMIT_DATE"
             t=$(grep '^title:' "$f" | cut -d':' -f2- | xargs)
             echo $t
-            if [[ "$base" != "${COMMIT_DATE}_"* || $c == true ]]; then
+            if [[ "$base" != "${COMMIT_DATE}_"* ]]; then
               git mv "$f" "_datasets/${COMMIT_DATE}_${base1}"
               # also create redirect
               base1="${base1::-3}"
