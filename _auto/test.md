@@ -4,7 +4,7 @@ name: Test
 dataset: 2025-12-25_ihriská-2021
 frekvencia: týždenne
 den: 5
-datasetn: Test auto dataset (%d.%m. %y)
+datasetn: Test auto dataset (%d.%m. %r)
 datasetp: test
 dataseto: https://datovo.sk/dataset1.csv;https://datovo.sk/dataset1.xml
 ---
