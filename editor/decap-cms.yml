@@ -292,7 +292,7 @@ collections:
       - label: Nový dataset - odkaz na stiahnutie
         name: dataseto
         widget: string
-        hint: Viacero URL oddeľte ; napr. url1;url
+        hint: Odkaz musí začínať na http://, https:// alebo ftp://. Viacero odkazov oddeľte ; napr. url1;url
         
   - name: settings
     label: Settings
