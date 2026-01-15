@@ -285,7 +285,7 @@ collections:
       - label: Nový dataset - názov
         name: datasetn
         widget: string
-        hint: "Premenné pre názov, popis a odkaz datasetu: %d - aktuálny deň, %m - aktuálny mesiac, %r - aktuálny rok"
+        hint: "Premenné pre názov, popis a odkaz datasetu: %d - aktuálny deň, %m - aktuálny mesiac, %y - aktuálny rok"
       - label: Nový dataset - popis
         name: datasetp
         widget: string
