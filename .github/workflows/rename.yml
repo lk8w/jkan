@@ -23,6 +23,7 @@ jobs:
             c=false
             if ls _datasets/????-??-??_$base1 1>/dev/null 2>&1; then
               base1="${base1::-3}$(date '+%m%d%H%M%S').md"
+              echo "Slug duplicity"
             fi
             echo "File: $base"
             echo "Commit date: $COMMIT_DATE"
