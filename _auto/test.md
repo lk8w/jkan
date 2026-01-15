@@ -1,5 +1,5 @@
 ---
-enabled: false
+enabled: true
 name: Test
 dataset: 2025-12-25_ihriská-2021
 frekvencia: týždenne
