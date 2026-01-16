@@ -1,0 +1,37 @@
+{  
+    "@context": "https://data.slovensko.sk/dcat3.jsonld",
+    "iri": "https://katalog.reframe.sk/lkod/nov_C3_BD-dataset",
+    "typ": "Dataset",
+    "názov": { "sk": "Zoznam poslancov" },
+    "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
+    "popis": { "sk": "Zoznam poslancov MsZ k 1.1. 2024" },
+    "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI"], 
+    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/IRREG", 
+    "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 
+    
+    "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
+    "kľúčové_slovo": {
+    "sk": ["deti"]
+      }, 
+    
+    "distribúcia": [
+    {
+    "iri": "https://katalog.reframe.sk/lkod/nov_C3_BD-dataset/1",
+    "typ": "Distribúcia",
+    "súbor_na_stiahnutie": "https://katalog.reframe.sk/img/uploads/pocet_datasetov_samosprava.csv",
+    "prístupové_url": "https://katalog.reframe.sk/img/uploads/pocet_datasetov_samosprava.csv",
+        
+    "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
+    "typ_média": "text/csv",
+    "podmienky_použitia": {
+      "typ": "Špecifikácia podmienok použitia",
+      "autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
+      "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC0",
+      "databáza_ako_autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
+      
+      
+      "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
+      }
+    } 
+    ]
+  }
