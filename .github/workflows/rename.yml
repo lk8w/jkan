@@ -2,7 +2,7 @@ name: Dataset order sync
 
 on:
   schedule:
-    - cron: "45 11,14,22 * * *"
+    - cron: "20 * * * *"
   
 jobs:
   rename-files:
@@ -21,6 +21,7 @@ jobs:
             base=$(basename "$f")
             base1="${base:11}"
             c=false
+            echo $base1
             if compgen -G "_datasets/????-??-??_$base1" > /dev/null; then
               base1="${base1::-3}$(date '+%m%d%H%M%S').md"
               echo "Slug duplicity"
