@@ -22,7 +22,9 @@ jobs:
             base1="${base:11}"
             c=false
             echo $base1
-            if compgen -G "_datasets/????-??-??_$base1" > /dev/null; then
+            shopt -s nullglob 
+            matches=( _datasets/????-??-??_"$base1" ) 
+            if (( ${#matches[@]} >= 2 )); then
               base1="${base1::-3}$(date '+%m%d%H%M%S').md"
               echo "Slug duplicity"
               c=true
