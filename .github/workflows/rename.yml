@@ -1,7 +1,8 @@
 name: Dataset order sync
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: "45 10,14,22 * * *"
   
 jobs:
   rename-files:
