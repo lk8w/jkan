@@ -21,7 +21,6 @@ jobs:
             base=$(basename "$f")
             base1="${base:11}"
             c=false
-            echo $base1
             shopt -s nullglob 
             matches=( _datasets/????-??-??_"$base1" ) 
             if (( ${#matches[@]} >= 2 )); then
@@ -33,7 +32,6 @@ jobs:
             echo "Commit date: $COMMIT_DATE"
             t=$(grep '^title:' "$f" | cut -d':' -f2- | xargs)
             echo $t
-            echo $c
             if [[ "$base" != "${COMMIT_DATE}_"* ]]; then
               git mv "$f" "_datasets/${COMMIT_DATE}_${base1}"
               # also create redirect
