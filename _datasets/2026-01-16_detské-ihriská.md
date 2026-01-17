@@ -7,7 +7,7 @@ keyword:
   - infraštruktúra
 type:
   - https://data.gov.sk/def/dataset-type/1
-periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
+periodicity: http://publications.europa.eu/resource/authority/frequency/MONTHLY
 category:
   - Rekreácia, zeleň
   - Životné prostredie
