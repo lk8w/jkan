@@ -39,13 +39,13 @@ layout: default
       <div class="col">
       {% endif %}
         <h1>
+          <script>
+            fetch('https://katalog.reframe.sk/datasety/zoznam-škôl-a-školských-zariadení.html', { method: 'HEAD' }) .then(res => { document.getElementById("redir").innerHTML = res.ok ? 'File exists' : 'File does not exist'; }) 
+            .catch(() => { document.getElementById("redir") = 'File does not exist'; });
+          </script>
           {% assign ps = page.url | slice: 10, 11 %}
           {% assign d = "now" | date: "%Y-%m-%d_" %}
-          {% if ps == d %}
-          <span property="dct:title">{{ page.title }}</span><span><a href="https://katalog.reframe.sk/datasety/d.html?r={{ page.slug }}" title="Odkaz pre zdieľanie"><img src="https://katalog.reframe.sk/img/attachment.png" alt="Odkaz pre zdieľanie"/></a></span>
-          {% else %}
-          <span property="dct:title">{{ page.title }}</span><span><a href="javascript:navigator.clipboard.writeText('https://katalog.reframe.sk/datasety/{{ page.slug | slice: 11, 999 }}.html').then(() => alert('Odkaz bol skopírovaný do schránky.'));" title="Odkaz pre zdieľanie"><img src="https://katalog.reframe.sk/img/attachment.png" alt="Odkaz pre zdieľanie"/></a></span>
-          {% endif %}
+          <span property="dct:title">{{ page.title }}</span><span><a href="https://katalog.reframe.sk/datasety/d.html?r={{ page.slug }}" id="redir" title="Odkaz pre zdieľanie"><img src="https://katalog.reframe.sk/img/attachment.png" alt="Odkaz pre zdieľanie"/></a></span>
           <a href="{{ "/editor" | relative_url | remove_first: '/' }}/#/collections/datasets/entries/{{ page.slug }}" class="pull-right btn btn-outline-secondary" data-hook="edit-dataset-btn">Edit</a>
         </h1>
         <p property="dct:description" style="text-align: justify; overflow-wrap: break-word;">{{ page.notes | markdownify }}</p>
