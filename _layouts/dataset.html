@@ -40,7 +40,7 @@ layout: default
       {% endif %}
         <h1>
           <script>
-            fetch('https://katalog.reframe.sk/datasety/zoznam-škôl-a-školských-zariadení.html', { method: 'HEAD' }) .then(res => { document.getElementById("redir").innerHTML = res.ok ? 'File exists' : 'File does not exist'; }) 
+            fetch('https://katalog.reframe.sk/datasety/{{ page.slug | slice: 11, 999 }}.html', { method: 'HEAD' }) .then(res => { document.getElementById("redir").innerHTML = res.ok ? 'File exists' : 'File does not exist'; }) 
             .catch(() => { document.getElementById("redir") = 'File does not exist'; });
           </script>
           {% assign ps = page.url | slice: 10, 11 %}
