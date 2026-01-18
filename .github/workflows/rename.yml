@@ -29,8 +29,8 @@ jobs:
               if [[ " ${renamed[*]} " == *" $base1 "* ]]; then
                 base1="${base1::-3}$(date '+%m%d%H%M%S').md"
                 c=true
-                fi
-                renamed+=("$base1")
+              fi
+              renamed+=("$base1")
             fi
             echo "File: $base"
             echo "Commit date: $COMMIT_DATE"
