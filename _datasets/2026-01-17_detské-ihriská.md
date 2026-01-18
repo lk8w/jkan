@@ -31,7 +31,7 @@ resources:
     author: Ilava
     author_database: Ilava
     mediatype: http://www.iana.org/assignments/media-types/text/csv
-landingpage: https://katalog.reframe.sk/datasety/detsk%C3%A9-ihrisk%C3%A1-2024.html
+landingpage: https://katalog.reframe.sk/datasety/detsk%C3%A9-ihrisk%C3%A1.html
 maintainer: Jozef Mak
 maintainer_email: mak@datovo.sk
 ---
