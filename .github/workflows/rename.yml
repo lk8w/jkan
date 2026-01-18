@@ -38,6 +38,9 @@ jobs:
             echo $t
             echo $c
             if [[ "$base" != "${COMMIT_DATE}_"* || $c == true ]]; then
+              if [ "$c" = true ]; then 
+                base1="${base1::-3}$(date '+%m%d%H%M%S').md" 
+              fi
               git mv "$f" "_datasets/${COMMIT_DATE}_${base1}"
               # also create redirect
               base1="${base1::-3}"
