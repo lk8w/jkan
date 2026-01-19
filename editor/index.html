@@ -43,7 +43,7 @@
       }
     })
     
-window.addEventListener("load", () => { 
+window.addEventListener("DOMContentLoaded", function() {
 const h2s = document.querySelectorAll('a[href^="#/collections/Automatizácia/entries/"] h2');
 h2s.forEach(h2 => {
   let text = h2.textContent;
@@ -51,7 +51,7 @@ h2s.forEach(h2 => {
   text = text.replace(/\(\s*false\s*\)/i, '(x)');
   h2.textContent = text.trim();
 });
-});
+}, false);
 
   </script>
 
