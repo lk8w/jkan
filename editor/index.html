@@ -43,16 +43,6 @@
       }
     })
     
-window.addEventListener("DOMContentLoaded", function() {
-const h2s = document.querySelectorAll('a[href^="#/collections/Automatizácia/entries/"] h2');
-h2s.forEach(h2 => {
-  let text = h2.textContent;
-  text = text.replace(/\(\s*true\s*\)/i, '');
-  text = text.replace(/\(\s*false\s*\)/i, '(x)');
-  h2.textContent = text.trim();
-});
-}, false);
-
   </script>
 
 </body>
