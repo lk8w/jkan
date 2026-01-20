@@ -252,10 +252,10 @@ collections:
     preview_path: "auto/{{slug}}"
     identifier_field: name
     fields:
-      - labe: Enabled
-        name: enabled
-        widget: boolean
-        default: true
+      - labe: Stav
+        name: stav
+        widget: select
+        options: ["zapnuté", "vypnuté"]
       - label: Name
         name: name
         widget: string
