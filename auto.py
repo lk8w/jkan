@@ -88,7 +88,7 @@ for filename in os.listdir(folder):
                 datasetp = line.split(":", 1)[1].strip()
             elif line.startswith("dataseto:"):
                 dataseto = line.split(":", 1)[1].strip()
-            elif line.startswith("enabled:"):
+            elif line.startswith("stav:"):
                 enabled = line.split(":", 1)[1].strip()
 
     print(f"Processing {filename}")
@@ -101,23 +101,23 @@ for filename in os.listdir(folder):
     print(f"  enabled = {enabled}")
 
     # Logic based on frekvencia
-    if frekvencia == "denne" and enabled == "true":
+    if frekvencia == "denne" and enabled == "zapnuté":
         print("- Run job")
         process(file_d, datasetn, datasetp, dataseto)
 
-    elif frekvencia == "týždenne" and enabled == "true":
+    elif frekvencia == "týždenne" and enabled == "zapnuté":
         today = datetime.today().weekday() + 1
         if today == int(den):
             print("- Run job")
             process(file_d, datasetn, datasetp, dataseto)
 
-    elif frekvencia == "mesačne" and enabled == "true":
+    elif frekvencia == "mesačne" and enabled == "zapnuté":
         today = datetime.today().day
         if today == int(den):
             print("- Run job")
             process(file_d, datasetn, datasetp, dataseto)
  
-    elif frekvencia == "ročne" and enabled == "true":
+    elif frekvencia == "ročne" and enabled == "zapnuté":
         today = datetime.today().timetuple().tm_yday
         if today == int(den):
             print("- Run job")
@@ -125,6 +125,7 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
 
 
