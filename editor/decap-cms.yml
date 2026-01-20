@@ -248,7 +248,7 @@ collections:
     label_singular: Automatizácia
     folder: _auto
     create: true
-    summary: "{{name}} ({{enabled}})"
+    summary: "{{name}} ({{stav}})"
     preview_path: "auto/{{slug}}"
     identifier_field: name
     fields:
