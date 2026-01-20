@@ -46,7 +46,7 @@ layout: default
           </script>
           {% assign ps = page.url | slice: 10, 11 %}
           {% assign d = "now" | date: "%Y-%m-%d_" %}
-          <span property="dct:title">{{ page.title }}</span><span><a id="redir" title="Odkaz pre zdieľanie"><img src="https://katalog.reframe.sk/img/attachment.png" alt="Odkaz pre zdieľanie"/></a></span>
+          <span property="dct:title">{{ page.title }}</span><span><a id="redir" href="#" title="Odkaz pre zdieľanie"><img src="https://katalog.reframe.sk/img/attachment.png" alt="Odkaz pre zdieľanie"/></a></span>
           <a href="{{ "/editor" | relative_url | remove_first: '/' }}/#/collections/datasets/entries/{{ page.slug }}" class="pull-right btn btn-outline-secondary" data-hook="edit-dataset-btn">Edit</a>
         </h1>
         <p property="dct:description" style="text-align: justify; overflow-wrap: break-word;">{{ page.notes | markdownify }}</p>
