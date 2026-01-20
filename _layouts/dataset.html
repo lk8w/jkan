@@ -42,7 +42,7 @@ layout: default
           <script>
             fetch('https://katalog.reframe.sk/datasety/{{ page.slug | slice: 11, 999 }}.html', { method: 'HEAD' }) .then(res => { if(res.ok) { document.getElementById("redir").onclick = () => redirect('https://katalog.reframe.sk/datasety/{{ page.slug | slice: 11, 999 }}.html'); } else
             { document.getElementById("redir").onclick = () => redirect('https://katalog.reframe.sk/datasety/d.html?r={{ page.slug }}'); } }) 
-            .catch(() => { document.getElementById("redir").href = 'https://katalog.reframe.sk/datasety/d.html?r={{ page.slug }}'; });
+            .catch(() => { document.getElementById("redir").onclick = () => redirect('https://katalog.reframe.sk/datasety/d.html?r={{ page.slug }}'); });
           </script>
           {% assign ps = page.url | slice: 10, 11 %}
           {% assign d = "now" | date: "%Y-%m-%d_" %}
