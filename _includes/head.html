@@ -56,12 +56,12 @@
     REPO_BRANCH: {% if site.github.is_user_page %}"master"{% else %}"gh-pages"{% endif %},
     REPO_OWNER: {{ site.github.owner_name | jsonify }},
     REPO_NAME: {{ site.github.project_title | jsonify }}
-
+  }
+  
   function redirect(e) {
   navigator.clipboard.writeText(e)
     .then(() => alert('Odkaz bol skopírovaný do schránky.'));
-}
-               
   }
+
   </script>
 </head>
