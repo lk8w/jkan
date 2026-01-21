@@ -6,7 +6,7 @@
     "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
     "popis": { "sk": "Detské ihriská - stav k 1.3.2025" },
     "téma": ["http://publications.europa.eu/resource/authority/data-theme/EDUC"], 
-    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL_2", 
+    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/MONTHLY", 
     "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 
     
     "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],

@@ -5,10 +5,10 @@
     "názov": { "sk": "Ihriská 2021" },
     "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
     "popis": { "sk": "Detské ihriská k 1.1.2021" },
-    "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI"], 
+    "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI","http://publications.europa.eu/resource/authority/data-theme/REGI"], 
     "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL", 
     "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 
-    "webová_stránka_datasetu": "https://katalog.reframe.sk/datasets/detsk%C3%A9-ihrisk%C3%A1-2024/", 
+    "webová_stránka_datasetu": "https://katalog.reframe.sk/datasety/ihriská-2021.html", 
     "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
     "kľúčové_slovo": {
     "sk": ["deti","infraštruktúra"]
@@ -27,7 +27,7 @@
     "prístupové_url": "https://ilava.sk/dataset.csv",
         
     "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
-    "typ_média": "text/csv",
+    "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
     "podmienky_použitia": {
       "typ": "Špecifikácia podmienok použitia",
       "autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
@@ -45,7 +45,7 @@
     "prístupové_url": "https://ilava.sk/dataset.xlsx",
         
     "formát": "http://publications.europa.eu/resource/authority/file-type/XLSX",
-    "typ_média": "vnd.ms-excel",
+    "typ_média": "http://www.iana.org/assignments/media-types/application/vnd.ms-excel",
     "podmienky_použitia": {
       "typ": "Špecifikácia podmienok použitia",
       "autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
