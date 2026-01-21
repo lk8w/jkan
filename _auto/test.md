@@ -1,8 +1,8 @@
 ---
-stav: zapnuté
+stav: vypnuté
 name: Test
 dataset: 2025-12-25_ihriská-2021
-frekvencia: týždenne
+frekvencia: denne
 den: 2
 datasetn: Test auto dataset (%d.%m.%y)
 datasetp: test
