@@ -1,7 +1,7 @@
 ---
 stav: zapnuté
 name: Test
-dataset: 2026-01-20_ihriská-2025
+dataset: 2026-01-19_test
 frekvencia: denne
 den: 2
 datasetn: Test auto dataset (%d.%m.%y)
