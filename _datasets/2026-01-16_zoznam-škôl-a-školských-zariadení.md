@@ -4,7 +4,7 @@ organization: Mesto Dátovo
 notes: Zoznam škôl a školských zariadení - stav k 1.1.2024
 keyword:
   - faktúry
-periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
+periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL_2
 category:
   - Školstvo
 category_dcat:
