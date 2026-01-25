@@ -51,6 +51,8 @@ jobs:
               for g in _auto/*; do
                 if grep -q "dataset: ${base::-3}" "$g"; then
                   echo "$g contains dataset: ${base::-3}"
+                  sed -i "s/^dataset: ${base::-3}/dataset: ${COMMIT_DATE}_${base1::-3}/" "$g" 
+                  git add "$g"
                 fi
               done
             else
