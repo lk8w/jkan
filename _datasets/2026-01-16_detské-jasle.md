@@ -10,7 +10,6 @@ periodicity: http://publications.europa.eu/resource/authority/frequency/ANNUAL
 category:
   - Školstvo
   - Rekreácia, zeleň
-  - Financie
   - Zdravie
 category_dcat:
   - http://publications.europa.eu/resource/authority/data-theme/SOCI
