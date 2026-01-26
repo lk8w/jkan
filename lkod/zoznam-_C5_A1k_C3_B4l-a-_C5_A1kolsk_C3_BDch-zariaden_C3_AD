@@ -6,7 +6,7 @@
     "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
     "popis": { "sk": "Zoznam škôl a školských zariadení - stav k 1.1.2024" },
     "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI"], 
-    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL", 
+    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL_2", 
     
     
     "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],

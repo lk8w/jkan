@@ -1,17 +1,17 @@
 {  
     "@context": "https://data.slovensko.sk/dcat3.jsonld",
-    "iri": "https://katalog.reframe.sk/lkod/fakt_C3_BAry-za-rok-2022",
+    "iri": "https://katalog.reframe.sk/lkod/detsk_C3_A9-ihrisk_C3_A1a26012026",
     "typ": "Dataset",
-    "názov": { "sk": "Faktúry za rok 2022" },
+    "názov": { "sk": "Test auto dataset (26.01.2026)" },
     "poskytovateľ": "https://data.gov.sk/id/legal-subject/00317331",
-    "popis": { "sk": "Faktúry za rok 2022 (aktualizované mesačne)" },
+    "popis": { "sk": "test" },
     "téma": ["http://publications.europa.eu/resource/authority/data-theme/SOCI"], 
-    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/MONTHLY", 
+    "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/ANNUAL", 
     "typ_datasetu": "https://data.gov.sk/def/dataset-type/1", 
-    
+    "webová_stránka_datasetu": "https://katalog.reframe.sk/datasety/detské-ihriská.html", 
     "prvok_registra_adries": [ "https://data.gov.sk/id/lau2/SK0222513156" ],
     "kľúčové_slovo": {
-    "sk": ["faktúry"]
+    "sk": ["deti","infraštruktúra"]
       }, 
     "kontaktný_bod": {
     "typ": "Organizácia",
@@ -21,17 +21,17 @@
       },
     "distribúcia": [
     {
-    "iri": "https://katalog.reframe.sk/lkod/fakt_C3_BAry-za-rok-2022/1",
+    "iri": "https://katalog.reframe.sk/lkod/detsk_C3_A9-ihrisk_C3_A1a26012026/1",
     "typ": "Distribúcia",
-    "súbor_na_stiahnutie": "https://ilava.sk/faktury2022.csv",
-    "prístupové_url": "https://ilava.sk/faktury2022.csv",
+    "súbor_na_stiahnutie": "https://datovo.sk/dataset1.csv",
+    "prístupové_url": "https://datovo.sk/dataset1.csv",
         
     "formát": "http://publications.europa.eu/resource/authority/file-type/CSV",
     "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
     "podmienky_použitia": {
       "typ": "Špecifikácia podmienok použitia",
       "autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
-      "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC0",
+      "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
       "databáza_ako_autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
       "autor": { "sk": "Ilava" }, 
       "autor_databázy": { "sk": "Ilava" }, 
@@ -39,17 +39,17 @@
       }
     }, 
     {
-    "iri": "https://katalog.reframe.sk/lkod/fakt_C3_BAry-za-rok-2022/2",
+    "iri": "https://katalog.reframe.sk/lkod/detsk_C3_A9-ihrisk_C3_A1a26012026/2",
     "typ": "Distribúcia",
-    "súbor_na_stiahnutie": "https://ilava.sk/faktury2022.json",
-    "prístupové_url": "https://ilava.sk/faktury2022.json",
+    "súbor_na_stiahnutie": "https://datovo.sk/dataset1.xml",
+    "prístupové_url": "https://datovo.sk/dataset1.xml",
         
-    "formát": "http://publications.europa.eu/resource/authority/file-type/JSON",
-    "typ_média": "http://www.iana.org/assignments/media-types/application/json",
+    "formát": "http://publications.europa.eu/resource/authority/file-type/XLSX",
+    "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
     "podmienky_použitia": {
       "typ": "Špecifikácia podmienok použitia",
       "autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
-      "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC0",
+      "databáza_chránená_zvláštnými_právami": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0",
       "databáza_ako_autorské_dielo": "http://publications.europa.eu/resource/authority/licence/CC0",
       "autor": { "sk": "Ilava" }, 
       "autor_databázy": { "sk": "Ilava" }, 
