@@ -1,6 +1,6 @@
 ---
 stav: zapnuté
-name: Test
+name: Faktúry - ročne (3.1.)
 dataset: 2026-01-26_detské-ihriská
 frekvencia: denne
 den: 2
