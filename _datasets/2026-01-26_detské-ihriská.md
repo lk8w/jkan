@@ -1,7 +1,7 @@
 ---
 title: Ihriská 2024
 organization: Mesto Dátovo
-notes: Detské ihriská (k 1.1.2024)
+notes: Detské ihriská (k 1.1.2024) -
 keyword:
   - deti
   - infraštruktúra
