@@ -1,7 +1,7 @@
 ---
 stav: zapnuté
 name: Faktúry - ročne (3.1.)
-dataset: 2026-01-26_detské-ihriská
+dataset: 2026-01-27_detské-ihriská
 frekvencia: denne
 den: 2
 datasetn: Test auto dataset (%d.%m.%y)
