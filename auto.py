@@ -19,7 +19,7 @@ def process(file_d, datasetn, datasetp, dataseto):
          month = now.strftime("%m") 
          day = now.strftime("%d") 
          year = now.strftime("%Y")
-         new_filename = os.path.join("_datasets", year + "-" + month + "-" + day + "_" + file_d[11:] + "a" + daymonthyear + ".md")
+         
          datasetn_f = (
              datasetn.replace("%m", month) 
                  .replace("%d", day) 
@@ -39,7 +39,8 @@ def process(file_d, datasetn, datasetp, dataseto):
          if ";" in dataseto_f:
              l = dataseto_f.split(";") 
              c = True
-            
+             
+         new_filename = os.path.join("_datasets", year + "-" + month + "-" + day + "_" + result =  datasetn_f.lower().replace(" ", "-") + "a" + daymonthyear + ".md")
          with open(new_filename, "w", encoding="utf-8") as f:
              for line in lines: 
                  if line.startswith("title:"):
@@ -125,6 +126,7 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
 
 
