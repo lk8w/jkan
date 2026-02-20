@@ -40,7 +40,8 @@ def process(file_d, datasetn, datasetp, dataseto):
              l = dataseto_f.split(";") 
              c = True
              
-         new_filename = os.path.join("_datasets", year + "-" + month + "-" + day + "_" + result =  datasetn_f.lower().replace(" ", "-") + "a" + daymonthyear + ".md")
+         r = datasetn_f.lower().replace(" ", "-")    
+         new_filename = os.path.join("_datasets", year + "-" + month + "-" + day + "_" + r + "a" + daymonthyear + ".md")
          with open(new_filename, "w", encoding="utf-8") as f:
              for line in lines: 
                  if line.startswith("title:"):
@@ -126,6 +127,7 @@ for filename in os.listdir(folder):
 
     else:
         print("Neznáma frekvencia alebo vypnutá auto")
+
 
 
 
