@@ -44,8 +44,8 @@ navigation:
     url: /organizations/
   - title: Kategórie
     url: /categories/
-  - title: Informácie
-    url: /sample-page/
+  - title: O portáli
+    url: /info/
     
 collections:
   datasets:
